@@ -7,20 +7,10 @@
                 <a href="/{{ '' if lang == 'en' else lang }}" class="h-full mb-14 hidden dark:inline-block"><img class="w-auto h-[46px]" src="/img/new/logo-dark.png" alt="logo" /></a>
 
                 <div class="flex flex-col items-center lg:items-start lg:flex-row gap-[150px] lg:gap-[350px]">
-                    <div class="flex flex-col items-center lg:items-start">
-                        <a href="/about/"
-                            class="text-grey-black dark:text-white text-[14px] font-medium leading-[28px] tracking-[0.01em] mb-3 flex items-center gap-1">
-                            {{ "about-and-contact-us" | i18n({}, lang ) | safe }}
-                        </a>
-                        <a href="/privacy/"
-                            class="text-grey-black dark:text-white text-[14px] font-medium leading-[28px] tracking-[0.01em] mb-3 flex items-center gap-1">
-                            {{ "terms-and-privacy-policy" | i18n({}, lang ) | safe }}
-                        </a>
-                        <a href="/jobs/"
-                            class="text-grey-black dark:text-white text-[14px] font-medium leading-[28px] tracking-[0.01em] mb-3 flex items-center gap-1">
-                            {{ "jobs" | i18n({}, lang ) | safe }}
-                        </a>
-                    </div>
+                    <!-- The first column here held /about/, /privacy/ and /jobs/. None of the
+                         three has a source in this repo, so the links 404ed from every page;
+                         the whole column went with them. The repo-level PRIVACY.md that
+                         copy_sources.js used to publish as /privacy/ no longer exists. -->
                     <div class="flex flex-col items-center lg:items-start">
                         <a href="https://github.com/simplex-chat/simplexmq/blob/stable/protocol/overview-tjr.md"
                             target="_blank" rel="noopener"

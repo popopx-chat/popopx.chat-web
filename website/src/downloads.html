@@ -53,7 +53,8 @@ noGlossary: true
     <p>
         <a href="https://github.com/simplex-chat/simplex-chat/releases" target="_blank" rel="noopener">{{ "downloads-github" | i18n({}, lang) }}</a>
         <a href="https://git.simplex.chat/simplex-chat/simplex-chat/releases" target="_blank" rel="noopener">{{ "downloads-mirror" | i18n({}, lang) }}</a>
-        <a href="/reproduce/">{{ "docs-dropdown-15" | i18n({}, lang) }}</a>
+        <!-- "Verify & reproduce builds" (/reproduce/) was the next link here; this build
+             publishes no reproduce page, so it 404ed on every downloads page (one per language). -->
         <a href="{{ '' if lang == 'en' else '/' ~ lang }}/fdroid">{{ "downloads-fdroid-repo" | i18n({}, lang) }}</a>
     </p>
 </section>

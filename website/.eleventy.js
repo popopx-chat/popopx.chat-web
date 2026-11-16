@@ -474,10 +474,6 @@ module.exports = function (ty) {
   ty.addPassthroughCopy("src/file-assets")
   ty.addPassthroughCopy("src/credits")
 
-  ty.addCollection('blogs', function (collection) {
-    return collection.getFilteredByGlob('src/blog/*.md').reverse()
-  })
-
   ty.addCollection('docs', function (collection) {
     const docs = collection.getFilteredByGlob('src/docs/**/*.md')
       .map(doc => {

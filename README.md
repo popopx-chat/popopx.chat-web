@@ -35,9 +35,42 @@ Measured against upstream `simplex-chat@f8776692d` (local clone, 2026-11-10):
    dropping SimpleX from branding, so the site cannot be published over them; they must be redrawn or
    the pages that use them dropped. (Same finding for the relay's own page: 24 of its 25 `media/` files
    are upstream's bytes - proven by `sha256` in `site-link-sources/MANIFEST.tsv`.)
-2. **Editorial content is deliberately absent.** `src/docs/`, `src/blog/`, `src/plans/` and `src/langs/`
-   do not exist in this tree - they lived at the repository root and were removed by ruling. So every
-   link the templates still make to `/blog/` (5), `/docs/` (11) and `/downloads` (4) is a 404 on our host.
+2. **Editorial content is deliberately absent - and the navigation no longer promises it.** `src/docs/`,
+   `src/blog/`, `src/plans/` and `src/langs/` do not exist in this tree: they lived at the repository root
+   and were removed by ruling. The menus still offered them anyway - the Guide and Reference dropdowns
+   pointed into `/docs/**`, and `/faq/ /about/ /jobs/ /privacy/ /security/ /transparency/ /reproduce/` had
+   no source at all, so our own navbar and footer sent visitors to 404s. Those entries are removed from
+   `_includes/navbar.html`, `_includes/footer.html`, `downloads.html` and `docs_dropdown.json`;
+   `guide_dropdown.json` and the empty Guide menu went with it, because a menu that opens onto nothing is
+   its own bug. `/docs/glossary.html` stays: the glossary is ours, it builds, and the file-transfer page's
+   tooltips read it. What is left here is the content decision, not the links. The command that measures
+   whether the site still links to anything the build does not produce (run from the repository root after
+   `bash build.sh`) is:
+
+   ```sh
+   python3 - <<'PY'
+   import os, re
+   root, href = "website/_site", re.compile(r'''href\s*=\s*["']([^"'#?]*)''')
+   skip = ("http:", "https:", "mailto:", "tel:", "data:", "javascript:", "//", "")
+   def built(p):
+       return os.path.exists(os.path.join(root, p)) or os.path.exists(os.path.join(root, p, "index.html"))
+   dead = {}
+   for d, _, fs in os.walk(root):
+       for f in fs:
+           if not f.endswith(".html"): continue
+           for m in href.finditer(open(os.path.join(d, f), encoding="utf-8", errors="replace").read()):
+               u = m.group(1).strip()
+               if u.lower().startswith(skip): continue
+               p = u.lstrip("/") if u.startswith("/") else os.path.normpath(os.path.join(os.path.relpath(d, root), u))
+               if p and not built(p): dead[p] = dead.get(p, 0) + 1
+   print(f"{len(dead)} dead internal href targets, {sum(dead.values())} occurrences")
+   for t, n in sorted(dead.items(), key=lambda kv: -kv[1]): print(f"  {n:5d}  /{t}")
+   PY
+   ```
+
+   It prints `0 dead internal href targets, 0 occurrences`. There is no broken-link check in the build
+   itself - nothing in `website/` prints a `Broken link:` line - so this scan is the only measurement.
+
 3. **Upstream-operated destinations still linked:** `github.com/simplex-chat` 101 occurrences in 35 files,
    donation links 58 in 30, TestFlight 8 in 8, F-Droid wording 337 in 39. The app-link page the relay
    serves goes further: it links upstream's TestFlight join code, upstream's APK asset and upstream's

@@ -36,24 +36,10 @@
 
             <hr> -->
 
-            <li class="nav-link">
-                <a href="javascript:void(0);">
-                    <span class="">{{ "guide" | i18n({}, lang ) | safe }}</span>
-                    <span href="" id="btn-mobile">
-                        <svg viewBox="0 0 10 6" xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M1.50447 0.902966C1.21571 0.627397 0.747525 0.627397 0.458761 0.902966C0.169996 1.17853 0.169996 1.62532 0.458761 1.90089L4.21933 5.48961C4.25543 5.52406 4.29433 5.5542 4.33533 5.58003C4.62234 5.76088 5.01237 5.73074 5.26504 5.48961L9.02561 1.90089C9.31438 1.62532 9.31438 1.17853 9.02561 0.902966C8.73685 0.627397 8.26867 0.627397 7.97991 0.902966L4.74219 3.99273L1.50447 0.902966Z"/>
-                        </svg>
-                    </span>
-                </a>
-
-                <ul class="sub-menu">
-                    {% for guide in guide_dropdown.items %}
-                        <li><a href="{{ guide.url | url }}" class="{{ "active" if page.url == guide.url | url else '' }}">{{ guide.title | i18n({}, lang ) | safe }}</a></li>
-                    {% endfor %}
-                </ul>
-            </li>
-
-            <hr>
+            <!-- The Guide menu was dropped: every one of its entries pointed at
+                 /docs/guide/*.html, which is upstream's editorial corpus that this
+                 fork does not build or republish. The menu would have opened onto
+                 nothing, so the whole item is gone rather than left half-empty. -->
 
             <li class="nav-link">
                 <a href="javascript:void(0);">
@@ -70,12 +56,13 @@
                         target="_blank" rel="noopener">Whitepaper
                         <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg>
                     </a></li>
-                    <li><a href="/privacy">{{ "terms-and-privacy-policy" | i18n({}, lang ) | safe }}</a></li>
                     <li><a href="https://github.com/popopx-chat/popopxmq/blob/master/protocol/popopx-messaging.md"
                         target="_blank" rel="noopener">{{ "smp-protocol" | i18n({}, lang ) | safe }}
                         <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg>
                     </a></li>
-                    <li><a href="/docs/protocol/simplex-chat.html">{{ "chat-protocol" | i18n({}, lang ) | safe }}</a></li>
+                    <!-- /docs/protocol/simplex-chat.html, /docs/translations.html, /docs/android.html
+                         and /docs/cli.html were offered here but this build does not produce them
+                         (they are upstream's docs corpus). /docs/glossary.html is ours and stays. -->
                     <li><a href="/docs/glossary.html">{{ "glossary" | i18n({}, lang ) | safe }}</a></li>
 
                     <hr>
@@ -86,12 +73,6 @@
 
                     <hr>
 
-                    <li><a href="/docs/translations.html"
-                    >{{ "docs-dropdown-7" | i18n({}, lang ) | safe }}
-                    </a></li>
-                    <li><a href="/docs/android.html"
-                    >{{ "docs-dropdown-2" | i18n({}, lang ) | safe }}
-                    </a></li>
                     <li><a href="https://github.com/simplex-chat/simplex-chat/blob/stable/apps/simplex-bot-advanced/Main.hs"
                         target="_blank" rel="noopener">{{ "chat-bot-example" | i18n({}, lang ) | safe }}
                         <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg>
@@ -100,7 +81,6 @@
                         target="_blank" rel="noopener">TypeScript SDK
                         <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg>
                     </a></li>
-                    <li><a href="/docs/cli.html">{{ "terminal-cli" | i18n({}, lang ) | safe }}</a></li>
                     <li><a href="https://github.com/popopx-chat/popopxmq"
                         target="_blank" rel="noopener">POPOPX MQ
                         <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg>
