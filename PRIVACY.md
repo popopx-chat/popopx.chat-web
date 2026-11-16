@@ -8,7 +8,9 @@ title: "POPOPX Chat - Privacy"
 
 This is POPOPX's own document. It is not a translation or a copy of SimpleX Chat Ltd's privacy
 policy - [their policy is theirs](https://simplex.chat/privacy/) and describes the service they
-operate. POPOPX distributes a fork of the SimpleX Chat application and this site; the rest of this
+operate. We do publish their operator text verbatim, under their own names, at
+[/privacy/operators/](/privacy/operators.md), because the conditions the app asks you to accept are
+theirs. POPOPX distributes a fork of the SimpleX Chat application and this site; the rest of this
 page describes what **we** do and what **the application you download here** sends.
 
 ## Who publishes this
@@ -73,6 +75,16 @@ Nothing. This project publishes no backend for user data, no push gateway, no up
 telemetry collector. If POPOPX later operates the link-unfurling proxy, the badge service, the
 directory, an F-Droid/APK distribution endpoint or a push gateway, each of them gets a section here
 describing what it stores and for how long, before it is enabled in the app.
+
+## Related documents
+
+- [/privacy/operators/](/privacy/operators.md) - SimpleX Chat Ltd's operator privacy policy and
+  conditions of use, published unmodified and under their names, because their preset relays are
+  what the app is configured to use. It is their document; nothing in it describes a POPOPX service.
+- [/privacy/app/](/privacy/app.html) - a plain-language privacy policy for the application, written for
+  the popopx.xyz site and converted to static HTML here. It is POPOPX's own text, and some of its
+  claims about servers, retention and legal entity have not yet been adopted for this project;
+  where it disagrees with this page, **this page governs**.
 
 ## Contact
 
