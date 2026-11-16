@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-08",
+  "updated": "2026-11-16",
   "groups": [
     {
       "title": "Network and users",
@@ -14,31 +14,13 @@
           "fact": "Monthly active users",
           "value": "600,000+",
           "asOf": "October 2026",
-          "sources": [{ "title": "Wefunder memo", "url": "https://popopx.chat/wefunder.md" }]
-        },
-        {
-          "fact": "User growth",
-          "value": "about 70% in the last six months",
-          "asOf": "October 2026",
-          "sources": [{ "title": "Wefunder memo", "url": "https://popopx.chat/wefunder.md" }]
+          "sources": [{ "title": "Home page", "url": "https://popopx.chat/index.md" }]
         },
         {
           "fact": "App downloads",
           "value": "3 million+",
           "asOf": "October 2026",
-          "sources": [{ "title": "Wefunder memo", "url": "https://popopx.chat/wefunder.md" }]
-        },
-        {
-          "fact": "Messages per day via preset servers",
-          "value": "20 million+",
-          "asOf": "October 2026",
-          "sources": [{ "title": "Wefunder memo", "url": "https://popopx.chat/wefunder.md" }]
-        },
-        {
-          "fact": "Paid marketing",
-          "value": "none before the equity crowdfunding campaign",
-          "asOf": "until August 2026",
-          "sources": [{ "title": "Wefunder memo", "url": "https://popopx.chat/wefunder.md" }]
+          "sources": [{ "title": "Home page", "url": "https://popopx.chat/index.md" }]
         },
         {
           "fact": "Independent publications about SimpleX",
@@ -52,44 +34,24 @@
       "title": "Network participants",
       "facts": [
         {
-          "fact": "Servers run by volunteers",
-          "value": "about 1,000",
-          "asOf": "October 2026",
-          "sources": [{ "title": "Wefunder memo", "url": "https://popopx.chat/wefunder.md" }]
-        },
-        {
           "fact": "Preset server operators",
           "value": "SimpleX Chat and Flux",
           "asOf": "since December 2024",
           "sources": [{ "title": "Blog", "url": "https://popopx.chat/blog/20241210-simplex-network-v6-2-servers-by-flux-business-chats.md" }]
         },
         {
-          "fact": "Public channels created",
-          "value": "12,500+ in the five months since scalable channels shipped",
-          "asOf": "October 2026",
-          "sources": [{ "title": "Wefunder memo", "url": "https://popopx.chat/wefunder.md" }]
-        },
-        {
           "fact": "Curated directory",
           "value": "500+ public groups and channels, 30% active daily",
           "asOf": "October 2026",
           "sources": [
-            { "title": "Wefunder memo", "url": "https://popopx.chat/wefunder.md" },
             { "title": "Directory", "url": "https://popopx.chat/directory.md" }
           ]
-        },
-        {
-          "fact": "Businesses supporting customers over SimpleX",
-          "value": "50+",
-          "asOf": "October 2026",
-          "sources": [{ "title": "Wefunder memo", "url": "https://popopx.chat/wefunder.md" }]
         },
         {
           "fact": "GitHub",
           "value": "19,000+ stars, 1,400+ forks",
           "asOf": "October 2026",
           "sources": [
-            { "title": "Wefunder memo", "url": "https://popopx.chat/wefunder.md" },
             { "title": "GitHub", "url": "https://github.com/simplex-chat/simplex-chat" }
           ]
         }
@@ -129,12 +91,6 @@
           ]
         },
         {
-          "fact": "Third Trail of Bits audit",
-          "value": "completed, to be published",
-          "asOf": "2026",
-          "sources": [{ "title": "Wefunder memo", "url": "https://popopx.chat/wefunder.md" }]
-        },
-        {
           "fact": "Licence",
           "value": "AGPL-3.0",
           "asOf": "2026",
@@ -152,31 +108,16 @@
           "sources": [{ "title": "Ajv", "url": "https://github.com/ajv-validator/ajv" }]
         },
         {
-          "fact": "Total investment to date",
-          "value": "$1.7M",
-          "asOf": "October 2026",
-          "sources": [{ "title": "Wefunder memo", "url": "https://popopx.chat/wefunder.md" }]
-        },
-        {
-          "fact": "User donations",
-          "value": "$650,000+, including from Vitalik Buterin",
-          "asOf": "October 2026",
-          "sources": [{ "title": "Wefunder memo", "url": "https://popopx.chat/wefunder.md" }]
-        },
-        {
           "fact": "Prior investors",
           "value": "Village Global and angel investors (pre-seed, closed in July 2022); Jack Dorsey and Asymmetric Capital Partners (closed in July 2023)",
           "asOf": "announced April 2023 and August 2024",
           "sources": [{ "title": "Blog", "url": "https://popopx.chat/blog/20240814-simplex-chat-vision-funding-v6-private-routing-new-user-experience.md" }]
         },
         {
-          "fact": "Equity crowdfunding",
-          "value": "on Wefunder, launched 20 August 2026",
-          "asOf": "October 2026",
-          "sources": [
-            { "title": "Blog", "url": "https://popopx.chat/blog/20260819-simplex-chat-crowdfunding.md" },
-            { "title": "Crowdfunding", "url": "https://popopx.chat/crowdfunding.md" }
-          ]
+          "fact": "Fundraising",
+          "value": "none: no crowdfunding campaign, no investment offer, no token sale",
+          "asOf": "November 2026",
+          "sources": [{ "title": "Community Credits", "url": "https://popopx.chat/credits.md" }]
         },
         {
           "fact": "Governance",
@@ -188,7 +129,10 @@
           "fact": "Business model",
           "value": "free private messaging; channels and businesses pay for public names, business messaging and servers for big channels",
           "asOf": "October 2026",
-          "sources": [{ "title": "Wefunder memo", "url": "https://popopx.chat/wefunder.md" }]
+          "sources": [
+            { "title": "Community Credits", "url": "https://popopx.chat/credits.md" },
+            { "title": "Answers", "url": "https://popopx.chat/llms/answers.md" }
+          ]
         }
       ]
     },

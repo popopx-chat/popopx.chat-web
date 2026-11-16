@@ -53,11 +53,6 @@ Source: https://popopx.chat/llms/agents.md
 {% include "llms/agents.md" %}
 ---
 
-Source: https://popopx.chat/wefunder.md
-
-{% include "llms/wefunder.md" %}
----
-
 Source: https://popopx.chat/llms/timeline.md
 
 {% include "llms/timeline.md" %}

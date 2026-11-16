@@ -145,7 +145,7 @@ active_home: true
                 })();
             </script>
             <div class="cover-art" aria-hidden="true">
-                <img class="cover-phone" src="/img/crowdfunding/phone.png" alt="">
+                <img class="cover-phone" src="/img/4_chat.png" alt="">
                 <div class="cover-fade"></div>
             </div>
             <div class="area">
@@ -153,7 +153,6 @@ active_home: true
                     <h1>{{ "index-hero-h1" | i18n({}, lang) | replace("<br>", " <br>") | safe }}</h1>
                     <h2 class="gradient-text">{{ "index-hero-h2" | i18n({}, lang) | safe }}</h2>
                     <p>{{ "index-hero-p1" | i18n({}, lang) | safe }}</p>
-                    <p class="invest">{{ "index-hero-own-part" | i18n({}, lang) | safe }} <a class="gradient-text" href="https://wefunder.com/simplex.chat?utm_source=home" target="_blank" rel="noopener">{{ "index-hero-invest" | i18n({}, lang) | safe }}</a></p>
                     <div class="cover-stats">
                         <div class="cover-stat"><b>3M</b><span>{{ "index-hero-downloads" | i18n({}, lang) }}</span></div>
                         <div class="cover-stat"><b>600K</b><span>{{ "index-hero-monthly-users" | i18n({}, lang) }}</span></div>
@@ -223,8 +222,6 @@ active_home: true
                     <div class="text-container">
                         <h2>{{ "index-token-h2" | i18n({}, lang) }}</h2>
                         <p>{{ "index-token-p1" | i18n({}, lang) }}</p>
-                        <p>{{ "index-token-p2-cf" | i18n({}, lang) | safe }}</p>
-                        <a class="gradient-text" href="https://wefunder.com/simplex.chat?utm_source=home" target="_blank" rel="noopener">{{ "index-token-cta-cf" | i18n({}, lang) | safe }}</a>
                     </div>
                 </div>
             </section>
@@ -328,11 +325,9 @@ active_home: true
     <script>
     (function coverMetrics(){
         const cover = document.querySelector('.page-1.cover');
-        const invest = cover.querySelector('.content > p.invest');
         const socials = cover.querySelector('.socials');
         const stats = cover.querySelector('.cover-stats');
         const observer = new ResizeObserver(() => {
-            cover.style.setProperty('--cover-text-b', `${invest.getBoundingClientRect().bottom - cover.getBoundingClientRect().top}px`);
             cover.style.setProperty('--cover-socials-w', `${socials.offsetWidth}px`);
             cover.style.setProperty('--cover-stats-w', `${stats.offsetWidth}px`);
         });

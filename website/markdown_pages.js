@@ -13,7 +13,6 @@ const htmlPages = new Set([
   "contact",
   "invitation",
   "file",
-  "crowdfunding",
   "news",
   "blog",
   "links",

@@ -33,23 +33,9 @@
         });
     }
 
-    function withUtm(href) {
-        var url = new URL(href, location.href);
-        KEYS.forEach(function (name) {
-            if (utm[name]) url.searchParams.set(name, utm[name]);
-        });
-        return url.toString();
-    }
-
     function apply() {
         fill('SOURCE', utm.utm_source);
         fill('CAMPAIGN', utm.utm_campaign);
-
-        if (/^\/blog(\/|$)/.test(location.pathname)) return;
-
-        document.querySelectorAll('a[href^="https://wefunder.com/"]').forEach(function (link) {
-            link.href = withUtm(link.getAttribute('href'));
-        });
     }
 
     if (document.readyState === 'loading') {

@@ -106,36 +106,26 @@ async function showPromotedGroups() {
 
     function welcome() {
         console.log('%c%s', 'font-family: monospace; white-space: pre;',
-`Welcome to                  __   __
- ___ ___ __  __ ___ _    ___\\ \\ / / ___ _  _   _ _____
-/ __|_ _|  \\/  | _ \\ |  | __ \\ V / / __| || | /_\\_   _|
-\\__ \\| || |\\/| |  _/ |__| _| / . \\| (__| __ |/ _ \\| |
-|___/___|_|  |_|_| |____|___/_/ \\_\\\\___|_||_/_/ \\_\\_|
+`POPOPX Chat - private messaging without user IDs
 
-SimpleX directory: https://popopx.chat/directory
-Ask SimpleX team: https://smp6.simplex.im/a#lrdvu2d8A1GumSmoKb2krQmtKhWXq-tyGpHuM7aMwsw
-GitHub: https://github.com/simplex-chat/simplex-chat
-Reddit: https://www.reddit.com/r/SimpleXChat
-X/Twitter: https://x.com/SimpleXChat
+POPOPX
+------
+Directory: https://popopx.chat/directory
+Downloads: https://popopx.chat/downloads
+About: https://popopx.chat/why
+Contact us: https://popopx.chat/contact
+Ask the team: https://smp6.simplex.im/a#lrdvu2d8A1GumSmoKb2krQmtKhWXq-tyGpHuM7aMwsw
 
-Docs
-----
+Upstream - SimpleX Chat, the project POPOPX Chat is forked from
+--------------------------------------------------------------
+Source code: https://github.com/simplex-chat/simplex-chat
 Whitepaper: https://github.com/simplex-chat/simplexmq/blob/stable/protocol/overview-tjr.md
 Bots API: https://github.com/simplex-chat/simplex-chat/tree/stable/bots
 TypeScript library: https://github.com/simplex-chat/simplex-chat/tree/stable/packages/simplex-chat-client/typescript
 Terminal CLI: https://github.com/simplex-chat/simplex-chat/blob/stable/docs/CLI.md
-Hosting SMP servers (SimpleX Chat docs, not POPOPX): https://simplex.chat/docs/server.html
-
-Downloads
----------
-Apps: https://popopx.chat/downloads
 Servers: https://github.com/simplex-chat/simplexmq/releases
-
-Project
--------
-About POPOPX: https://popopx.chat/why
-Contact us: https://popopx.chat/contact
 Donations: https://github.com/simplex-chat/simplex-chat#please-support-us-with-your-donations
+Hosting SMP servers (upstream docs, not POPOPX): https://simplex.chat/docs/server.html
 `
         );
     }

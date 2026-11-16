@@ -15,7 +15,6 @@
     "smp-protocol": "Protokół SMP",
     "chat-protocol": "Protokół czatu",
     "donate": "Darowizna",
-    "invest": "Inwestuj",
     "copyright-label": "© 2020-2026 SimpleX Chat | Projekt Open-Source",
     "simplex-chat-protocol": "Protokół POPOPX Chat",
     "terminal-cli": "Terminal wiersza poleceń",
@@ -260,8 +259,6 @@
     "index-hero-h1": "Bądź<br>Wolny",
     "index-hero-h2": "W Swojej Sieci",
     "index-hero-p1": "<span class=\"nowrap\">Jedyna sieć komunikacyjna</span> <span class=\"nowrap\">bez żadnych identyfikatorów użytkowników.</span><br>Twoje kontakty, grupy i kanały należą do Ciebie.",
-    "index-hero-own-part": "Miej w niej udział.",
-    "index-hero-invest": "Zainwestuj w SimpleX Chat.",
     "index-hero-downloads": "Pobrań",
     "index-hero-monthly-users": "Użytkowników miesięcznie",
     "index-hero-countdown-lead": "Start domen SimpleX",
@@ -287,8 +284,6 @@
     "index-nextweb-p2": "Żaden podmiot nie kontroluje sieci – każdy może uruchomić serwer.",
     "index-token-h2": "Finansowane Przez Użytkowników",
     "index-token-p1": "Aby zachować niezależność, duże kanały i społeczności będą opłacać swoje serwery.",
-    "index-token-p2-cf": "A użytkownicy mogą teraz inwestować w SimpleX Chat &mdash; crowdfunding wystartował!",
-    "index-token-cta-cf": "Zainwestuj w SimpleX Chat",
     "index-token-p2": "Pokryje to infrastrukturę, rozwój oprogramowania i zarządzanie siecią.",
     "index-token-cta": "Dowiedz się więcej o Community Credits",
     "index-roadmap-h2": "Plan Działania SimpleX dla Wolnego Internetu",
@@ -379,7 +374,6 @@
     "why-film": "Obejrzyj 2-minutowy film na YouTube",
     "docs-dropdown-16": "",
     "links-all-languages": "",
-    "index-hero-invest-cta": "",
     "links-title": "",
     "links": ""
 }

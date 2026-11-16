@@ -130,8 +130,13 @@ website pages. Reference copies of both sides are in `../site-link-sources/`.
   terms in `website/src/_data/glossary.json` resolve to themselves. Real definitions are
   required before publishing.
 - `website/src/img/**` is 334 upstream brand images, unreplaced - see the blockers above.
-- `src/wefunder.html`, `src/crowdfunding*.html` and `src/llms/wefunder.njk` still
-  advertise a crowdfunding campaign that no longer exists in the app (ruling 删除众筹).
+- The crowdfunding campaign is deleted (ruling 删除众筹): `src/crowdfunding.html`,
+  `src/wefunder.html`, `src/llms/wefunder.njk`, `src/_includes/llms/wefunder.md`,
+  `src/_includes/blog_previews/20260820.html` and `src/img/crowdfunding/` (18 files,
+  the pitch deck among them) are gone, with every link to them removed from
+  `index.html`, `navbar.html`, `footer.html`, `utm.js`, `downloads_hero.html`,
+  `markdown_pages.js`, `_data/llms_facts.json`, the `llms/*` includes, `token.md` and
+  `langs/*.json`. `/credits` and `/llms/answers` now state that there is no campaign.
 
 # Changes made in this repo relative to the extracted tree
 

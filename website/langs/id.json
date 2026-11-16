@@ -10,7 +10,6 @@
     "simplex-network": "Jaringan SimpleX",
     "simplex-explained": "SimpleX dijelaskan",
     "donate": "Donasi",
-    "invest": "Investasi",
     "hero-overlay-2-textlink": "Bagaimana cara kerja SimpleX?",
     "feature-5-title": "Pesan menghilang",
     "hero-overlay-1-title": "Bagaimana cara kerja SimpleX?",
@@ -259,7 +258,6 @@
     "index-hero-h1": "<div class=\"small\">Bebaslah</div>",
     "index-hero-h2": "Di Jaringan Anda",
     "index-hero-p1": "<span class=\"nowrap\">Satu-satunya jaringan pesan</span> <span class=\"nowrap\">tanpa pengenal pengguna apa pun.</span><br>Anda pemilik kontak, grup, dan kanal Anda.",
-    "index-hero-own-part": "Miliki sebagian darinya.",
     "index-hero-downloads": "Unduhan",
     "index-hero-monthly-users": "Pengguna bulanan",
     "index-hero-countdown-lead": "Peluncuran domain SimpleX",
@@ -285,8 +283,6 @@
     "index-nextweb-p2": "Tidak ada satu entitas pun yang mengendalikan jaringan – siapa saja bisa menjalankan server.",
     "index-token-h2": "Didanai oleh Penggunanya",
     "index-token-p1": "Untuk tetap independen, kanal dan komunitas besar akan membayar server mereka.",
-    "index-token-p2-cf": "Dan pengguna sekarang bisa berinvestasi di SimpleX Chat &mdash; crowdfunding kini aktif!",
-    "index-token-cta-cf": "Investasi di SimpleX Chat",
     "index-token-p2": "Ini akan mencakup infrastruktur, pengembangan perangkat lunak, dan tata kelola jaringan.",
     "index-token-cta": "Pelajari lebih lanjut tentang Kredit Komunitas",
     "index-roadmap-h2": "SimpleX Roadmap Menuju Internet Bebas",
@@ -378,7 +374,5 @@
     "links-title": "Tautan Komunitas",
     "links-all-languages": "Semua Bahasa",
     "why-film": "Tonton film 2 menit di YouTube",
-    "index-hero-invest": "Berinvestasilah di SimpleX Chat.",
-    "index-hero-invest-cta": "Pelajari lebih lanjut di Wefunder.",
     "docs-dropdown-16": ""
 }
