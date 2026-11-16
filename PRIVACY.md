@@ -82,8 +82,9 @@ describing what it stores and for how long, before it is enabled in the app.
   conditions of use, published unmodified and under their names, because their preset relays are
   what the app is configured to use. It is their document; nothing in it describes a POPOPX service.
 - [/privacy/app/](/privacy/app.html) - a plain-language privacy policy for the application, written for
-  the popopx.xyz site and converted to static HTML here. It is POPOPX's own text, and some of its
-  claims about servers, retention and legal entity have not yet been adopted for this project;
+  the popopx.xyz site and converted to static HTML here. It is POPOPX's own text: the publisher named
+  there is **POPOPX** and every contact address is **chat@popopx.chat**, as on this page. Its claims
+  about servers, retention periods and response times have not yet been adopted for this project;
   where it disagrees with this page, **this page governs**.
 
 ## Contact
