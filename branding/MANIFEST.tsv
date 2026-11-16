@@ -1,0 +1,316 @@
+target	original_px	class	status	master	bytes
+1_show_qr_code.png	400x809	brand mark	ours	branding/source-svg/1_show_qr_code.png.src.svg	27914
+2_scan_qr_code.png	400x809	brand mark	ours	branding/source-svg/2_scan_qr_code.png.src.svg	28815
+3_connected.png	400x809	brand mark	ours	branding/source-svg/3_connected.png.src.svg	25464
+4_chat.png	400x809	brand mark	ours	branding/source-svg/4_chat.png.src.svg	38451
+alice.svg	b'100'xb'100'	brand mark	ours	branding/source-svg/alice.svg	1015
+apk_icon.png	128x128	brand mark	ours	branding/source-svg/apk_icon.png.src.svg	14264
+apple_store.svg	b'119'xb'40'	brand mark	upstream		16327
+arrow.svg	b'52'xb'26'	brand mark	ours	branding/source-svg/arrow.svg	968
+bg.svg	b'2000'xb'2000'	brand mark	ours	branding/source-svg/bg.svg	1788
+bob.svg	b'98'xb'98'	brand mark	ours	branding/source-svg/bob.svg	1184
+chat.png	777x264	brand mark	ours	branding/source-svg/chat.png.src.svg	27198
+chat.svg	b'492'xb'265'	brand mark	ours	branding/source-svg/chat.svg	1787
+conn1.svg	b'126'xb'291'	brand mark	ours	branding/source-svg/conn1.svg	1391
+conn2.svg	b'126'xb'292'	brand mark	ours	branding/source-svg/conn2.svg	2629
+conn3.svg	b'126'xb'291'	brand mark	ours	branding/source-svg/conn3.svg	1091
+conn4.svg	b'140'xb'207'	brand mark	ours	branding/source-svg/conn4.svg	1317
+design_3/android-dark.png	40x40	design page artwork	ours	branding/source-svg/design_3__android-dark.png.src.svg	2265
+design_3/community_vouchers_dark.jpg	640x480	design page artwork	ours	branding/source-svg/design_3__community_vouchers_dark.jpg.src.svg	23540
+design_3/community_vouchers_light.jpg	640x480	design page artwork	ours	branding/source-svg/design_3__community_vouchers_light.jpg.src.svg	31785
+design_3/cover-light.jpg	3200x1800	design page artwork	ours	branding/source-svg/design_3__cover-light.jpg.src.svg	222457
+design_3/cover-light.webp	3200x1800	design page artwork	upstream		866098
+design_3/cover.jpg	3200x1800	design page artwork	ours	branding/source-svg/design_3__cover.jpg.src.svg	344106
+design_3/cover.webp	3200x1800	design page artwork	upstream		430550
+design_3/green-tick.svg	b'200'xb'200'	design page artwork	ours	branding/source-svg/design_3__green-tick.svg	967
+design_3/logo-light.png	159x39	design page artwork	ours	branding/source-svg/design_3__logo-light.png.src.svg	3858
+design_3/publications/heise.png	215x222	design page artwork	upstream		36191
+design_3/publications/kuketz-blog.png	268x222	design page artwork	upstream		45727
+design_3/publications/optout.png	222x222	design page artwork	upstream		67093
+design_3/publications/privacy-guides.png	208x222	design page artwork	upstream		69021
+design_3/publications/trail-of-bits.png	371x222	design page artwork	upstream		69152
+design_3/publications/whonix.png	169x222	design page artwork	upstream		43512
+design_3/red-x.svg	b'200'xb'200'	design page artwork	ours	branding/source-svg/design_3__red-x.svg	948
+design_3/section-2-desktop-light.webp	3200x1800	design page artwork	ours	branding/source-svg/design_3__section-2-desktop-light.webp.src.svg	28106
+design_3/section-2-desktop.webp	3200x1800	design page artwork	ours	branding/source-svg/design_3__section-2-desktop.webp.src.svg	24078
+design_3/section-2-mobile-light.webp	2000x2800	design page artwork	ours	branding/source-svg/design_3__section-2-mobile-light.webp.src.svg	42688
+design_3/section-2-mobile.webp	2000x2800	design page artwork	ours	branding/source-svg/design_3__section-2-mobile.webp.src.svg	32232
+design_3/section-3-desktop-light.webp	3200x1800	design page artwork	ours	branding/source-svg/design_3__section-3-desktop-light.webp.src.svg	51860
+design_3/section-3-desktop.webp	3200x1800	design page artwork	ours	branding/source-svg/design_3__section-3-desktop.webp.src.svg	49450
+design_3/section-3-mobile-light.webp	2000x2800	design page artwork	ours	branding/source-svg/design_3__section-3-mobile-light.webp.src.svg	51780
+design_3/section-3-mobile.webp	2000x2800	design page artwork	ours	branding/source-svg/design_3__section-3-mobile.webp.src.svg	53204
+design_3/section-4-desktop-light.webp	3200x1800	design page artwork	ours	branding/source-svg/design_3__section-4-desktop-light.webp.src.svg	36896
+design_3/section-4-desktop.webp	3200x1800	design page artwork	ours	branding/source-svg/design_3__section-4-desktop.webp.src.svg	36200
+design_3/section-4-mobile-light.webp	2000x2800	design page artwork	ours	branding/source-svg/design_3__section-4-mobile-light.webp.src.svg	27536
+design_3/section-4-mobile.webp	2000x2800	design page artwork	ours	branding/source-svg/design_3__section-4-mobile.webp.src.svg	25056
+design_3/section-5-desktop-light.webp	3200x1800	design page artwork	ours	branding/source-svg/design_3__section-5-desktop-light.webp.src.svg	29724
+design_3/section-5-desktop.webp	3200x1800	design page artwork	ours	branding/source-svg/design_3__section-5-desktop.webp.src.svg	26464
+design_3/section-5-mobile-light.webp	2000x2800	design page artwork	ours	branding/source-svg/design_3__section-5-mobile-light.webp.src.svg	54314
+design_3/section-5-mobile.webp	2000x2800	design page artwork	ours	branding/source-svg/design_3__section-5-mobile.webp.src.svg	52304
+design_3/secure_messaging_dark.jpg	640x480	design page artwork	ours	branding/source-svg/design_3__secure_messaging_dark.jpg.src.svg	18855
+design_3/secure_messaging_light.jpg	640x480	design page artwork	ours	branding/source-svg/design_3__secure_messaging_light.jpg.src.svg	25021
+design_3/simplex_nft_smpx.jpg	512x512	design page artwork	ours	branding/source-svg/design_3__simplex_nft_smpx.jpg.src.svg	34608
+design_3/socials/apple.png	500x500	design page artwork	upstream		63039
+design_3/socials/linux.png	461x541	design page artwork	upstream		157913
+design_3/socials/windows.png	496x503	design page artwork	upstream		217179
+design_3/testflight-dark.png	134x134	design page artwork	upstream		18988
+design_3/yellow-tick.svg	b'200'xb'200'	design page artwork	ours	branding/source-svg/design_3__yellow-tick.svg	967
+doodle.svg	b'2000'xb'2000'	brand mark	ours	branding/source-svg/doodle.svg	3691
+downloads/android-dark.webp	440x965	illustration	ours	branding/source-svg/downloads__android-dark.webp.src.svg	7364
+downloads/android-light.webp	440x965	illustration	ours	branding/source-svg/downloads__android-light.webp.src.svg	8002
+downloads/desktop-dark.webp	1311x880	illustration	ours	branding/source-svg/downloads__desktop-dark.webp.src.svg	16734
+downloads/desktop-light.webp	1311x880	illustration	ours	branding/source-svg/downloads__desktop-light.webp.src.svg	17492
+f_droid.svg		brand mark	upstream		12737
+favicon.ico	16x16	brand mark	ours	branding/source-svg/favicon.ico.src.svg	1150
+flags/br.svg	b'640'xb'480'	country flag geometry	upstream		8197
+flags/cn.svg	b'640'xb'480'	country flag geometry	upstream		795
+flags/cs.svg	b'640'xb'480'	country flag geometry	upstream		225
+flags/de.svg	b'640'xb'480'	country flag geometry	upstream		210
+flags/en.svg	b'640'xb'480'	country flag geometry	upstream		535
+flags/es.svg	b'640'xb'480'	country flag geometry	upstream		91815
+flags/fi.svg	b'640'xb'480'	country flag geometry	upstream		234
+flags/fr.svg	b'640'xb'480'	country flag geometry	upstream		289
+flags/hu.svg	b'640'xb'480'	country flag geometry	upstream		271
+flags/id.svg	b'640'xb'480'	country flag geometry	upstream		178
+flags/il.svg	b'640'xb'480'	country flag geometry	upstream		834
+flags/it.svg	b'640'xb'480'	country flag geometry	upstream		289
+flags/jp.svg	b'640'xb'480'	country flag geometry	upstream		471
+flags/nb_NO.svg	b'640'xb'480'	country flag geometry	upstream		318
+flags/nl.svg	b'640'xb'480'	country flag geometry	upstream		221
+flags/pl.svg	b'640'xb'480'	country flag geometry	upstream		219
+flags/ru.svg	b'640'xb'480'	country flag geometry	upstream		283
+flags/ua.svg	b'640'xb'480'	country flag geometry	upstream		232
+google_play.svg	b'135'xb'41'	brand mark	ours	branding/source-svg/google_play.svg	1306
+group.svg	b'25'xb'25'	brand mark	ours	branding/source-svg/group.svg	1035
+groups/images/478ec86_izoJb95VXKWEhg.jpg	331x331	illustration	ours	branding/source-svg/groups__images__478ec86_izoJb95VXKWEhg.jpg.src.svg	15454
+groups/images/5QzoN8PNFD2dkButszPu5g.png	64x64	illustration	ours	branding/source-svg/groups__images__5QzoN8PNFD2dkButszPu5g.png.src.svg	1964
+groups/images/9aT7qRY_JbSJsW4qDaIHEg.jpg	293x293	illustration	ours	branding/source-svg/groups__images__9aT7qRY_JbSJsW4qDaIHEg.jpg.src.svg	12423
+groups/images/AXalaTZ4HsgGtEkaGFbclg.png	126x126	illustration	ours	branding/source-svg/groups__images__AXalaTZ4HsgGtEkaGFbclg.png.src.svg	6037
+groups/images/B3xza7zUzYi3dHiRsg6Afg.jpg	390x390	illustration	ours	branding/source-svg/groups__images__B3xza7zUzYi3dHiRsg6Afg.jpg.src.svg	16606
+groups/images/BD6FXuHO-eKOnYCAzkRfmA.jpg	247x247	illustration	ours	branding/source-svg/groups__images__BD6FXuHO-eKOnYCAzkRfmA.jpg.src.svg	12319
+groups/images/CX-1MPD3r3a7NYBvW7de6g.jpg	180x180	illustration	ours	branding/source-svg/groups__images__CX-1MPD3r3a7NYBvW7de6g.jpg.src.svg	7556
+groups/images/ESomaJp7MlFlThqcoj3Ycg.png	65x65	illustration	ours	branding/source-svg/groups__images__ESomaJp7MlFlThqcoj3Ycg.png.src.svg	5182
+groups/images/F4hPy5IGO6G9QUH6-nM_-A.jpg	292x292	illustration	ours	branding/source-svg/groups__images__F4hPy5IGO6G9QUH6-nM_-A.jpg.src.svg	14078
+groups/images/HylzOLARvIhUR1wiq0fnJA.png	200x200	illustration	ours	branding/source-svg/groups__images__HylzOLARvIhUR1wiq0fnJA.png.src.svg	11109
+groups/images/NvmOInofh4RSB2fHdN0zQA.jpg	226x226	illustration	ours	branding/source-svg/groups__images__NvmOInofh4RSB2fHdN0zQA.jpg.src.svg	10627
+groups/images/PPTLdveOyb9Wsg3bm6Y_IQ.png	297x297	illustration	ours	branding/source-svg/groups__images__PPTLdveOyb9Wsg3bm6Y_IQ.png.src.svg	72832
+groups/images/TwaN96DcV2OCMfUo6oJ4LQ.png	167x167	illustration	ours	branding/source-svg/groups__images__TwaN96DcV2OCMfUo6oJ4LQ.png.src.svg	8745
+groups/images/Wsdcf731ufbEOYpHc2rqrg.jpg	493x493	illustration	ours	branding/source-svg/groups__images__Wsdcf731ufbEOYpHc2rqrg.jpg.src.svg	18954
+groups/images/YLLz-47eBnAoIH1PKYJ75g.jpg	240x240	illustration	ours	branding/source-svg/groups__images__YLLz-47eBnAoIH1PKYJ75g.jpg.src.svg	11021
+groups/images/YhyznG68PNewCNjoD_ceOg.png	117x117	illustration	ours	branding/source-svg/groups__images__YhyznG68PNewCNjoD_ceOg.png.src.svg	15068
+groups/images/eb2RINRsdEBI0a06ghzqVg.jpg	181x181	illustration	ours	branding/source-svg/groups__images__eb2RINRsdEBI0a06ghzqVg.jpg.src.svg	8667
+groups/images/gqyRO21CwqK3huZ2zbkOqQ.jpg	271x271	illustration	ours	branding/source-svg/groups__images__gqyRO21CwqK3huZ2zbkOqQ.jpg.src.svg	13035
+groups/images/n3VLCEBWhqU9rVtlEAKUhQ.jpg	282x282	illustration	ours	branding/source-svg/groups__images__n3VLCEBWhqU9rVtlEAKUhQ.jpg.src.svg	15404
+groups/images/t1RmI4AhKgelVoWeSBTqUA.jpg	365x365	illustration	ours	branding/source-svg/groups__images__t1RmI4AhKgelVoWeSBTqUA.jpg.src.svg	17017
+groups/images/uZU6Cn1przsjVJ-DBm1-eA.jpg	331x331	illustration	ours	branding/source-svg/groups__images__uZU6Cn1przsjVJ-DBm1-eA.jpg.src.svg	15471
+groups/images/zIotMF8Zoe85k956B48N9g.jpg	378x378	illustration	ours	branding/source-svg/groups__images__zIotMF8Zoe85k956B48N9g.jpg.src.svg	17398
+heise-dark.png	497x150	brand mark	upstream		32946
+heise-light.png	497x150	brand mark	upstream		23920
+hero/dark/10fps/0000.webp	1080x1080	hero animation frame	ours	branding/source-svg/hero__dark__10fps__0000.webp.src.svg	28980
+hero/dark/10fps/0001.webp	1080x1080	hero animation frame	ours	branding/source-svg/hero__dark__10fps__0001.webp.src.svg	30304
+hero/dark/10fps/0002.webp	1080x1080	hero animation frame	ours	branding/source-svg/hero__dark__10fps__0002.webp.src.svg	31270
+hero/dark/10fps/0003.webp	1080x1080	hero animation frame	ours	branding/source-svg/hero__dark__10fps__0003.webp.src.svg	31496
+hero/dark/10fps/0004.webp	1080x1080	hero animation frame	ours	branding/source-svg/hero__dark__10fps__0004.webp.src.svg	31818
+hero/dark/10fps/0005.webp	1080x1080	hero animation frame	ours	branding/source-svg/hero__dark__10fps__0005.webp.src.svg	32418
+hero/dark/10fps/0006.webp	1080x1080	hero animation frame	ours	branding/source-svg/hero__dark__10fps__0006.webp.src.svg	33022
+hero/dark/10fps/0007.webp	1080x1080	hero animation frame	ours	branding/source-svg/hero__dark__10fps__0007.webp.src.svg	33714
+hero/dark/10fps/0008.webp	1080x1080	hero animation frame	ours	branding/source-svg/hero__dark__10fps__0008.webp.src.svg	33708
+hero/dark/10fps/0009.webp	1080x1080	hero animation frame	ours	branding/source-svg/hero__dark__10fps__0009.webp.src.svg	34622
+hero/dark/10fps/0010.webp	1080x1080	hero animation frame	ours	branding/source-svg/hero__dark__10fps__0010.webp.src.svg	35520
+hero/dark/10fps/0011.webp	1080x1080	hero animation frame	ours	branding/source-svg/hero__dark__10fps__0011.webp.src.svg	34966
+hero/dark/10fps/0012.webp	1080x1080	hero animation frame	ours	branding/source-svg/hero__dark__10fps__0012.webp.src.svg	35370
+hero/dark/10fps/0013.webp	1080x1080	hero animation frame	ours	branding/source-svg/hero__dark__10fps__0013.webp.src.svg	36018
+hero/dark/10fps/0014.webp	1080x1080	hero animation frame	ours	branding/source-svg/hero__dark__10fps__0014.webp.src.svg	35508
+hero/dark/10fps/0015.webp	1080x1080	hero animation frame	ours	branding/source-svg/hero__dark__10fps__0015.webp.src.svg	35534
+hero/dark/10fps/0016.webp	1080x1080	hero animation frame	ours	branding/source-svg/hero__dark__10fps__0016.webp.src.svg	35750
+hero/dark/10fps/0017.webp	1080x1080	hero animation frame	ours	branding/source-svg/hero__dark__10fps__0017.webp.src.svg	35682
+hero/dark/10fps/0018.webp	1080x1080	hero animation frame	ours	branding/source-svg/hero__dark__10fps__0018.webp.src.svg	35864
+hero/dark/10fps/0019.webp	1080x1080	hero animation frame	ours	branding/source-svg/hero__dark__10fps__0019.webp.src.svg	34386
+hero/dark/10fps/0020.webp	1080x1080	hero animation frame	ours	branding/source-svg/hero__dark__10fps__0020.webp.src.svg	32458
+hero/dark/2fps/0005.webp	1080x1080	hero animation frame	ours	branding/source-svg/hero__dark__2fps__0005.webp.src.svg	31440
+hero/dark/2fps/0008.webp	1080x1080	hero animation frame	ours	branding/source-svg/hero__dark__2fps__0008.webp.src.svg	31618
+hero/dark/2fps/0009.webp	1080x1080	hero animation frame	ours	branding/source-svg/hero__dark__2fps__0009.webp.src.svg	32378
+hero/dark/2fps/0011.webp	1080x1080	hero animation frame	ours	branding/source-svg/hero__dark__2fps__0011.webp.src.svg	32912
+hero/dark/2fps/0014.webp	1080x1080	hero animation frame	ours	branding/source-svg/hero__dark__2fps__0014.webp.src.svg	33694
+hero/dark/2fps/0017.webp	1080x1080	hero animation frame	ours	branding/source-svg/hero__dark__2fps__0017.webp.src.svg	34436
+hero/dark/2fps/0018.webp	1080x1080	hero animation frame	ours	branding/source-svg/hero__dark__2fps__0018.webp.src.svg	35028
+hero/dark/2fps/0020.webp	1080x1080	hero animation frame	ours	branding/source-svg/hero__dark__2fps__0020.webp.src.svg	33676
+hero/dark/2fps/0022.webp	1080x1080	hero animation frame	ours	branding/source-svg/hero__dark__2fps__0022.webp.src.svg	35648
+hero/dark/2fps/0024.webp	1080x1080	hero animation frame	ours	branding/source-svg/hero__dark__2fps__0024.webp.src.svg	35370
+hero/dark/2fps/0027.webp	1080x1080	hero animation frame	ours	branding/source-svg/hero__dark__2fps__0027.webp.src.svg	35556
+hero/dark/2fps/0028.webp	1080x1080	hero animation frame	ours	branding/source-svg/hero__dark__2fps__0028.webp.src.svg	35356
+hero/dark/2fps/0030.webp	1080x1080	hero animation frame	ours	branding/source-svg/hero__dark__2fps__0030.webp.src.svg	35676
+hero/dark/2fps/0032.webp	1080x1080	hero animation frame	ours	branding/source-svg/hero__dark__2fps__0032.webp.src.svg	35582
+hero/dark/2fps/0035.webp	1080x1080	hero animation frame	ours	branding/source-svg/hero__dark__2fps__0035.webp.src.svg	35816
+hero/dark/2fps/0036.webp	1080x1080	hero animation frame	ours	branding/source-svg/hero__dark__2fps__0036.webp.src.svg	34868
+hero/dark/2fps/0038.webp	1080x1080	hero animation frame	ours	branding/source-svg/hero__dark__2fps__0038.webp.src.svg	32436
+hero/dark/2fps/0039.webp	1080x1080	hero animation frame	ours	branding/source-svg/hero__dark__2fps__0039.webp.src.svg	31446
+hero/light/10fps/0000.webp	1080x1080	hero animation frame	ours	branding/source-svg/hero__light__10fps__0000.webp.src.svg	28658
+hero/light/10fps/0001.webp	1080x1080	hero animation frame	ours	branding/source-svg/hero__light__10fps__0001.webp.src.svg	30024
+hero/light/10fps/0002.webp	1080x1080	hero animation frame	ours	branding/source-svg/hero__light__10fps__0002.webp.src.svg	31014
+hero/light/10fps/0003.webp	1080x1080	hero animation frame	ours	branding/source-svg/hero__light__10fps__0003.webp.src.svg	31390
+hero/light/10fps/0004.webp	1080x1080	hero animation frame	ours	branding/source-svg/hero__light__10fps__0004.webp.src.svg	31838
+hero/light/10fps/0005.webp	1080x1080	hero animation frame	ours	branding/source-svg/hero__light__10fps__0005.webp.src.svg	32484
+hero/light/10fps/0006.webp	1080x1080	hero animation frame	ours	branding/source-svg/hero__light__10fps__0006.webp.src.svg	33726
+hero/light/10fps/0007.webp	1080x1080	hero animation frame	ours	branding/source-svg/hero__light__10fps__0007.webp.src.svg	34252
+hero/light/10fps/0008.webp	1080x1080	hero animation frame	ours	branding/source-svg/hero__light__10fps__0008.webp.src.svg	34410
+hero/light/10fps/0009.webp	1080x1080	hero animation frame	ours	branding/source-svg/hero__light__10fps__0009.webp.src.svg	35208
+hero/light/10fps/0010.webp	1080x1080	hero animation frame	ours	branding/source-svg/hero__light__10fps__0010.webp.src.svg	35984
+hero/light/10fps/0011.webp	1080x1080	hero animation frame	ours	branding/source-svg/hero__light__10fps__0011.webp.src.svg	36318
+hero/light/10fps/0012.webp	1080x1080	hero animation frame	ours	branding/source-svg/hero__light__10fps__0012.webp.src.svg	36326
+hero/light/10fps/0013.webp	1080x1080	hero animation frame	ours	branding/source-svg/hero__light__10fps__0013.webp.src.svg	37120
+hero/light/10fps/0014.webp	1080x1080	hero animation frame	ours	branding/source-svg/hero__light__10fps__0014.webp.src.svg	37016
+hero/light/10fps/0015.webp	1080x1080	hero animation frame	ours	branding/source-svg/hero__light__10fps__0015.webp.src.svg	37180
+hero/light/10fps/0016.webp	1080x1080	hero animation frame	ours	branding/source-svg/hero__light__10fps__0016.webp.src.svg	37296
+hero/light/10fps/0017.webp	1080x1080	hero animation frame	ours	branding/source-svg/hero__light__10fps__0017.webp.src.svg	36738
+hero/light/10fps/0018.webp	1080x1080	hero animation frame	ours	branding/source-svg/hero__light__10fps__0018.webp.src.svg	36966
+hero/light/10fps/0019.webp	1080x1080	hero animation frame	ours	branding/source-svg/hero__light__10fps__0019.webp.src.svg	35334
+hero/light/10fps/0020.webp	1080x1080	hero animation frame	ours	branding/source-svg/hero__light__10fps__0020.webp.src.svg	32514
+hero/light/2fps/0005.webp	1080x1080	hero animation frame	ours	branding/source-svg/hero__light__2fps__0005.webp.src.svg	31040
+hero/light/2fps/0008.webp	1080x1080	hero animation frame	ours	branding/source-svg/hero__light__2fps__0008.webp.src.svg	31892
+hero/light/2fps/0009.webp	1080x1080	hero animation frame	ours	branding/source-svg/hero__light__2fps__0009.webp.src.svg	32342
+hero/light/2fps/0011.webp	1080x1080	hero animation frame	ours	branding/source-svg/hero__light__2fps__0011.webp.src.svg	33308
+hero/light/2fps/0014.webp	1080x1080	hero animation frame	ours	branding/source-svg/hero__light__2fps__0014.webp.src.svg	34310
+hero/light/2fps/0017.webp	1080x1080	hero animation frame	ours	branding/source-svg/hero__light__2fps__0017.webp.src.svg	35182
+hero/light/2fps/0018.webp	1080x1080	hero animation frame	ours	branding/source-svg/hero__light__2fps__0018.webp.src.svg	35640
+hero/light/2fps/0020.webp	1080x1080	hero animation frame	ours	branding/source-svg/hero__light__2fps__0020.webp.src.svg	34952
+hero/light/2fps/0022.webp	1080x1080	hero animation frame	ours	branding/source-svg/hero__light__2fps__0022.webp.src.svg	36570
+hero/light/2fps/0024.webp	1080x1080	hero animation frame	ours	branding/source-svg/hero__light__2fps__0024.webp.src.svg	36324
+hero/light/2fps/0027.webp	1080x1080	hero animation frame	ours	branding/source-svg/hero__light__2fps__0027.webp.src.svg	36484
+hero/light/2fps/0028.webp	1080x1080	hero animation frame	ours	branding/source-svg/hero__light__2fps__0028.webp.src.svg	36914
+hero/light/2fps/0030.webp	1080x1080	hero animation frame	ours	branding/source-svg/hero__light__2fps__0030.webp.src.svg	37110
+hero/light/2fps/0032.webp	1080x1080	hero animation frame	ours	branding/source-svg/hero__light__2fps__0032.webp.src.svg	36660
+hero/light/2fps/0035.webp	1080x1080	hero animation frame	ours	branding/source-svg/hero__light__2fps__0035.webp.src.svg	37032
+hero/light/2fps/0036.webp	1080x1080	hero animation frame	ours	branding/source-svg/hero__light__2fps__0036.webp.src.svg	35812
+hero/light/2fps/0038.webp	1080x1080	hero animation frame	ours	branding/source-svg/hero__light__2fps__0038.webp.src.svg	32718
+hero/light/2fps/0039.webp	1080x1080	hero animation frame	ours	branding/source-svg/hero__light__2fps__0039.webp.src.svg	31242
+icon.svg	b'242'xb'242'	brand mark	ours	branding/source-svg/icon.svg	1098
+icons/at.svg	b'24'xb'24'	third-party service mark	ours	branding/source-svg/icons__at.svg	941
+icons/content-copy.svg	b'24'xb'24'	third-party service mark	ours	branding/source-svg/icons__content-copy.svg	914
+icons/email.svg	b'24'xb'24'	third-party service mark	ours	branding/source-svg/icons__email.svg	943
+icons/github.svg	b'24'xb'24'	third-party service mark	upstream		1057
+icons/linkedin.svg	b'24'xb'24'	third-party service mark	upstream		714
+icons/reddit.svg	b'24'xb'24'	third-party service mark	upstream		1549
+icons/simplex.svg	b'54'xb'54'	third-party service mark	ours	branding/source-svg/icons__simplex.svg	1012
+icons/twitter.svg	b'24'xb'24'	third-party service mark	upstream		952
+iphone.png	185x371	brand mark	ours	branding/source-svg/iphone.png.src.svg	9620
+kuketz-blog-dark.png	356x150	brand mark	upstream		31933
+kuketz-blog-light.png	356x150	brand mark	upstream		35606
+messaging.png	777x220	brand mark	ours	branding/source-svg/messaging.png.src.svg	21497
+messaging.svg	b'501'xb'220'	brand mark	ours	branding/source-svg/messaging.svg	1780
+messengers/briar.svg	b'40'xb'40'	other-messenger mark	upstream		1414
+messengers/cwtch.png	512x512	other-messenger mark	upstream		51791
+messengers/element.svg	b'32'xb'32'	other-messenger mark	upstream		1990
+messengers/session.svg	b'200'xb'200'	other-messenger mark	upstream		607
+messengers/signal.png	132x132	other-messenger mark	upstream		6815
+mobile.png	1044x2086	brand mark	ours	branding/source-svg/mobile.png.src.svg	66763
+new/QRcode-phone.png	454x585	whats-new illustration	ours	branding/source-svg/new__QRcode-phone.png.src.svg	23021
+new/apk_icon.png	128x128	whats-new illustration	ours	branding/source-svg/new__apk_icon.png.src.svg	16674
+new/apple_store.svg	b'119'xb'40'	whats-new illustration	upstream		16327
+new/arrow-left-dark.svg	b'44'xb'44'	whats-new illustration	ours	branding/source-svg/new__arrow-left-dark.svg	967
+new/arrow-left.svg	b'44'xb'44'	whats-new illustration	ours	branding/source-svg/new__arrow-left.svg	967
+new/arrow-right-dark.svg	b'44'xb'44'	whats-new illustration	ours	branding/source-svg/new__arrow-right-dark.svg	968
+new/arrow-right.svg	b'44'xb'44'	whats-new illustration	ours	branding/source-svg/new__arrow-right.svg	968
+new/bg_gfx.png	612x612	whats-new illustration	ours	branding/source-svg/new__bg_gfx.png.src.svg	82982
+new/contact_page_mobile.png	1222x1149	whats-new illustration	ours	branding/source-svg/new__contact_page_mobile.png.src.svg	166117
+new/content-copy.svg	b'22'xb'26'	whats-new illustration	ours	branding/source-svg/new__content-copy.svg	1156
+new/cross.svg	b'13'xb'13'	whats-new illustration	ours	branding/source-svg/new__cross.svg	949
+new/explained-1.svg	b'541'xb'347'	whats-new illustration	ours	branding/source-svg/new__explained-1.svg	2667
+new/explained-2.svg	b'539'xb'399'	whats-new illustration	ours	branding/source-svg/new__explained-2.svg	1102
+new/explained-3.svg	b'208'xb'329'	whats-new illustration	ours	branding/source-svg/new__explained-3.svg	1328
+new/f_droid.svg		whats-new illustration	upstream		12737
+new/f_droid_icon.svg	b'164'xb'164'	whats-new illustration	upstream		5144
+new/feature-1-dark.svg	b'144'xb'68'	whats-new illustration	ours	branding/source-svg/new__feature-1-dark.svg	1084
+new/feature-1.svg	b'144'xb'69'	whats-new illustration	ours	branding/source-svg/new__feature-1.svg	1084
+new/feature-2-dark.svg	b'77'xb'68'	whats-new illustration	ours	branding/source-svg/new__feature-2-dark.svg	1303
+new/feature-2.svg	b'77'xb'69'	whats-new illustration	ours	branding/source-svg/new__feature-2.svg	1303
+new/feature-3-dark.svg	b'78'xb'72'	whats-new illustration	ours	branding/source-svg/new__feature-3-dark.svg	1369
+new/feature-3.svg	b'78'xb'72'	whats-new illustration	ours	branding/source-svg/new__feature-3.svg	1369
+new/feature-4-dark.svg	b'77'xb'68'	whats-new illustration	ours	branding/source-svg/new__feature-4-dark.svg	2596
+new/feature-4.svg	b'77'xb'69'	whats-new illustration	ours	branding/source-svg/new__feature-4.svg	2596
+new/feature-5-dark.svg	b'86'xb'74'	whats-new illustration	ours	branding/source-svg/new__feature-5-dark.svg	1080
+new/feature-5.svg	b'87'xb'74'	whats-new illustration	ours	branding/source-svg/new__feature-5.svg	1080
+new/feature-6-dark.svg	b'100'xb'61'	whats-new illustration	ours	branding/source-svg/new__feature-6-dark.svg	1305
+new/feature-6.svg	b'100'xb'64'	whats-new illustration	ours	branding/source-svg/new__feature-6.svg	1305
+new/feature-7-dark.svg	b'40'xb'75'	whats-new illustration	ours	branding/source-svg/new__feature-7-dark.svg	1363
+new/feature-7.svg	b'40'xb'74'	whats-new illustration	ours	branding/source-svg/new__feature-7.svg	1363
+new/feature-8-dark.svg	b'85'xb'57'	whats-new illustration	ours	branding/source-svg/new__feature-8-dark.svg	2594
+new/feature-8.svg	b'87'xb'59'	whats-new illustration	ours	branding/source-svg/new__feature-8.svg	2594
+new/gitHub.svg	b'41'xb'41'	whats-new illustration	upstream		1331
+new/google_play.svg	b'135'xb'41'	whats-new illustration	upstream		6442
+new/hamburger.svg	b'42'xb'42'	whats-new illustration	ours	branding/source-svg/new__hamburger.svg	919
+new/logo-dark.png	401x101	whats-new illustration	ours	branding/source-svg/new__logo-dark.png.src.svg	7860
+new/logo-light.png	400x99	whats-new illustration	ours	branding/source-svg/new__logo-light.png.src.svg	10532
+new/logo-symbol-dark.svg	b'34'xb'35'	whats-new illustration	ours	branding/source-svg/new__logo-symbol-dark.svg	972
+new/logo-symbol-light.svg	b'34'xb'34'	whats-new illustration	ours	branding/source-svg/new__logo-symbol-light.svg	971
+new/mobile-hero.png	3124x3124	whats-new illustration	ours	branding/source-svg/new__mobile-hero.png.src.svg	263622
+new/mobile-video-placeholder.png	750x824	whats-new illustration	ours	branding/source-svg/new__mobile-video-placeholder.png.src.svg	549294
+new/moon.svg	b'16'xb'16'	whats-new illustration	ours	branding/source-svg/new__moon.svg	786
+new/network-1-dark.svg	b'151'xb'121'	whats-new illustration	ours	branding/source-svg/new__network-1-dark.svg	3291
+new/network-1.svg	b'151'xb'121'	whats-new illustration	ours	branding/source-svg/new__network-1.svg	3291
+new/network-2-dark.svg	b'228'xb'121'	whats-new illustration	ours	branding/source-svg/new__network-2-dark.svg	3312
+new/network-2.svg	b'228'xb'121'	whats-new illustration	ours	branding/source-svg/new__network-2.svg	3312
+new/network-3-dark.svg	b'201'xb'122'	whats-new illustration	ours	branding/source-svg/new__network-3-dark.svg	3306
+new/network-3.svg	b'202'xb'122'	whats-new illustration	ours	branding/source-svg/new__network-3.svg	3306
+new/phone1_0036.png	494x494	whats-new illustration	ours	branding/source-svg/new__phone1_0036.png.src.svg	16164
+new/phone1_0036mobile.png	376x292	whats-new illustration	ours	branding/source-svg/new__phone1_0036mobile.png.src.svg	9042
+new/phone_pane.png	1186x1186	whats-new illustration	ours	branding/source-svg/new__phone_pane.png.src.svg	56685
+new/play-btn.svg	b'39'xb'44'	whats-new illustration	ours	branding/source-svg/new__play-btn.svg	1159
+new/privacy-section-1.svg	b'77'xb'115'	whats-new illustration	ours	branding/source-svg/new__privacy-section-1.svg	1307
+new/privacy-section-2.svg	b'77'xb'97'	whats-new illustration	ours	branding/source-svg/new__privacy-section-2.svg	1371
+new/privacy-section-3.svg	b'89'xb'92'	whats-new illustration	ours	branding/source-svg/new__privacy-section-3.svg	2603
+new/private-1-dark.svg	b'223'xb'226'	whats-new illustration	ours	branding/source-svg/new__private-1-dark.svg	1932
+new/private-1.svg	b'223'xb'226'	whats-new illustration	ours	branding/source-svg/new__private-1.svg	1968
+new/private-10-dark.svg	b'122'xb'230'	whats-new illustration	ours	branding/source-svg/new__private-10-dark.svg	1090
+new/private-10.svg	b'121'xb'230'	whats-new illustration	ours	branding/source-svg/new__private-10.svg	1090
+new/private-2-dark.svg	b'220'xb'220'	whats-new illustration	ours	branding/source-svg/new__private-2-dark.svg	3331
+new/private-2.svg	b'220'xb'220'	whats-new illustration	ours	branding/source-svg/new__private-2.svg	3331
+new/private-3-dark.svg	b'191'xb'139'	whats-new illustration	ours	branding/source-svg/new__private-3-dark.svg	1502
+new/private-3.svg	b'191'xb'139'	whats-new illustration	ours	branding/source-svg/new__private-3.svg	1502
+new/private-4-dark.svg	b'153'xb'152'	whats-new illustration	ours	branding/source-svg/new__private-4-dark.svg	1425
+new/private-4.svg	b'153'xb'152'	whats-new illustration	ours	branding/source-svg/new__private-4.svg	1425
+new/private-5-dark.svg	b'227'xb'227'	whats-new illustration	ours	branding/source-svg/new__private-5-dark.svg	1933
+new/private-5.svg	b'227'xb'227'	whats-new illustration	ours	branding/source-svg/new__private-5.svg	1969
+new/private-6-dark.svg	b'189'xb'153'	whats-new illustration	ours	branding/source-svg/new__private-6-dark.svg	3305
+new/private-6.svg	b'188'xb'153'	whats-new illustration	ours	branding/source-svg/new__private-6.svg	3305
+new/private-7-dark.svg	b'203'xb'191'	whats-new illustration	ours	branding/source-svg/new__private-7-dark.svg	1513
+new/private-7.svg	b'203'xb'191'	whats-new illustration	ours	branding/source-svg/new__private-7.svg	1513
+new/private-8-dark.svg	b'225'xb'215'	whats-new illustration	ours	branding/source-svg/new__private-8-dark.svg	1433
+new/private-8.svg	b'225'xb'216'	whats-new illustration	ours	branding/source-svg/new__private-8.svg	1433
+new/private-9-dark.svg	b'148'xb'230'	whats-new illustration	ours	branding/source-svg/new__private-9-dark.svg	1931
+new/private-9.svg	b'148'xb'229'	whats-new illustration	ours	branding/source-svg/new__private-9.svg	1965
+new/sun.svg	b'24'xb'24'	whats-new illustration	ours	branding/source-svg/new__sun.svg	1777
+new/tab-hero.svg	b'494'xb'494'	whats-new illustration	ours	branding/source-svg/new__tab-hero.svg	1988
+new/tab-video.svg	b'593'xb'593'	whats-new illustration	ours	branding/source-svg/new__tab-video.svg	1103
+new/testflight.png	128x128	whats-new illustration	upstream		18151
+new/union.svg	b'10'xb'6'	whats-new illustration	ours	branding/source-svg/new__union.svg	905
+new/unique-section-1-dark.png	941x719	whats-new illustration	ours	branding/source-svg/new__unique-section-1-dark.png.src.svg	69976
+new/unique-section-1.png	941x718	whats-new illustration	ours	branding/source-svg/new__unique-section-1.png.src.svg	73103
+new/unique-section-2-dark.png	940x719	whats-new illustration	ours	branding/source-svg/new__unique-section-2-dark.png.src.svg	34430
+new/unique-section-2.png	940x718	whats-new illustration	ours	branding/source-svg/new__unique-section-2.png.src.svg	34517
+new/unique-section-3-dark.png	940x719	whats-new illustration	ours	branding/source-svg/new__unique-section-3-dark.png.src.svg	77827
+new/unique-section-3.png	940x718	whats-new illustration	ours	branding/source-svg/new__unique-section-3.png.src.svg	77162
+new/unique-section-4-dark.png	940x719	whats-new illustration	ours	branding/source-svg/new__unique-section-4-dark.png.src.svg	103385
+new/unique-section-4.png	940x718	whats-new illustration	ours	branding/source-svg/new__unique-section-4.png.src.svg	102315
+new/xftp-protocol-dark.svg	b'440'xb'520'	whats-new illustration	ours	branding/source-svg/new__xftp-protocol-dark.svg	1338
+new/xftp-protocol.svg	b'440'xb'520'	whats-new illustration	ours	branding/source-svg/new__xftp-protocol.svg	1338
+optout.jpg	150x150	brand mark	upstream		10106
+privacy-guides-dark.png	672x150	brand mark	upstream		59214
+privacy-guides-light.png	672x150	brand mark	upstream		67994
+problem11.svg	b'463'xb'56'	brand mark	ours	branding/source-svg/problem11.svg	1089
+problem12.svg	b'460'xb'59'	brand mark	ours	branding/source-svg/problem12.svg	1318
+problem21.svg	b'463'xb'56'	brand mark	ours	branding/source-svg/problem21.svg	1494
+problem22.svg	b'459'xb'58'	brand mark	ours	branding/source-svg/problem22.svg	1435
+share_simplex.jpg	320x320	brand mark	ours	branding/source-svg/share_simplex.jpg.src.svg	17266
+simplex-desktop-linux-dark-1.png	1311x880	brand mark	ours	branding/source-svg/simplex-desktop-linux-dark-1.png.src.svg	54988
+simplex-desktop-linux-dark-2.png	1311x880	brand mark	ours	branding/source-svg/simplex-desktop-linux-dark-2.png.src.svg	88825
+simplex-desktop-linux-light.png	1311x880	brand mark	ours	branding/source-svg/simplex-desktop-linux-light.png.src.svg	53919
+simplex.svg	b'161'xb'40'	brand mark	ours	branding/source-svg/simplex.svg	1677
+simplex_mobile.png	1684x3178	brand mark	ours	branding/source-svg/simplex_mobile.png.src.svg	190405
+testflight.png	128x128	brand mark	upstream		18151
+topbar.svg		brand mark	upstream	branding/source-svg/topbar.svg	211
+trail-of-bits-dark.png	209x150	brand mark	upstream		25247
+trail-of-bits-light.png	209x150	brand mark	upstream		24055
+whonix-dark.png	480x114	brand mark	upstream		36012
+whonix-light.png	1920x454	brand mark	upstream		29922
+why/why-video.jpg	960x540	illustration	ours	branding/source-svg/why__why-video.jpg.src.svg	31627
