@@ -2,7 +2,6 @@
 layout: layouts/token.html
 title: "SimpleX Community Credits"
 permalink: "/credits/index.html"
-noEvents: true
 ---
 
 # SimpleX Community Credits: Strategy & Vision

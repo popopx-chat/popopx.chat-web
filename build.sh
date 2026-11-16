@@ -26,7 +26,7 @@ for file in langs/*.json; do
   echo "{\"lang\":\"$lang\"}" > "src/$lang/$lang.json"
 done
 
-npm run build:js                          # copies qrcode.js + page.js in; the .jsc step needs them
+npm run build:js                          # copies qrcode.js in, then copy_call.sh vendors the call assets; the .jsc step needs them
 for f in src/js/*.jsc; do
   [ -f "$f" ] && { cpp -P -traditional-cpp "$f" "${f%.jsc}.js" 2>/dev/null || cpp -P -traditional "$f" "${f%.jsc}.js"; }
 done
