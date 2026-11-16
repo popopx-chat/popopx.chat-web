@@ -5,6 +5,7 @@ set -e
 cd "$(dirname "$0")/website"
 export NODE_OPTIONS=--max-old-space-size=4096
 
+rm -rf _site                             # eleventy does not prune passthrough deletions
 node copy_sources.js                      # repo docs|blog|images -> src/ (silently skips absent trees)
 cp node_modules/lottie-web/build/player/lottie.min.js src/js
 cp node_modules/ethers/dist/ethers.umd.min.js src/js
