@@ -230,7 +230,7 @@ servers provide unidirectional queues to connect the users, but they have no vis
 5. If operator's servers are compromised. Verify security code in Signal and some other apps to mitigate it
 6. Does not protect users' metadata privacy
 7. While P2P are distributed, they are not federated — they operate as a single network
-8. P2P networks either have a central authority or the whole network can be compromised — [see here](https://github.com/simplex-chat/simplex-chat/blob/stable/docs/SIMPLEX.md#comparison-with-p2p-messaging-protocols)
+8. P2P networks either have a central authority or the whole network can be compromised — [see here](https://popopx.chat/docs/simplex.html#comparison-with-p2p-messaging-protocols)
 
 ## Comparison of end-to-end encryption security in different messengers
 

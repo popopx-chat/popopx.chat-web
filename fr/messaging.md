@@ -230,7 +230,7 @@ Les utilisateurs peuvent améliorer davantage leur protection de leurs métadonn
 5. Si les serveurs de l’opérateur sont compromis. Vérifier le code de sécurité dans Signal et certaines autres applications pour limiter les risques
 6. Ne protège pas la confidentialité des métadonnées des utilisateurs
 7. Bien que les réseaux P2P soient distribués, ils ne sont pas fédérés — ils fonctionnent comme un réseau unique
-8. Les réseaux P2P ont soit une autorité centrale, soit l'ensemble du réseau peut être compromis — [voir ici](https://github.com/simplex-chat/simplex-chat/blob/stable/docs/SIMPLEX.md#comparison-with-p2p-messaging-protocols)
+8. Les réseaux P2P ont soit une autorité centrale, soit l'ensemble du réseau peut être compromis — [voir ici](https://popopx.chat/docs/simplex.html#comparison-with-p2p-messaging-protocols)
 
 ## Comparaison de la sécurité du chiffrement de bout en bout dans différentes applications de messagerie
 

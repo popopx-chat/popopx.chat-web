@@ -230,7 +230,7 @@ Tor erişim sunucuları kullanarak kullanıcılar, meta veri gizliliğini artır
 5. Operatörün sunucuları ele geçirilirse. Signal ve diğer uygulamalarda bunu azaltmak için güvenlik kodu doğrulanabilir
 6. Kullanıcı meta verilerinin gizliliği korunmaz
 7. P2P dağıtık olsa da federasyonlu değildir — tek bir ağ olarak çalışır
-8. P2P ağlarının ya merkezi bir yönetimi vardır ya da tüm ağ tehlikeye girebilir — [Buraya bakın](https://github.com/simplex-chat/simplex-chat/blob/stable/docs/SIMPLEX.md#comparison-with-p2p-messaging-protocols)
+8. P2P ağlarının ya merkezi bir yönetimi vardır ya da tüm ağ tehlikeye girebilir — [Buraya bakın](https://popopx.chat/docs/simplex.html#comparison-with-p2p-messaging-protocols)
 
 ## Comparison of end-to-end encryption security in different messengers
 

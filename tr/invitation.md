@@ -8,7 +8,7 @@ POPOPX Chat'i henüz indirmediniz mi?
 
 Uygulamayı indirmek için aşağıdaki bağlantıları kullanın.
 
-[App Store](https://apps.apple.com/us/app/popopx-chat/id6799146157) [Google Play](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) [SimpleX F-Droid Repository](https://popopx.chat/tr/fdroid) [TestFlight](https://testflight.apple.com/join/DWuT2LQu) [Android APK](https://play.google.com/store/apps/details?id=com.popopxchat.popopx)
+[App Store](https://apps.apple.com/us/app/popopx-chat/id6799146157) [Google Play](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) [SimpleX F-Droid Repository](https://popopx.chat/tr/fdroid) [Android APK](https://play.google.com/store/apps/details?id=com.popopxchat.popopx)
 
 Mobil uygulamadan QR kodunu tarayın
 
@@ -16,7 +16,7 @@ Mobil uygulamadan QR kodunu tarayın
 
 Bağlantı başlatmak için:
 
-SimpleX uygulamasını yükleyin
+POPOPX uygulamasını yükleyin
 
 [App Store](https://apps.apple.com/us/app/popopx-chat/id6799146157) [Google Play](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) [SimpleX F-Droid Repository](https://popopx.chat/tr/fdroid)
 
@@ -24,7 +24,7 @@ SimpleX uygulamasını yükleyin
 
 Uygulamada bağlanın
 
-SimpleX uygulamasını açın
+POPOPX uygulamasını açın
 
 2
 
@@ -51,16 +51,14 @@ POPOPX Chat'i gör GitHub deposu İndirme veya kaynak koddan derleme talimatlar�
 
 Zaten yüklediyseniz Terminal için POPOPX Chat v1.0.0+, Aşağıdaki komutu kopyalayıp sohbette kullanın:
 
-## Katılın SimpleX
+## Katılın POPOPX
 
 Sizi sohbete katılmaya davet ediyoruz
 
-[Reddit grubuna katılın](https://www.reddit.com/r/SimpleXChat/) [GitHub'da bize katılın](https://github.com/simplex-chat) [Bize destek olmak için buradan bağış yapın](https://github.com/simplex-chat/simplex-chat#please-support-us-with-your-donations)
-
-Güncellemelerimizi almak için kaydolun
+[Reddit grubuna katılın](https://www.reddit.com/r/SimpleXChat/) [GitHub'da bize katılın](https://github.com/popopx-chat)
 
 ---
 
-SimpleX' [masaüstü uygulamasını](https://popopx.chat/downloads) indirin
+POPOPX' [masaüstü uygulamasını](https://popopx.chat/downloads) indirin
 
-[Public iOS preview on TestFlight](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) [SimpleX F-Droid Repository](https://popopx.chat/tr/fdroid)
+[POPOPX Chat on Google Play](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) [SimpleX F-Droid Repository](https://popopx.chat/tr/fdroid)

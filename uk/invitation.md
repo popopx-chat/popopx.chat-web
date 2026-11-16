@@ -8,7 +8,7 @@
 
 Скористайтеся посиланнями нижче, щоб завантажити додаток.
 
-[App Store](https://apps.apple.com/us/app/popopx-chat/id6799146157) [Google Play](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) [SimpleX F-Droid Repository](https://popopx.chat/uk/fdroid) [TestFlight](https://testflight.apple.com/join/DWuT2LQu) [Android APK](https://play.google.com/store/apps/details?id=com.popopxchat.popopx)
+[App Store](https://apps.apple.com/us/app/popopx-chat/id6799146157) [Google Play](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) [SimpleX F-Droid Repository](https://popopx.chat/uk/fdroid) [Android APK](https://play.google.com/store/apps/details?id=com.popopxchat.popopx)
 
 Сканувати QR-код з мобільного додатка
 
@@ -16,7 +16,7 @@
 
 Щоб здійснити підключення:
 
-Встановити додаток SimpleX
+Встановити додаток POPOPX
 
 [App Store](https://apps.apple.com/us/app/popopx-chat/id6799146157) [Google Play](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) [SimpleX F-Droid Repository](https://popopx.chat/uk/fdroid)
 
@@ -24,7 +24,7 @@
 
 Підключитися в додатку
 
-Відкрити додаток SimpleX
+Відкрити додаток POPOPX
 
 2
 
@@ -51,16 +51,14 @@ curl -o- https://raw.githubusercontent.com/simplex-chat/simplex-chat/master/inst
 
 Якщо ви вже встановили POPOPX Chat для терміналу v1.0.0+, скопіюйте команду нижче та використовуйте її в чаті:
 
-## Приєднатися SimpleX
+## Приєднатися POPOPX
 
 Ми запрошуємо вас приєднатися до розмови
 
-[Приєднуйтесь до спільноти REDDIT](https://www.reddit.com/r/SimpleXChat/) [Приєднуйтесь до нас на GitHub](https://github.com/simplex-chat) [Пожертвуйте тут, щоб допомогти нам](https://github.com/simplex-chat/simplex-chat#please-support-us-with-your-donations)
-
-Підпишіться, щоб отримувати наші оновлення
+[Приєднуйтесь до спільноти REDDIT](https://www.reddit.com/r/SimpleXChat/) [Приєднуйтесь до нас на GitHub](https://github.com/popopx-chat)
 
 ---
 
-Отримати SimpleX [додаток для настільних комп'ютерів](https://popopx.chat/downloads)
+Отримати POPOPX [додаток для настільних комп'ютерів](https://popopx.chat/downloads)
 
-[Public iOS preview on TestFlight](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) [SimpleX F-Droid Repository](https://popopx.chat/uk/fdroid)
+[POPOPX Chat on Google Play](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) [SimpleX F-Droid Repository](https://popopx.chat/uk/fdroid)

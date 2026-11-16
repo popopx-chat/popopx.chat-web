@@ -14,8 +14,6 @@ AppImage x86_64 · [Flatpak](https://flathub.org/apps/chat.simplex.simplex) · [
 
 [Download on the App Store](https://apps.apple.com/us/app/popopx-chat/id6799146157)
 
-Beta: [TestFlight](https://testflight.apple.com/join/DWuT2LQu)
-
 [Get it on Google Play](https://play.google.com/store/apps/details?id=com.popopxchat.popopx)
 
 [F-Droid](https://popopx.chat/fi/fdroid) · APK [aarch64](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) · [armv7](https://play.google.com/store/apps/details?id=com.popopxchat.popopx)
@@ -55,7 +53,7 @@ Command-line app for servers, bots and developers. [Using the terminal app](http
 
 ### Phone
 
-- iOS: [App Store](https://apps.apple.com/us/app/popopx-chat/id6799146157) · [TestFlight](https://testflight.apple.com/join/DWuT2LQu)
+- iOS: [App Store](https://apps.apple.com/us/app/popopx-chat/id6799146157)
 - Android: [Google Play](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) · [F-Droid](https://popopx.chat/fi/fdroid)
 - Android APK: [aarch64](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) · [armv7](https://play.google.com/store/apps/details?id=com.popopxchat.popopx)
 

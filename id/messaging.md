@@ -230,7 +230,7 @@ Pengguna dapat tingkatkan privasi metadata dengan Tor untuk akses server, menceg
 5. Jika server operator dikompromikan. Verifikasi kode keamanan di Signal dan beberapa aplikasi lain untuk memitigasinya
 6. Tidak melindungi privasi metadata pengguna
 7. Meskipun P2P didistribusikan, mereka tidak terfederasi — mereka beroperasi sebagai jaringan tunggal
-8. Jaringan P2P memiliki otoritas pusat atau seluruh jaringan dapat terkompromi — [lihat disini](https://github.com/simplex-chat/simplex-chat/blob/stable/docs/SIMPLEX.md#comparison-with-p2p-messaging-protocols)
+8. Jaringan P2P memiliki otoritas pusat atau seluruh jaringan dapat terkompromi — [lihat disini](https://popopx.chat/docs/simplex.html#comparison-with-p2p-messaging-protocols)
 
 ## Perbandingan keamanan enkripsi end-to-end di berbagai messenger
 

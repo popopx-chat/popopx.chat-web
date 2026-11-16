@@ -8,7 +8,7 @@ Még nem töltötte le a POPOPX Chat alkalmazást?
 
 Az alkalmazás letöltéséhez használja az alábbi hivatkozások egyikét.
 
-[App Store](https://apps.apple.com/us/app/popopx-chat/id6799146157) [Google Play](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) [SimpleX F-Droid Repository](https://popopx.chat/hu/fdroid) [TestFlight](https://testflight.apple.com/join/DWuT2LQu) [Android APK](https://play.google.com/store/apps/details?id=com.popopxchat.popopx)
+[App Store](https://apps.apple.com/us/app/popopx-chat/id6799146157) [Google Play](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) [SimpleX F-Droid Repository](https://popopx.chat/hu/fdroid) [Android APK](https://play.google.com/store/apps/details?id=com.popopxchat.popopx)
 
 QR-kód beolvasása mobilalkalmazásból
 
@@ -16,7 +16,7 @@ QR-kód beolvasása mobilalkalmazásból
 
 A kapcsolat létrehozásához:
 
-Telepítse a SimpleX alkalmazást
+Telepítse a POPOPX alkalmazást
 
 [App Store](https://apps.apple.com/us/app/popopx-chat/id6799146157) [Google Play](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) [SimpleX F-Droid Repository](https://popopx.chat/hu/fdroid)
 
@@ -24,7 +24,7 @@ Telepítse a SimpleX alkalmazást
 
 Kapcsolódás az alkalmazásban
 
-SimpleX alkalmazás megnyitása
+POPOPX alkalmazás megnyitása
 
 2
 
@@ -51,16 +51,14 @@ Az utasításokat megtekintheti a POPOPX Chat GitHub-tárolójában és választ
 
 Ha már telepítette a POPOPX Chat a terminálhoz v1.0.0+, másolja be az alábbi parancsot, és használja a csevegésben:
 
-## Csatlakozzon a közösségeinkhez SimpleX
+## Csatlakozzon a közösségeinkhez POPOPX
 
 Csatlakozzon a beszélgetéseinkhez
 
-[Csatlakozzon a REDDIT közösséghez](https://www.reddit.com/r/SimpleXChat/) [Csatlakozzon hozzánk a GitHubon](https://github.com/simplex-chat) [Adományozzon és segítsen nekünk](https://github.com/simplex-chat/simplex-chat#please-support-us-with-your-donations)
-
-Regisztráljon a hírleveleinkre, hogy ne maradjon le semmiről
+[Csatlakozzon a REDDIT közösséghez](https://www.reddit.com/r/SimpleXChat/) [Csatlakozzon hozzánk a GitHubon](https://github.com/popopx-chat)
 
 ---
 
-A SimpleX számítógépes alkalmazásának [letöltése](https://popopx.chat/downloads)
+A POPOPX számítógépes alkalmazásának [letöltése](https://popopx.chat/downloads)
 
-[Public iOS preview on TestFlight](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) [SimpleX F-Droid Repository](https://popopx.chat/hu/fdroid)
+[POPOPX Chat on Google Play](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) [SimpleX F-Droid Repository](https://popopx.chat/hu/fdroid)

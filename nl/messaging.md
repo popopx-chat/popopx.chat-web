@@ -230,7 +230,7 @@ Gebruikers kunnen de privacy van metadata verder verbeteren door Tor te gebruike
 5. Als de servers van de operator zijn gecompromitteerd. Controleer de beveiligingscode in Signal en enkele andere apps om dit te beperken
 6. Beschermt de privacy van metagegevens van gebruikers niet
 7. Hoewel P2P gedistribueerd is, is het niet gefedereerd — het functioneert als één enkel netwerk.
-8. P2P netwerken hebben een centrale autoriteit of het hele netwerk kan worden aangetast — [kijk hier](https://github.com/simplex-chat/simplex-chat/blob/stable/docs/SIMPLEX.md#comparison-with-p2p-messaging-protocols)
+8. P2P netwerken hebben een centrale autoriteit of het hele netwerk kan worden aangetast — [kijk hier](https://popopx.chat/docs/simplex.html#comparison-with-p2p-messaging-protocols)
 
 ## Comparison of end-to-end encryption security in different messengers
 

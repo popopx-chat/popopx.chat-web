@@ -231,7 +231,7 @@ SimpleX リレー サーバーは、ユーザー プロファイル、連絡先�
 5. オペレーターのサーバーが侵害された場合。 Signal およびその他の一部のアプリでセキュリティ コードを検証して緩和する
 6. ユーザーのメタデータのプライバシーを保護しない
 7. P2Pは分散されていますが、フェデレーションされていません — 単一のネットワークとして動作します
-8. P2Pネットワークには中央当局が存在するか、ネットワーク全体が侵害される可能性がある — [こちらを見る](https://github.com/simplex-chat/simplex-chat/blob/stable/docs/SIMPLEX.md#comparison-with-p2p-messaging-protocols)
+8. P2Pネットワークには中央当局が存在するか、ネットワーク全体が侵害される可能性がある — [こちらを見る](https://popopx.chat/docs/simplex.html#comparison-with-p2p-messaging-protocols)
 
 ## Comparison of end-to-end encryption security in different messengers
 

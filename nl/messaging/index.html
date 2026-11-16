@@ -506,27 +506,6 @@
 })();
 </script>
 
-
-<script type="module">
-import { init, track } from '/js/page.js';
-var pageEvents = {
-    domain: 'simplex.chat',
-    endpoint: 'https://api.simplex.chat/api/event',
-    logging: false,
-    outboundLinks: true,
-    transformRequest: function (event) {
-        if (window !== window.top || location.hostname.endsWith('.onion')) return null;
-        if (location.pathname.startsWith('/directory')) event.u = event.u.split('#')[0];
-        // remove hash from outbound links
-        if (event.p && event.p.url) event.p.url = event.p.url.split('#')[0];
-        return event;
-    }
-};
-
-init(pageEvents);
-</script>
-
-
 <script>
 // switch theme
 const sunIcon = document.querySelector('.sun');
@@ -1674,7 +1653,7 @@ window.addEventListener("load", function () {
                     <li> Als de servers van de operator zijn gecompromitteerd. Controleer de beveiligingscode in Signal en enkele andere apps om dit te beperken</li>
                     <li> Beschermt de privacy van metagegevens van gebruikers niet</li>
                     <li> Hoewel P2P gedistribueerd is, is het niet gefedereerd — het functioneert als één enkel netwerk.</li>
-                    <li> P2P netwerken hebben een centrale autoriteit of het hele netwerk kan worden aangetast — <a class="underline text-primary-light dark:text-primary-dark underline-offset-2" href="https://github.com/simplex-chat/simplex-chat/blob/stable/docs/SIMPLEX.md#comparison-with-p2p-messaging-protocols">kijk hier</a></li>
+                    <li> P2P netwerken hebben een centrale autoriteit of het hele netwerk kan worden aangetast — <a class="underline text-primary-light dark:text-primary-dark underline-offset-2" href="/docs/simplex.html#comparison-with-p2p-messaging-protocols">kijk hier</a></li>
                 </ol>
             </div>
         </div>

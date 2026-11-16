@@ -226,7 +226,7 @@ SimpleX 中繼伺服器不儲存使用者個人資料、聯絡人和傳送的訊
 5. 如果運營商的伺服器受到攻擊，用其他應用程式（如 Signal）驗證 SimpleX 安全碼，以減輕風險
 6. 不保護使用者的元數據隱私
 7. While P2P are distributed, they are not federated — they operate as a single network
-8. 點對點網路必須有中央權威，否則整個網路都可能受到攻擊 — [見此](https://github.com/simplex-chat/simplex-chat/blob/stable/docs/SIMPLEX.md#comparison-with-p2p-messaging-protocols)
+8. 點對點網路必須有中央權威，否則整個網路都可能受到攻擊 — [見此](https://popopx.chat/docs/simplex.html#comparison-with-p2p-messaging-protocols)
 
 ## Comparison of end-to-end encryption security in different messengers
 

@@ -12,7 +12,7 @@ SimpleX network is the open protocol and the servers that relay messages. Simple
 
 ## How does SimpleX deliver messages without user identifiers?
 
-Each conversation uses its own pair of one-way message queues, one for each direction, usually on different servers. A queue has a random address that is used only for that conversation. Contacts and groups are stored only on users' devices. To connect, people share a one-time link or a QR code, which also carries the keys for end-to-end encryption, so servers cannot substitute them. Details: [How SimpleX works](https://github.com/simplex-chat/simplex-chat/blob/stable/docs/SIMPLEX.md), [protocol overview](https://raw.githubusercontent.com/simplex-chat/simplexmq/stable/protocol/overview-tjr.md).
+Each conversation uses its own pair of one-way message queues, one for each direction, usually on different servers. A queue has a random address that is used only for that conversation. Contacts and groups are stored only on users' devices. To connect, people share a one-time link or a QR code, which also carries the keys for end-to-end encryption, so servers cannot substitute them. Details: [How SimpleX works](https://popopx.chat/docs/simplex.html), [protocol overview](https://raw.githubusercontent.com/simplex-chat/simplexmq/stable/protocol/overview-tjr.md).
 
 ## What can servers and network observers see?
 
@@ -24,11 +24,11 @@ Messages are end-to-end encrypted with a double ratchet that gives forward secre
 
 ## Why are public channels not end-to-end encrypted?
 
-By design. No system can provide encrypted messages, scalable broadcast and private participation at the same time. Anyone can join a channel through its public link, so encrypting its content would protect nothing; protecting who participates does. SimpleX channels make participation private: relays see the content, but not subscribers' identities or network addresses, and participation in different channels cannot be linked. Details: [SimpleX Channels](https://simplex.chat/blog/20260430-simplex-channels-v6-5-consortium-crowdfunding-freedom-of-speech.html), [channels whitepaper](https://github.com/simplex-chat/simplex-chat/blob/stable/docs/protocol/channels-overview.md).
+By design. No system can provide encrypted messages, scalable broadcast and private participation at the same time. Anyone can join a channel through its public link, so encrypting its content would protect nothing; protecting who participates does. SimpleX channels make participation private: relays see the content, but not subscribers' identities or network addresses, and participation in different channels cannot be linked. Details: [SimpleX Channels](https://simplex.chat/blog/20260430-simplex-channels-v6-5-consortium-crowdfunding-freedom-of-speech.html), [channels whitepaper](https://popopx.chat/docs/protocol/channels-overview.html).
 
 ## Is SimpleX audited?
 
-Yes. Trail of Bits assessed the implementation in October 2022 and reviewed the cryptographic design in July 2024. A third audit was completed in 2026 and will be published. Reports: [2022](https://github.com/simplex-chat/simplex-chat/blob/stable/docs/SimpleX_Chat_Final_Report_11_03_2022.pdf), [2024](https://github.com/simplex-chat/simplex-chat/blob/stable/docs/SimpleX_Design_Review_2024_Summary_Report_12_08_2024.pdf).
+Yes. Trail of Bits assessed the implementation in October 2022 and reviewed the cryptographic design in July 2024. A third audit was completed in 2026 and will be published. Reports: [2022](https://popopx.chat/docs/SimpleX_Chat_Final_Report_11_03_2022.pdf), [2024](https://popopx.chat/docs/SimpleX_Design_Review_2024_Summary_Report_12_08_2024.pdf).
 
 ## What are SimpleX's limitations?
 
@@ -38,7 +38,7 @@ Yes. Trail of Bits assessed the implementation in October 2022 and reviewed the 
 
 ## How does SimpleX compare with Signal, Session, Matrix, Briar and others?
 
-Every other messaging network assigns users an identifier: Signal and WhatsApp use phone numbers, Matrix uses `@user:server` IDs, and Session, Briar, Cwtch and Nostr identify users by long-term public keys or onion addresses. These identifiers let the network, or anyone observing it, link a user's conversations. SimpleX has none. A side-by-side comparison of encryption properties is on the [messaging page](https://popopx.chat/messaging/#messengers-comparison), and a technical comparison with peer-to-peer protocols is in [How SimpleX works](https://github.com/simplex-chat/simplex-chat/blob/stable/docs/SIMPLEX.md).
+Every other messaging network assigns users an identifier: Signal and WhatsApp use phone numbers, Matrix uses `@user:server` IDs, and Session, Briar, Cwtch and Nostr identify users by long-term public keys or onion addresses. These identifiers let the network, or anyone observing it, link a user's conversations. SimpleX has none. A side-by-side comparison of encryption properties is on the [messaging page](https://popopx.chat/messaging/#messengers-comparison), and a technical comparison with peer-to-peer protocols is in [How SimpleX works](https://popopx.chat/docs/simplex.html).
 
 ## Can people find or contact me without my consent?
 
@@ -58,7 +58,7 @@ Private messaging stays free. Channels and businesses will pay for public names,
 
 ## What are SimpleX public names?
 
-Optional, human-readable names for channels and businesses, such as `#example` or `@example.simplex`, registered on a public blockchain and controlled only by their owner's key. Names do not identify users and are not needed to use the network. Sale starts on 12 December 2026. Details: [public names whitepaper](https://github.com/simplex-chat/simplex-chat/blob/stable/docs/protocol/names-overview.md).
+Optional, human-readable names for channels and businesses, such as `#example` or `@example.simplex`, registered on a public blockchain and controlled only by their owner's key. Names do not identify users and are not needed to use the network. Sale starts on 12 December 2026. Details: [public names whitepaper](https://popopx.chat/docs/protocol/names-overview.html).
 
 ## How can AI agents and developers use SimpleX?
 

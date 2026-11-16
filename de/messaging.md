@@ -229,7 +229,7 @@ Durch die Verwendung von Tor-Zugangsservern können Nutzer ihre Metadaten-Privat
 5. Wenn die Server des Betreibers kompromittiert werden. In Signal und weiteren Apps kann der Sicherheitscode überprüft werden, um dies zu entschärfen
 6. Die Privatsphäre-Metadaten des Nutzers werden nicht geschützt
 7. P2P sind zwar verteilt, aber nicht föderiert — sie arbeiten als ein einziges Netzwerk
-8. P2P-Netzwerke haben entweder eine zentrale Verwaltung oder das gesamte Netzwerk kann kompromittiert werden — [Siehe hier](https://github.com/simplex-chat/simplex-chat/blob/stable/docs/SIMPLEX.md#comparison-with-p2p-messaging-protocols)
+8. P2P-Netzwerke haben entweder eine zentrale Verwaltung oder das gesamte Netzwerk kann kompromittiert werden — [Siehe hier](https://popopx.chat/docs/simplex.html#comparison-with-p2p-messaging-protocols)
 
 ## Sicherheitsvergleich der Ende-zu-Ende-Verschlüsselung in verschiedenen Messengern
 

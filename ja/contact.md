@@ -8,7 +8,7 @@ POPOPX Chat をまだダウンロードしていませんか?
 
 以下のリンクを使用してアプリをダウンロードしてください。
 
-[App Store](https://apps.apple.com/us/app/popopx-chat/id6799146157) [Google Play](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) [SimpleX F-Droid Repository](https://popopx.chat/ja/fdroid) [TestFlight](https://testflight.apple.com/join/DWuT2LQu) [Android APK](https://play.google.com/store/apps/details?id=com.popopxchat.popopx)
+[App Store](https://apps.apple.com/us/app/popopx-chat/id6799146157) [Google Play](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) [SimpleX F-Droid Repository](https://popopx.chat/ja/fdroid) [Android APK](https://play.google.com/store/apps/details?id=com.popopxchat.popopx)
 
 モバイルアプリからQRコードをスキャン
 
@@ -16,7 +16,7 @@ POPOPX Chat をまだダウンロードしていませんか?
 
 接続するには:
 
-SimpleX アプリをインストールする
+POPOPX アプリをインストールする
 
 [App Store](https://apps.apple.com/us/app/popopx-chat/id6799146157) [Google Play](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) [SimpleX F-Droid Repository](https://popopx.chat/ja/fdroid)
 
@@ -24,7 +24,7 @@ SimpleX アプリをインストールする
 
 アプリで接続する
 
-SimpleXアプリを開く
+POPOPXアプリを開く
 
 2
 
@@ -51,16 +51,14 @@ SimpleX チャットを見る GitHub リポジトリ ソースコードからダ
 
 すでにインストールしている場合 ターミナル用 SimpleX チャット v1.0.0+, 以下のコマンドをコピーしてチャットで使用します：
 
-## 参加 SimpleX
+## 参加 POPOPX
 
 ぜひ会話にご参加ください
 
-[REDDITコミュニティに参加する](https://www.reddit.com/r/SimpleXChat/) [GitHubで参加する](https://github.com/simplex-chat) [寄付はこちらから](https://github.com/simplex-chat/simplex-chat#please-support-us-with-your-donations)
-
-最新情報を受け取る
+[REDDITコミュニティに参加する](https://www.reddit.com/r/SimpleXChat/) [GitHubで参加する](https://github.com/popopx-chat)
 
 ---
 
-SimpleXを入手する [desktop app](https://popopx.chat/downloads)
+POPOPXを入手する [desktop app](https://popopx.chat/downloads)
 
-[Public iOS preview on TestFlight](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) [SimpleX F-Droid Repository](https://popopx.chat/ja/fdroid)
+[POPOPX Chat on Google Play](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) [SimpleX F-Droid Repository](https://popopx.chat/ja/fdroid)

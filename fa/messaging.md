@@ -227,7 +227,7 @@ SimpleX از padding محتوا برای هر لایه رمزنگاری استف
 5. اگر سرورهای اپراتور به خطر بیفتند. کد امنیتی را در سیگنال و برخی دیگر از برنامه‌ها تأیید کنید تا این خطر را کاهش دهید
 6. از حریم خصوصی فراداده‌های کاربران محافظت نمی‌کند
 7. در حالی که شبکه‌های P2P توزیع‌شده هستند، اما فدرال نیستند — آن‌ها به‌عنوان یک شبکه واحد عمل می‌کنند
-8. شبکه‌های P2P یا دارای یک نهاد مرکزی هستند یا کل شبکه می‌تواند به خطر بیفتد — [اینجا را ببینید](https://github.com/simplex-chat/simplex-chat/blob/stable/docs/SIMPLEX.md#comparison-with-p2p-messaging-protocols)
+8. شبکه‌های P2P یا دارای یک نهاد مرکزی هستند یا کل شبکه می‌تواند به خطر بیفتد — [اینجا را ببینید](https://popopx.chat/docs/simplex.html#comparison-with-p2p-messaging-protocols)
 
 ## Comparison of end-to-end encryption security in different messengers
 

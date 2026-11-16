@@ -230,7 +230,7 @@ Käyttäjät voivat lisäksi parantaa metadata-yksityisyyttään käyttämällä
 5. Jos operaattorin palvelimet ovat vaarantuneet. Tarkista turvakoodi Signalissa ja joissakin muissa sovelluksissa suojautuaksesi hyökkäykseltä
 6. Ei suojaa käyttäjien metatietojen yksityisyyttä
 7. Vaikka P2P-verkot ovat hajautettuja, ne eivät ole liitettäviä - ne toimivat yhtenä verkostona
-8. P2P-verkoilla on joko keskitetty auktoriteetti tai koko verkko voidaan vaarantaa — [katso täältä](https://github.com/simplex-chat/simplex-chat/blob/stable/docs/SIMPLEX.md#comparison-with-p2p-messaging-protocols)
+8. P2P-verkoilla on joko keskitetty auktoriteetti tai koko verkko voidaan vaarantaa — [katso täältä](https://popopx.chat/docs/simplex.html#comparison-with-p2p-messaging-protocols)
 
 ## Comparison of end-to-end encryption security in different messengers
 

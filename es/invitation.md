@@ -8,7 +8,7 @@ Las claves públicas y la dirección de la cola de mensajes de este enlace NO se
 
 Usa los siguientes enlaces para descargar la aplicación.
 
-[App Store](https://apps.apple.com/us/app/popopx-chat/id6799146157) [Google Play](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) [SimpleX F-Droid Repository](https://popopx.chat/es/fdroid) [TestFlight](https://testflight.apple.com/join/DWuT2LQu) [Android APK](https://play.google.com/store/apps/details?id=com.popopxchat.popopx)
+[App Store](https://apps.apple.com/us/app/popopx-chat/id6799146157) [Google Play](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) [SimpleX F-Droid Repository](https://popopx.chat/es/fdroid) [Android APK](https://play.google.com/store/apps/details?id=com.popopxchat.popopx)
 
 Escanear el código QR desde la aplicación móvil
 
@@ -24,7 +24,7 @@ Instalar POPOPX Chat
 
 Conectar en la aplicación
 
-Abrir la app SimpleX
+Abrir la app POPOPX
 
 2
 
@@ -51,16 +51,14 @@ Ver POPOPX Chat Repositorio GitHub instrucciones para descargar o compilar desde
 
 Si ya has instalado POPOPX Chat para el terminal v1.0.0+, copia el siguiente comando y úsalo en el chat:
 
-## Únete a SimpleX
+## Únete a POPOPX
 
 Te invitamos a unirte a la conversación
 
-[Únete a la comunidad REDDIT](https://www.reddit.com/r/SimpleXChat/) [Únete a nosotros en GitHub](https://github.com/simplex-chat) [Dona aquí para ayudarnos](https://github.com/simplex-chat/simplex-chat#please-support-us-with-your-donations)
-
-Suscríbete para recibir actualizaciones
+[Únete a la comunidad REDDIT](https://www.reddit.com/r/SimpleXChat/) [Únete a nosotros en GitHub](https://github.com/popopx-chat)
 
 ---
 
-Obtén SimpleX [para desktop](https://popopx.chat/downloads)
+Obtén POPOPX [para desktop](https://popopx.chat/downloads)
 
-[Public iOS preview on TestFlight](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) [SimpleX F-Droid Repository](https://popopx.chat/es/fdroid)
+[POPOPX Chat on Google Play](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) [SimpleX F-Droid Repository](https://popopx.chat/es/fdroid)

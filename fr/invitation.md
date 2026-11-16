@@ -8,7 +8,7 @@ Vous n'avez pas encore téléchargé POPOPX Chat ?
 
 Utilisez les liens ci-dessous pour télécharger l'application.
 
-[App Store](https://apps.apple.com/us/app/popopx-chat/id6799146157) [Google Play](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) [SimpleX F-Droid Repository](https://popopx.chat/fr/fdroid) [TestFlight](https://testflight.apple.com/join/DWuT2LQu) [Android APK](https://play.google.com/store/apps/details?id=com.popopxchat.popopx)
+[App Store](https://apps.apple.com/us/app/popopx-chat/id6799146157) [Google Play](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) [SimpleX F-Droid Repository](https://popopx.chat/fr/fdroid) [Android APK](https://play.google.com/store/apps/details?id=com.popopxchat.popopx)
 
 Scanner le code QR depuis l'application mobile
 
@@ -16,7 +16,7 @@ Scanner le code QR depuis l'application mobile
 
 Pour établir une connexion :
 
-Installer l'application SimpleX
+Installer l'application POPOPX
 
 [App Store](https://apps.apple.com/us/app/popopx-chat/id6799146157) [Google Play](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) [SimpleX F-Droid Repository](https://popopx.chat/fr/fdroid)
 
@@ -24,7 +24,7 @@ Installer l'application SimpleX
 
 Se connecter dans l'application
 
-Ouvrir l’application SimpleX
+Ouvrir l’application POPOPX
 
 2
 
@@ -51,16 +51,14 @@ Voir POPOPX Chat Dépôt GitHub pour savoir comment télécharger ou compiler l�
 
 Si vous avez déjà installé Chat SimpleX pour le terminal v1.0.0+, copiez la commande ci-dessous et utilisez-la dans le chat :
 
-## Rejoindre SimpleX
+## Rejoindre POPOPX
 
 Nous vous invitons à rejoindre la conversation
 
-[Rejoindre la communauté REDDIT](https://www.reddit.com/r/SimpleXChat/) [Rejoignez-nous sur GitHub](https://github.com/simplex-chat) [Faites un don ici pour nous aider](https://github.com/simplex-chat/simplex-chat#please-support-us-with-your-donations)
-
-Inscrivez-vous pour recevoir nos mises à jour
+[Rejoindre la communauté REDDIT](https://www.reddit.com/r/SimpleXChat/) [Rejoignez-nous sur GitHub](https://github.com/popopx-chat)
 
 ---
 
-Obtenir SimpleX [desktop app](https://popopx.chat/downloads)
+Obtenir POPOPX [desktop app](https://popopx.chat/downloads)
 
-[Public iOS preview on TestFlight](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) [SimpleX F-Droid Repository](https://popopx.chat/fr/fdroid)
+[POPOPX Chat on Google Play](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) [SimpleX F-Droid Repository](https://popopx.chat/fr/fdroid)

@@ -228,7 +228,7 @@ SimpleX 中继服务器不存储用户配置文件、联系人和传递的消息
 5. 如果运营商的服务器受到威胁。 验证 Signal 和其他一些应用程序中的安全代码以缓解该问题
 6. 不保护用户的元数据隐私
 7. P2P 是分布式的，但并非联邦式的 — 它们作为单个网络运行
-8. P2P 网络要么拥有中央权威，要么整个网络可能被攻陷 — [参见此处](https://github.com/simplex-chat/simplex-chat/blob/stable/docs/SIMPLEX.md#comparison-with-p2p-messaging-protocols)
+8. P2P 网络要么拥有中央权威，要么整个网络可能被攻陷 — [参见此处](https://popopx.chat/docs/simplex.html#comparison-with-p2p-messaging-protocols)
 
 ## 不同即时通讯软件端到端加密安全性的比较
 

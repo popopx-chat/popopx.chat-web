@@ -230,7 +230,7 @@ Użytkownicy mogą jeszcze bardziej zwiększyć prywatność metadanych, używaj
 5. Jeśli bezpieczeństwo serwerów operatora zostało naruszone. Zweryfikuj kody bezpieczeństwa w Signalu lub innej aplikacji aby to złagodzić
 6. Nie chroni prywatności metadanych użytkowników
 7. Podczas gdy sieci P2P są rozproszone, nie są sfederowane — działają jako jedna sieć
-8. Sieci P2P albo mają centralny organ, albo cała sieć może zostać skompromitowana — [zobacz tutaj](https://github.com/simplex-chat/simplex-chat/blob/stable/docs/SIMPLEX.md#comparison-with-p2p-messaging-protocols)
+8. Sieci P2P albo mają centralny organ, albo cała sieć może zostać skompromitowana — [zobacz tutaj](https://popopx.chat/docs/simplex.html#comparison-with-p2p-messaging-protocols)
 
 ## Porównanie zabezpieczeń szyfrowania end-to-end w różnych komunikatorach
 

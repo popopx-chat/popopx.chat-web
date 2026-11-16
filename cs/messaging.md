@@ -230,7 +230,7 @@ Uživatelé mohou dále zlepšit soukromí z pohledu metadat tím, že budou př
 5. Pokud jsou servery operátora kompromitovány. Ověřte bezpečnostní kód v Signálu a nějaké jiné aplikaci ke zmírnění
 6. Nechrání soukromí metadat uživatelů
 7. Zatímco P2P jsou distribuovány, nejsou federované — fungují jako jediná síť
-8. P2P sítě mají buď centrální autoritu, nebo může být ohrožena celá síť — [viz zde](https://github.com/simplex-chat/simplex-chat/blob/stable/docs/SIMPLEX.md#comparison-with-p2p-messaging-protocols)
+8. P2P sítě mají buď centrální autoritu, nebo může být ohrožena celá síť — [viz zde](https://popopx.chat/docs/simplex.html#comparison-with-p2p-messaging-protocols)
 
 ## Porovnání bezpečnosti koncového šifrování (end-to-end) v různých messengerech
 

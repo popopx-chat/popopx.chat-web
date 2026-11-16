@@ -231,7 +231,7 @@ El usuario puede mejorar aún más la privacidad de sus metadatos, haciendo uso 
 5. Si los servidores del operador se ven comprometidos. Verifica el código de seguridad en Signal y otras aplicaciónes para mitigarlo
 6. No protege la privacidad de los metadatos del usuario
 7. A pesar de que las redes P2P son distribuidas, no son federadas. Funcionan como una única red
-8. Las redes P2P, o bien disponen de una autoridad central, o bien la red completa podría verse comprometida — [ver aquí](https://github.com/simplex-chat/simplex-chat/blob/stable/docs/SIMPLEX.md#comparison-with-p2p-messaging-protocols)
+8. Las redes P2P, o bien disponen de una autoridad central, o bien la red completa podría verse comprometida — [ver aquí](https://popopx.chat/docs/simplex.html#comparison-with-p2p-messaging-protocols)
 
 ## Comparativa del cifrado de extremo a extremo en los distintos mensajeros
 

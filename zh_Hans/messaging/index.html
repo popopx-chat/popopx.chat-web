@@ -506,27 +506,6 @@
 })();
 </script>
 
-
-<script type="module">
-import { init, track } from '/js/page.js';
-var pageEvents = {
-    domain: 'simplex.chat',
-    endpoint: 'https://api.simplex.chat/api/event',
-    logging: false,
-    outboundLinks: true,
-    transformRequest: function (event) {
-        if (window !== window.top || location.hostname.endsWith('.onion')) return null;
-        if (location.pathname.startsWith('/directory')) event.u = event.u.split('#')[0];
-        // remove hash from outbound links
-        if (event.p && event.p.url) event.p.url = event.p.url.split('#')[0];
-        return event;
-    }
-};
-
-init(pageEvents);
-</script>
-
-
 <script>
 // switch theme
 const sunIcon = document.querySelector('.sun');
@@ -1674,7 +1653,7 @@ window.addEventListener("load", function () {
                     <li> 如果运营商的服务器受到威胁。 验证 Signal 和其他一些应用程序中的安全代码以缓解该问题</li>
                     <li> 不保护用户的元数据隐私</li>
                     <li> P2P 是分布式的，但并非联邦式的 — 它们作为单个网络运行</li>
-                    <li> P2P 网络要么拥有中央权威，要么整个网络可能被攻陷 — <a class="underline text-primary-light dark:text-primary-dark underline-offset-2" href="https://github.com/simplex-chat/simplex-chat/blob/stable/docs/SIMPLEX.md#comparison-with-p2p-messaging-protocols">参见此处</a></li>
+                    <li> P2P 网络要么拥有中央权威，要么整个网络可能被攻陷 — <a class="underline text-primary-light dark:text-primary-dark underline-offset-2" href="/docs/simplex.html#comparison-with-p2p-messaging-protocols">参见此处</a></li>
                 </ol>
             </div>
         </div>

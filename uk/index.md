@@ -11,7 +11,7 @@ You own your contacts, groups and channels.
 
 **600K**Monthly users
 
-[Download Desktop App](https://popopx.chat/downloads) [App Store](https://apps.apple.com/us/app/popopx-chat/id6799146157) [Google Play](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) [SimpleX app via F-Droid](https://popopx.chat/uk/fdroid) [TestFlight](https://testflight.apple.com/join/DWuT2LQu)
+[Download Desktop App](https://popopx.chat/downloads) [App Store](https://apps.apple.com/us/app/popopx-chat/id6799146157) [Google Play](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) [SimpleX app via F-Droid](https://popopx.chat/uk/fdroid)
 
 [Security Audits](https://www.trailofbits.com/about) [2022](https://simplex.chat/blog/20221108-simplex-chat-v4.2-security-audit-new-website.html) [2024](https://simplex.chat/blog/20241014-simplex-network-v6-1-security-review-better-calls-user-experience.html)
 

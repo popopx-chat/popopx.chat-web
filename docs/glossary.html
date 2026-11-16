@@ -397,27 +397,6 @@
 })();
 </script>
 
-
-<script type="module">
-import { init, track } from '/js/page.js';
-var pageEvents = {
-    domain: 'simplex.chat',
-    endpoint: 'https://api.simplex.chat/api/event',
-    logging: false,
-    outboundLinks: true,
-    transformRequest: function (event) {
-        if (window !== window.top || location.hostname.endsWith('.onion')) return null;
-        if (location.pathname.startsWith('/directory')) event.u = event.u.split('#')[0];
-        // remove hash from outbound links
-        if (event.p && event.p.url) event.p.url = event.p.url.split('#')[0];
-        return event;
-    }
-};
-
-init(pageEvents);
-</script>
-
-
 <script>
 // switch theme
 const sunIcon = document.querySelector('.sun');
@@ -523,9 +502,291 @@ window.addEventListener('click',(e)=>{
                         </div>
                         <ul class="!my-4">
                             
+                                
+                                
+                                    
+                                        
+                                    
+                                
+                                    
+                                
+                                    
+                                
+                                    
+                                
+                                    
+                                
+                                    
+                                
+
+                                
+                                    
+                                        <p class="">Guide</p>
+                                        <ul>
+                                            
+                                                <li>
+                                                    <a class="" href="/docs/guide/readme.html">Quick start</a>
+                                                </li>
+                                            
+                                                <li>
+                                                    <a class="" href="/docs/guide/making-connections.html">Making connections</a>
+                                                </li>
+                                            
+                                                <li>
+                                                    <a class="" href="/docs/guide/send-messages.html">Sending messages</a>
+                                                </li>
+                                            
+                                                <li>
+                                                    <a class="" href="/docs/guide/secret-groups.html">Groups</a>
+                                                </li>
+                                            
+                                                <li>
+                                                    <a class="" href="/docs/guide/channels.html">Channels</a>
+                                                </li>
+                                            
+                                                <li>
+                                                    <a class="" href="/docs/guide/channel-webpage.html">Channel webpage</a>
+                                                </li>
+                                            
+                                                <li>
+                                                    <a class="" href="/docs/guide/chat-profiles.html">Chat profiles</a>
+                                                </li>
+                                            
+                                                <li>
+                                                    <a class="" href="/docs/guide/register-simplex-name.html">Registering a SimpleX name</a>
+                                                </li>
+                                            
+                                                <li>
+                                                    <a class="" href="/docs/guide/managing-data.html">Managing data</a>
+                                                </li>
+                                            
+                                                <li>
+                                                    <a class="" href="/docs/guide/linked-devices.html">Linked devices</a>
+                                                </li>
+                                            
+                                                <li>
+                                                    <a class="" href="/docs/guide/audio-video-calls.html">Audio &amp; video calls</a>
+                                                </li>
+                                            
+                                                <li>
+                                                    <a class="" href="/docs/guide/notifications.html">Notifications</a>
+                                                </li>
+                                            
+                                                <li>
+                                                    <a class="" href="/docs/guide/privacy-security.html">Privacy &amp; security</a>
+                                                </li>
+                                            
+                                                <li>
+                                                    <a class="" href="/docs/guide/app-settings.html">App settings</a>
+                                                </li>
+                                            
+                                                <li>
+                                                    <a class="" href="/docs/guide/supporter-badges.html">Supporter badges</a>
+                                                </li>
+                                            
+                                        </ul>
+                                    
+                                
+                            
+                                
+                                
+                                    
+                                
+                                    
+                                        
+                                    
+                                
+                                    
+                                
+                                    
+                                
+                                    
+                                
+                                    
+                                
+
+                                
+                                    
+                                        <p class="">Reference</p>
+                                        <ul>
+                                            
+                                                <li>
+                                                    <a class="" href="/docs/simplex.html">SimpleX platform</a>
+                                                </li>
+                                            
+                                                <li>
+                                                    <a class="" href="/docs/business.html">SimpleX for business</a>
+                                                </li>
+                                            
+                                                <li>
+                                                    <a class="" href="/docs/directory.html">SimpleX Directory</a>
+                                                </li>
+                                            
+                                                <li>
+                                                    <a class="" href="/docs/android.html">Accessing files in Android app</a>
+                                                </li>
+                                            
+                                                <li>
+                                                    <a class="" href="/docs/cli.html">Terminal CLI</a>
+                                                </li>
+                                            
+                                                <li>
+                                                    <a class="" href="/docs/contributing.html">Contributing guide</a>
+                                                </li>
+                                            
+                                                <li>
+                                                    <a class="" href="/docs/server.html">Hosting your own SMP Server</a>
+                                                </li>
+                                            
+                                                <li>
+                                                    <a class="" href="/docs/translations.html">Contributing SimpleX app translations</a>
+                                                </li>
+                                            
+                                                <li>
+                                                    <a class="" href="/docs/webrtc.html">Using custom WebRTC ICE servers</a>
+                                                </li>
+                                            
+                                                <li>
+                                                    <a class="" href="/docs/xftp-server.html">Hosting your own XFTP Server</a>
+                                                </li>
+                                            
+                                                <li>
+                                                    <a class="" href="/docs/chat-relay.html">Hosting your own Chat Relay</a>
+                                                </li>
+                                            
+                                                <li>
+                                                    <a class="" href="/reproduce/">Verify and reproduce builds</a>
+                                                </li>
+                                            
+                                                <li>
+                                                    <a class="" href="/transparency/">Transparency Reports</a>
+                                                </li>
+                                            
+                                                <li>
+                                                    <a class="" href="/security/">Security Policy</a>
+                                                </li>
+                                            
+                                                <li>
+                                                    <a class="" href="/faq/">Frequently Asked Questions</a>
+                                                </li>
+                                            
+                                        </ul>
+                                    
+                                
+                            
+                                
+                                
+                                    
+                                
+                                    
+                                        
+                                    
+                                
+                                    
+                                
+                                    
+                                
+                                    
+                                
+                                    
+                                
+
+                                
+                                    
+                                
+                            
+                                
+                                
+                                    
+                                
+                                    
+                                        
+                                    
+                                
+                                    
+                                
+                                    
+                                
+                                    
+                                
+                                    
+                                
+
+                                
+                                    
+                                
+                            
+                                
+                                
+                                    
+                                
+                                    
+                                        
+                                    
+                                
+                                    
+                                
+                                    
+                                
+                                    
+                                
+                                    
+                                
+
+                                
+                                    
+                                
+                            
+                                
+                                
+                                    
+                                
+                                    
+                                
+                                    
+                                
+                                    
+                                
+                                    
+                                
+                                    
+                                        
+                                    
+                                
+
+                                
+                                    
+                                        <p class="">Protocol</p>
+                                        <ul>
+                                            
+                                                <li>
+                                                    <a class="" href="/docs/protocol/popopx-chat.html">POPOPX Chat Protocol</a>
+                                                </li>
+                                            
+                                        </ul>
+                                    
+                                
+                            
                     </ul>
                 </aside>
                 <article class="content px-4 lg:px-7">
+
+                    
+
+
+<div class="px-4 lg:px-7 !py-2">
+    <div class="bg-[#FFF3D6] dark:bg-[#3A2E0B] px-4 lg:px-7 py-5 rounded-md text-[15px] leading-[24px]">
+        <strong>Upstream document.</strong>
+        This page is the text published by
+        <a class="!no-underline !text-primary-pressed-light" href="https://simplex.chat" target="_blank" rel="noopener">SimpleX Chat Ltd</a>,
+        the company that develops SimpleX Chat and operates the services this page describes.
+        POPOPX distributes a fork of that project: we did not write this page, and we do not operate what it describes.
+        POPOPX's own statements are at
+        <a class="!no-underline !text-primary-pressed-light" href="/privacy/">/privacy/</a>.
+    </div>
+</div>
+
+
 
                     
 

@@ -506,27 +506,6 @@
 })();
 </script>
 
-
-<script type="module">
-import { init, track } from '/js/page.js';
-var pageEvents = {
-    domain: 'simplex.chat',
-    endpoint: 'https://api.simplex.chat/api/event',
-    logging: false,
-    outboundLinks: true,
-    transformRequest: function (event) {
-        if (window !== window.top || location.hostname.endsWith('.onion')) return null;
-        if (location.pathname.startsWith('/directory')) event.u = event.u.split('#')[0];
-        // remove hash from outbound links
-        if (event.p && event.p.url) event.p.url = event.p.url.split('#')[0];
-        return event;
-    }
-};
-
-init(pageEvents);
-</script>
-
-
 <script>
 // switch theme
 const sunIcon = document.querySelector('.sun');
@@ -1674,7 +1653,7 @@ window.addEventListener("load", function () {
                     <li> Si les serveurs de l’opérateur sont compromis. Vérifier le code de sécurité dans Signal et certaines autres applications pour limiter les risques</li>
                     <li> Ne protège pas la confidentialité des métadonnées des utilisateurs</li>
                     <li> Bien que les réseaux P2P soient distribués, ils ne sont pas fédérés — ils fonctionnent comme un réseau unique</li>
-                    <li> Les réseaux P2P ont soit une autorité centrale, soit l'ensemble du réseau peut être compromis — <a class="underline text-primary-light dark:text-primary-dark underline-offset-2" href="https://github.com/simplex-chat/simplex-chat/blob/stable/docs/SIMPLEX.md#comparison-with-p2p-messaging-protocols">voir ici</a></li>
+                    <li> Les réseaux P2P ont soit une autorité centrale, soit l'ensemble du réseau peut être compromis — <a class="underline text-primary-light dark:text-primary-dark underline-offset-2" href="/docs/simplex.html#comparison-with-p2p-messaging-protocols">voir ici</a></li>
                 </ol>
             </div>
         </div>

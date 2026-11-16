@@ -506,27 +506,6 @@
 })();
 </script>
 
-
-<script type="module">
-import { init, track } from '/js/page.js';
-var pageEvents = {
-    domain: 'simplex.chat',
-    endpoint: 'https://api.simplex.chat/api/event',
-    logging: false,
-    outboundLinks: true,
-    transformRequest: function (event) {
-        if (window !== window.top || location.hostname.endsWith('.onion')) return null;
-        if (location.pathname.startsWith('/directory')) event.u = event.u.split('#')[0];
-        // remove hash from outbound links
-        if (event.p && event.p.url) event.p.url = event.p.url.split('#')[0];
-        return event;
-    }
-};
-
-init(pageEvents);
-</script>
-
-
 <script>
 // switch theme
 const sunIcon = document.querySelector('.sun');
@@ -1674,7 +1653,7 @@ window.addEventListener("load", function () {
                     <li> Wenn die Server des Betreibers kompromittiert werden. In Signal und weiteren Apps kann der Sicherheitscode überprüft werden, um dies zu entschärfen</li>
                     <li> Die Privatsphäre-Metadaten des Nutzers werden nicht geschützt</li>
                     <li> P2P sind zwar verteilt, aber nicht föderiert — sie arbeiten als ein einziges Netzwerk</li>
-                    <li> P2P-Netzwerke haben entweder eine zentrale Verwaltung oder das gesamte Netzwerk kann kompromittiert werden — <a class="underline text-primary-light dark:text-primary-dark underline-offset-2" href="https://github.com/simplex-chat/simplex-chat/blob/stable/docs/SIMPLEX.md#comparison-with-p2p-messaging-protocols">Siehe hier</a></li>
+                    <li> P2P-Netzwerke haben entweder eine zentrale Verwaltung oder das gesamte Netzwerk kann kompromittiert werden — <a class="underline text-primary-light dark:text-primary-dark underline-offset-2" href="/docs/simplex.html#comparison-with-p2p-messaging-protocols">Siehe hier</a></li>
                 </ol>
             </div>
         </div>

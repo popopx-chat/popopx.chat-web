@@ -227,7 +227,7 @@ POPOPX Chat надає найкращу конфіденційність, поє
 5. Якщо сервери оператора порушені. Перевірте безпековий код в Signal та деяких інших додатках для зменшення ризику
 6. Не захищає конфіденційність метаданих користувачів
 7. Хоча P2P є розподіленими, вони не є федеративними — вони працюють як одна мережа
-8. Мережі P2P мають або центральний орган управління, або всю мережу можна порушити — [дивіться тут](https://github.com/simplex-chat/simplex-chat/blob/stable/docs/SIMPLEX.md#comparison-with-p2p-messaging-protocols)
+8. Мережі P2P мають або центральний орган управління, або всю мережу можна порушити — [дивіться тут](https://popopx.chat/docs/simplex.html#comparison-with-p2p-messaging-protocols)
 
 ## Comparison of end-to-end encryption security in different messengers
 

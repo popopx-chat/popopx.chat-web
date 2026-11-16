@@ -506,27 +506,6 @@
 })();
 </script>
 
-
-<script type="module">
-import { init, track } from '/js/page.js';
-var pageEvents = {
-    domain: 'simplex.chat',
-    endpoint: 'https://api.simplex.chat/api/event',
-    logging: false,
-    outboundLinks: true,
-    transformRequest: function (event) {
-        if (window !== window.top || location.hostname.endsWith('.onion')) return null;
-        if (location.pathname.startsWith('/directory')) event.u = event.u.split('#')[0];
-        // remove hash from outbound links
-        if (event.p && event.p.url) event.p.url = event.p.url.split('#')[0];
-        return event;
-    }
-};
-
-init(pageEvents);
-</script>
-
-
 <script>
 // switch theme
 const sunIcon = document.querySelector('.sun');
@@ -1674,7 +1653,7 @@ window.addEventListener("load", function () {
                     <li> Se os servidores da operadora forem comprometidos. Verifique o código de segurança no Signal e outros aplicativos para mitigá-lo</li>
                     <li> Não protege a privacidade da metadados dos usuários</li>
                     <li> Embora os P2P sejam distribuídos, eles não são federados &amp;mdash - operam como uma única rede</li>
-                    <li> As redes P2P têm uma autoridade central ou toda a rede pode ser comprometida — <a class="underline text-primary-light dark:text-primary-dark underline-offset-2" href="https://github.com/simplex-chat/simplex-chat/blob/stable/docs/SIMPLEX.md#comparison-with-p2p-messaging-protocols">veja aqui</a></li>
+                    <li> As redes P2P têm uma autoridade central ou toda a rede pode ser comprometida — <a class="underline text-primary-light dark:text-primary-dark underline-offset-2" href="/docs/simplex.html#comparison-with-p2p-messaging-protocols">veja aqui</a></li>
                 </ol>
             </div>
         </div>

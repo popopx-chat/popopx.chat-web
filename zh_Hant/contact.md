@@ -8,7 +8,7 @@
 
 使用以下連結下載應用程式。
 
-[App Store](https://apps.apple.com/us/app/popopx-chat/id6799146157) [Google Play](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) [SimpleX F-Droid Repository](https://popopx.chat/zh_Hant/fdroid) [TestFlight](https://testflight.apple.com/join/DWuT2LQu) [Android APK](https://play.google.com/store/apps/details?id=com.popopxchat.popopx)
+[App Store](https://apps.apple.com/us/app/popopx-chat/id6799146157) [Google Play](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) [SimpleX F-Droid Repository](https://popopx.chat/zh_Hant/fdroid) [Android APK](https://play.google.com/store/apps/details?id=com.popopxchat.popopx)
 
 用手機應用程式掃描二維碼
 
@@ -16,7 +16,7 @@
 
 建立連結：
 
-安裝 SimpleX 應用程式
+安裝 POPOPX 應用程式
 
 [App Store](https://apps.apple.com/us/app/popopx-chat/id6799146157) [Google Play](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) [SimpleX F-Droid Repository](https://popopx.chat/zh_Hant/fdroid)
 
@@ -24,7 +24,7 @@
 
 在應用中連結
 
-開啟SimpleX應用程式
+開啟POPOPX應用程式
 
 2
 
@@ -50,16 +50,14 @@ See POPOPX Chat GitHub repository for the instructions how to download or compil
 
 如已安裝 用於終端的 POPOPX Chat v1.0.0+, 複製下面的命令並用於聊天：
 
-## 加入 SimpleX
+## 加入 POPOPX
 
 We invite you to join the conversation
 
-[加入Reddit社群](https://www.reddit.com/r/SimpleXChat/) [在GitHub上加入我們](https://github.com/simplex-chat) [於此捐助以幫助我們](https://github.com/simplex-chat/simplex-chat#please-support-us-with-your-donations)
-
-登記以收取更新
+[加入Reddit社群](https://www.reddit.com/r/SimpleXChat/) [在GitHub上加入我們](https://github.com/popopx-chat)
 
 ---
 
-下載SimpleX [桌面版應用程式](https://popopx.chat/downloads)
+下載POPOPX [桌面版應用程式](https://popopx.chat/downloads)
 
-[Public iOS preview on TestFlight](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) [SimpleX F-Droid Repository](https://popopx.chat/zh_Hant/fdroid)
+[POPOPX Chat on Google Play](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) [SimpleX F-Droid Repository](https://popopx.chat/zh_Hant/fdroid)

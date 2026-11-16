@@ -8,7 +8,7 @@ Ještě jste si nestáhli POPOPX Chat?
 
 Ke stažení aplikace použijte níže uvedené odkazy.
 
-[App Store](https://apps.apple.com/us/app/popopx-chat/id6799146157) [Google Play](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) [SimpleX F-Droid Repository](https://popopx.chat/cs/fdroid) [TestFlight](https://testflight.apple.com/join/DWuT2LQu) [Android APK](https://play.google.com/store/apps/details?id=com.popopxchat.popopx)
+[App Store](https://apps.apple.com/us/app/popopx-chat/id6799146157) [Google Play](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) [SimpleX F-Droid Repository](https://popopx.chat/cs/fdroid) [Android APK](https://play.google.com/store/apps/details?id=com.popopxchat.popopx)
 
 Naskenujte QR kód z mobilní aplikace
 
@@ -16,7 +16,7 @@ Naskenujte QR kód z mobilní aplikace
 
 K vytvoření připojení:
 
-Instalace aplikace SimpleX
+Instalace aplikace POPOPX
 
 [App Store](https://apps.apple.com/us/app/popopx-chat/id6799146157) [Google Play](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) [SimpleX F-Droid Repository](https://popopx.chat/cs/fdroid)
 
@@ -24,7 +24,7 @@ Instalace aplikace SimpleX
 
 Se připojit v aplikaci
 
-Otevřete aplikaci SimpleX
+Otevřete aplikaci POPOPX
 
 2
 
@@ -50,16 +50,14 @@ Viz POPOPX Chat GitHub repozitář Pro návod, jak stáhnout nebo zkompilovat ze
 
 Pokud jste již nainstalovali POPOPX Chat pro terminál v1.0.0+, Zkopírujte níže uvedený příkaz a použijte jej v chatu:
 
-## Připojit SimpleX
+## Připojit POPOPX
 
 Zveme vás k účasti na konverzaci
 
-[Připojte se ke komunitě REDDIT](https://www.reddit.com/r/SimpleXChat/) [Připojte se k nám na GitHubu](https://github.com/simplex-chat) [Přispějte zde a pomozte nám](https://github.com/simplex-chat/simplex-chat#please-support-us-with-your-donations)
-
-Přihlaste se k odběru novinek
+[Připojte se ke komunitě REDDIT](https://www.reddit.com/r/SimpleXChat/) [Připojte se k nám na GitHubu](https://github.com/popopx-chat)
 
 ---
 
-Získat SimpleX [desktop app](https://popopx.chat/downloads)
+Získat POPOPX [desktop app](https://popopx.chat/downloads)
 
-[Public iOS preview on TestFlight](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) [SimpleX F-Droid Repository](https://popopx.chat/cs/fdroid)
+[POPOPX Chat on Google Play](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) [SimpleX F-Droid Repository](https://popopx.chat/cs/fdroid)

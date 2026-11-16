@@ -231,7 +231,7 @@ POPOPX Chat מספק את הפרטיות הטובה ביותר על ידי שי�
 5. אם השרתי המפעיל נפגעים. אמת את קוד האבטחה ב-Signal ובכמה אפליקציות אחרות כדי למתן את זה
 6. אינו מגן על פרטיות המטא נתונים של המשתמשים
 7. בעוד שרשתות עמית לעמית (P2P) מבוזרות, הן אינן מאוחדות (פדרטיביות) — הן פועלות כרשת יחידה
-8. לרשתות P2P יש רשות מרכזית או שכל הרשת יכולה להיפגע — [ראו כאן](https://github.com/simplex-chat/simplex-chat/blob/stable/docs/SIMPLEX.md#comparison-with-p2p-messaging-protocols)
+8. לרשתות P2P יש רשות מרכזית או שכל הרשת יכולה להיפגע — [ראו כאן](https://popopx.chat/docs/simplex.html#comparison-with-p2p-messaging-protocols)
 
 ## Comparison of end-to-end encryption security in different messengers
 

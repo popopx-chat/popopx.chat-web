@@ -506,27 +506,6 @@
 })();
 </script>
 
-
-<script type="module">
-import { init, track } from '/js/page.js';
-var pageEvents = {
-    domain: 'simplex.chat',
-    endpoint: 'https://api.simplex.chat/api/event',
-    logging: false,
-    outboundLinks: true,
-    transformRequest: function (event) {
-        if (window !== window.top || location.hostname.endsWith('.onion')) return null;
-        if (location.pathname.startsWith('/directory')) event.u = event.u.split('#')[0];
-        // remove hash from outbound links
-        if (event.p && event.p.url) event.p.url = event.p.url.split('#')[0];
-        return event;
-    }
-};
-
-init(pageEvents);
-</script>
-
-
 <script>
 // switch theme
 const sunIcon = document.querySelector('.sun');
@@ -1674,7 +1653,7 @@ window.addEventListener("load", function () {
                     <li> Если операторы серверов скомпрометированы. В Signal, и некоторых других приложениях, есть возможность подтвердить код безопасности</li>
                     <li> Не защищает конфиденциальность пользовательских метаданных</li>
                     <li> Хотя P2P распределены, они не являются федеративными, то есть P2P — работают как единая сеть</li>
-                    <li> Сети P2P либо имеют центральный компонент, либо вся сеть может быть атакована — <a class="underline text-primary-light dark:text-primary-dark underline-offset-2" href="https://github.com/simplex-chat/simplex-chat/blob/stable/docs/SIMPLEX.md#comparison-with-p2p-messaging-protocols">подробнее здесь</a></li>
+                    <li> Сети P2P либо имеют центральный компонент, либо вся сеть может быть атакована — <a class="underline text-primary-light dark:text-primary-dark underline-offset-2" href="/docs/simplex.html#comparison-with-p2p-messaging-protocols">подробнее здесь</a></li>
                 </ol>
             </div>
         </div>

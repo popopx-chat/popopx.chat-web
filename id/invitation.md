@@ -8,7 +8,7 @@ Belum unduh POPOPX Chat?
 
 Gunakan tautan di bawah untuk unduh aplikasi.
 
-[App Store](https://apps.apple.com/us/app/popopx-chat/id6799146157) [Google Play](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) [SimpleX F-Droid Repository](https://popopx.chat/id/fdroid) [TestFlight](https://testflight.apple.com/join/DWuT2LQu) [Android APK](https://play.google.com/store/apps/details?id=com.popopxchat.popopx)
+[App Store](https://apps.apple.com/us/app/popopx-chat/id6799146157) [Google Play](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) [SimpleX F-Droid Repository](https://popopx.chat/id/fdroid) [Android APK](https://play.google.com/store/apps/details?id=com.popopxchat.popopx)
 
 Pindai kode QR dari aplikasi seluler
 
@@ -16,7 +16,7 @@ Pindai kode QR dari aplikasi seluler
 
 Untuk membuat koneksi:
 
-Instal aplikasi SimpleX
+Instal aplikasi POPOPX
 
 [App Store](https://apps.apple.com/us/app/popopx-chat/id6799146157) [Google Play](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) [SimpleX F-Droid Repository](https://popopx.chat/id/fdroid)
 
@@ -24,7 +24,7 @@ Instal aplikasi SimpleX
 
 Hubungkan di aplikasi
 
-Buka aplikasi SimpleX
+Buka aplikasi POPOPX
 
 2
 
@@ -51,16 +51,14 @@ Lihat POPOPX Chat Repositori GitHub untuk petunjuk cara mengunduh atau mengompil
 
 Jika Anda sudah menginstal POPOPX Chat untuk terminal v1.0.0+, salin perintah di bawah ini dan gunakan dalam obrolan:
 
-## Gabung SimpleX
+## Gabung POPOPX
 
 Kami mengundang Anda untuk gabung ke percakapan
 
-[Bergabung dengan komunitas REDDIT](https://www.reddit.com/r/SimpleXChat/) [Gabung dengan kami di GitHub](https://github.com/simplex-chat) [Donasi untuk bantu kami](https://github.com/simplex-chat/simplex-chat#please-support-us-with-your-donations)
-
-Daftar untuk menerima pembaruan kami
+[Bergabung dengan komunitas REDDIT](https://www.reddit.com/r/SimpleXChat/) [Gabung dengan kami di GitHub](https://github.com/popopx-chat)
 
 ---
 
-Dapatkan [aplikasi desktop](https://popopx.chat/downloads) SimpleX
+Dapatkan [aplikasi desktop](https://popopx.chat/downloads) POPOPX
 
-[Public iOS preview on TestFlight](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) [SimpleX F-Droid Repository](https://popopx.chat/id/fdroid)
+[POPOPX Chat on Google Play](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) [SimpleX F-Droid Repository](https://popopx.chat/id/fdroid)

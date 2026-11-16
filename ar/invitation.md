@@ -8,7 +8,7 @@
 
 استخدم الروابط في الاسفل لتنزيل التطبيق.
 
-[App Store](https://apps.apple.com/us/app/popopx-chat/id6799146157) [Google Play](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) [SimpleX F-Droid Repository](https://popopx.chat/ar/fdroid) [TestFlight](https://testflight.apple.com/join/DWuT2LQu) [Android APK](https://play.google.com/store/apps/details?id=com.popopxchat.popopx)
+[App Store](https://apps.apple.com/us/app/popopx-chat/id6799146157) [Google Play](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) [SimpleX F-Droid Repository](https://popopx.chat/ar/fdroid) [Android APK](https://play.google.com/store/apps/details?id=com.popopxchat.popopx)
 
 امسح رمز QR من تطبيق الجوال
 
@@ -16,7 +16,7 @@
 
 لإجراء اتصال:
 
-قم بتثبيت تطبيق SimpleX
+قم بتثبيت تطبيق POPOPX
 
 [App Store](https://apps.apple.com/us/app/popopx-chat/id6799146157) [Google Play](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) [SimpleX F-Droid Repository](https://popopx.chat/ar/fdroid)
 
@@ -51,16 +51,14 @@ curl -o- https://raw.githubusercontent.com/simplex-chat/simplex-chat/master/inst
 
 إذا قمت بالفعل بتثبيت POPOPX Chat للوحدة الطرفية v1.0.0+, انسخ الأمر الذي في الاسفل واستخدمه في الدردشة:
 
-## انضم إلى SimpleX
+## انضم إلى POPOPX
 
 نحن ندعوك للانضمام إلى المُحادثة
 
-[انضم إلى مجتمع REDDIT](https://www.reddit.com/r/SimpleXChat/) [انضم إلينا على GitHub](https://github.com/simplex-chat) [تبرّع هنا لمساعدتنا](https://github.com/simplex-chat/simplex-chat#please-support-us-with-your-donations)
-
-اشترك للحصول على آخر مستجداتنا
+[انضم إلى مجتمع REDDIT](https://www.reddit.com/r/SimpleXChat/) [انضم إلينا على GitHub](https://github.com/popopx-chat)
 
 ---
 
-احصل على [تطبيق سطح المكتب](https://popopx.chat/downloads) SimpleX
+احصل على [تطبيق سطح المكتب](https://popopx.chat/downloads) POPOPX
 
-[Public iOS preview on TestFlight](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) [SimpleX F-Droid Repository](https://popopx.chat/ar/fdroid)
+[POPOPX Chat on Google Play](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) [SimpleX F-Droid Repository](https://popopx.chat/ar/fdroid)

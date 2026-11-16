@@ -230,7 +230,7 @@ A felhasználók tovább fokozhatják a metaadatok védelmét, ha a Tor hálóza
 5. Ha az üzemeltetett kiszolgálók veszélybe kerülnek. Ellenőrizze a biztonsági kódot a Signal vagy más biztonságos üzenetküldő alkalmazás segítségével a támadások veszélyeinek csökkentésére
 6. Nem védi a felhasználók metaadatait
 7. Bár a P2P elosztott, de nem föderált — egyetlen hálózatként működnek
-8. A P2P-hálózatoknak vagy van egy központi hitelesítője, vagy az egész hálózat kompromittálódhat — [tekintse meg itt](https://github.com/simplex-chat/simplex-chat/blob/stable/docs/SIMPLEX.md#comparison-with-p2p-messaging-protocols)
+8. A P2P-hálózatoknak vagy van egy központi hitelesítője, vagy az egész hálózat kompromittálódhat — [tekintse meg itt](https://popopx.chat/docs/simplex.html#comparison-with-p2p-messaging-protocols)
 
 ## A végpontok közötti titkosítás összehasonlítása más üzenetváltó alkalmazásokkal
 

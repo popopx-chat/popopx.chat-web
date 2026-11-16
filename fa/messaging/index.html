@@ -497,27 +497,6 @@
 })();
 </script>
 
-
-<script type="module">
-import { init, track } from '/js/page.js';
-var pageEvents = {
-    domain: 'simplex.chat',
-    endpoint: 'https://api.simplex.chat/api/event',
-    logging: false,
-    outboundLinks: true,
-    transformRequest: function (event) {
-        if (window !== window.top || location.hostname.endsWith('.onion')) return null;
-        if (location.pathname.startsWith('/directory')) event.u = event.u.split('#')[0];
-        // remove hash from outbound links
-        if (event.p && event.p.url) event.p.url = event.p.url.split('#')[0];
-        return event;
-    }
-};
-
-init(pageEvents);
-</script>
-
-
 <script>
 // switch theme
 const sunIcon = document.querySelector('.sun');
@@ -1665,7 +1644,7 @@ window.addEventListener("load", function () {
                     <li> اگر سرورهای اپراتور به خطر بیفتند. کد امنیتی را در سیگنال و برخی دیگر از برنامه‌ها تأیید کنید تا این خطر را کاهش دهید</li>
                     <li> از حریم خصوصی فراداده‌های کاربران محافظت نمی‌کند</li>
                     <li> در حالی که شبکه‌های P2P توزیع‌شده هستند، اما فدرال نیستند — آن‌ها به‌عنوان یک شبکه واحد عمل می‌کنند</li>
-                    <li> شبکه‌های P2P یا دارای یک نهاد مرکزی هستند یا کل شبکه می‌تواند به خطر بیفتد — <a class="underline text-primary-light dark:text-primary-dark underline-offset-2" href="https://github.com/simplex-chat/simplex-chat/blob/stable/docs/SIMPLEX.md#comparison-with-p2p-messaging-protocols">اینجا را ببینید</a></li>
+                    <li> شبکه‌های P2P یا دارای یک نهاد مرکزی هستند یا کل شبکه می‌تواند به خطر بیفتد — <a class="underline text-primary-light dark:text-primary-dark underline-offset-2" href="/docs/simplex.html#comparison-with-p2p-messaging-protocols">اینجا را ببینید</a></li>
                 </ol>
             </div>
         </div>

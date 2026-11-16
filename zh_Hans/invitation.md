@@ -8,7 +8,7 @@
 
 使用下面的链接下载应用程序。
 
-[App Store](https://apps.apple.com/us/app/popopx-chat/id6799146157) [Google Play](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) [SimpleX F-Droid Repository](https://popopx.chat/zh_Hans/fdroid) [TestFlight](https://testflight.apple.com/join/DWuT2LQu) [Android APK](https://play.google.com/store/apps/details?id=com.popopxchat.popopx)
+[App Store](https://apps.apple.com/us/app/popopx-chat/id6799146157) [Google Play](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) [SimpleX F-Droid Repository](https://popopx.chat/zh_Hans/fdroid) [Android APK](https://play.google.com/store/apps/details?id=com.popopxchat.popopx)
 
 从移动应用程序扫描二维码
 
@@ -16,7 +16,7 @@
 
 要建立连接：
 
-安装 SimpleX 应用程序
+安装 POPOPX 应用程序
 
 [App Store](https://apps.apple.com/us/app/popopx-chat/id6799146157) [Google Play](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) [SimpleX F-Droid Repository](https://popopx.chat/zh_Hans/fdroid)
 
@@ -24,7 +24,7 @@
 
 在应用程序中连接
 
-打开 SimpleX 应用程序
+打开 POPOPX 应用程序
 
 2
 
@@ -50,16 +50,14 @@ curl -o- https://raw.githubusercontent.com/simplex-chat/simplex-chat/master/inst
 
 如果您已经安装 用于终端的 POPOPX Chat v1.0.0+, 复制下面的命令并在聊天中使用它：
 
-## 加入 SimpleX
+## 加入 POPOPX
 
 我们邀请您加入对话
 
-[加入 REDDIT 社区](https://www.reddit.com/r/SimpleXChat/) [在 GitHub 上加入我们](https://github.com/simplex-chat) [在这里捐款来帮助我们](https://github.com/simplex-chat/simplex-chat#please-support-us-with-your-donations)
-
-注册以接收我们的更新
+[加入 REDDIT 社区](https://www.reddit.com/r/SimpleXChat/) [在 GitHub 上加入我们](https://github.com/popopx-chat)
 
 ---
 
-获取 SimpleX [desktop app](https://popopx.chat/downloads)
+获取 POPOPX [desktop app](https://popopx.chat/downloads)
 
-[Public iOS preview on TestFlight](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) [SimpleX F-Droid Repository](https://popopx.chat/zh_Hans/fdroid)
+[POPOPX Chat on Google Play](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) [SimpleX F-Droid Repository](https://popopx.chat/zh_Hans/fdroid)

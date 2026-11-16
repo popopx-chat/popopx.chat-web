@@ -506,27 +506,6 @@
 })();
 </script>
 
-
-<script type="module">
-import { init, track } from '/js/page.js';
-var pageEvents = {
-    domain: 'simplex.chat',
-    endpoint: 'https://api.simplex.chat/api/event',
-    logging: false,
-    outboundLinks: true,
-    transformRequest: function (event) {
-        if (window !== window.top || location.hostname.endsWith('.onion')) return null;
-        if (location.pathname.startsWith('/directory')) event.u = event.u.split('#')[0];
-        // remove hash from outbound links
-        if (event.p && event.p.url) event.p.url = event.p.url.split('#')[0];
-        return event;
-    }
-};
-
-init(pageEvents);
-</script>
-
-
 <script>
 // switch theme
 const sunIcon = document.querySelector('.sun');
@@ -1674,7 +1653,7 @@ window.addEventListener("load", function () {
                     <li> Якщо сервери оператора порушені. Перевірте безпековий код в Signal та деяких інших додатках для зменшення ризику</li>
                     <li> Не захищає конфіденційність метаданих користувачів</li>
                     <li> Хоча P2P є розподіленими, вони не є федеративними — вони працюють як одна мережа</li>
-                    <li> Мережі P2P мають або центральний орган управління, або всю мережу можна порушити — <a class="underline text-primary-light dark:text-primary-dark underline-offset-2" href="https://github.com/simplex-chat/simplex-chat/blob/stable/docs/SIMPLEX.md#comparison-with-p2p-messaging-protocols">дивіться тут</a></li>
+                    <li> Мережі P2P мають або центральний орган управління, або всю мережу можна порушити — <a class="underline text-primary-light dark:text-primary-dark underline-offset-2" href="/docs/simplex.html#comparison-with-p2p-messaging-protocols">дивіться тут</a></li>
                 </ol>
             </div>
         </div>

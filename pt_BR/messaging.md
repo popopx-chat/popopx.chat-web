@@ -230,7 +230,7 @@ Os usuários podem melhorar ainda mais a privacidade de metadados usando o Tor p
 5. Se os servidores da operadora forem comprometidos. Verifique o código de segurança no Signal e outros aplicativos para mitigá-lo
 6. Não protege a privacidade da metadados dos usuários
 7. Embora os P2P sejam distribuídos, eles não são federados &mdash - operam como uma única rede
-8. As redes P2P têm uma autoridade central ou toda a rede pode ser comprometida — [veja aqui](https://github.com/simplex-chat/simplex-chat/blob/stable/docs/SIMPLEX.md#comparison-with-p2p-messaging-protocols)
+8. As redes P2P têm uma autoridade central ou toda a rede pode ser comprometida — [veja aqui](https://popopx.chat/docs/simplex.html#comparison-with-p2p-messaging-protocols)
 
 ## Comparação da segurança da criptografia de ponta a ponta em diferentes mensageiros
 

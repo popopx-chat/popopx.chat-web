@@ -87,7 +87,6 @@
     <link rel="preload" href="/img/new/apple_store.svg" as="image">
     <link rel="preload" href="/img/new/google_play.svg" as="image">
     <link rel="preload" href="/img/new/f_droid_icon.svg" as="image" media="(max-width: 1015px)">
-    <link rel="preload" href="/img/design_3/testflight-dark.png" as="image" media="(max-width: 1015px)">
     <link rel="preload" href="/img/design_3/socials/linux.png" as="image" media="(min-width: 1016px)">
     <link rel="preload" href="/img/design_3/socials/apple.png" as="image" media="(min-width: 1016px)">
     <link rel="preload" href="/img/design_3/socials/windows.png" as="image" media="(min-width: 1016px)">
@@ -551,27 +550,6 @@
 })();
 </script>
 
-
-<script type="module">
-import { init, track } from '/js/page.js';
-var pageEvents = {
-    domain: 'simplex.chat',
-    endpoint: 'https://api.simplex.chat/api/event',
-    logging: false,
-    outboundLinks: true,
-    transformRequest: function (event) {
-        if (window !== window.top || location.hostname.endsWith('.onion')) return null;
-        if (location.pathname.startsWith('/directory')) event.u = event.u.split('#')[0];
-        // remove hash from outbound links
-        if (event.p && event.p.url) event.p.url = event.p.url.split('#')[0];
-        return event;
-    }
-};
-
-init(pageEvents);
-</script>
-
-
 <script>
 // switch theme
 const sunIcon = document.querySelector('.sun');
@@ -710,7 +688,7 @@ window.addEventListener('click',(e)=>{
                     </div>
 
                     <div class="socials">
-                        <a href="/downloads" class="desktop-app-btn hidden" title="Download SimpleX Desktop App">
+                        <a href="/downloads" class="desktop-app-btn hidden" title="Download POPOPX Desktop App">
                             <div class="btn-content">
                                 <div>
                                     <img class="no-border" src="/img/design_3/socials/linux.png">
@@ -723,7 +701,6 @@ window.addEventListener('click',(e)=>{
                         <a class="apple-store-btn hidden" href="https://apps.apple.com/us/app/popopx-chat/id6799146157" target="_blank" rel="noopener"><img src="/img/new/apple_store.svg" alt="App Store"></a>
                         <a class="google-play-btn hidden" href="https://play.google.com/store/apps/details?id=com.popopxchat.popopx" target="_blank" rel="noopener"><img src="/img/new/google_play.svg" alt="Google Play"></a>
                         <a class="f-droid-btn hidden" href="/uk/fdroid" title="SimpleX app via F-Droid"><img src="/img/new/f_droid_icon.svg" alt="F-Droid"></a>
-                        <a class="testflight-btn hidden" href="https://testflight.apple.com/join/DWuT2LQu" target="_blank" rel="noopener"><img class="no-border" src="/img/design_3/testflight-dark.png" title="SimpleX iOS beta-release on TestFlight" alt="TestFlight"></a>
                     </div>
                     <div class="security-btns">
                         <a title="Security Audits" href="https://www.trailofbits.com/about" target="_blank" rel="noopener">

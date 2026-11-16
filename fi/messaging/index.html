@@ -506,27 +506,6 @@
 })();
 </script>
 
-
-<script type="module">
-import { init, track } from '/js/page.js';
-var pageEvents = {
-    domain: 'simplex.chat',
-    endpoint: 'https://api.simplex.chat/api/event',
-    logging: false,
-    outboundLinks: true,
-    transformRequest: function (event) {
-        if (window !== window.top || location.hostname.endsWith('.onion')) return null;
-        if (location.pathname.startsWith('/directory')) event.u = event.u.split('#')[0];
-        // remove hash from outbound links
-        if (event.p && event.p.url) event.p.url = event.p.url.split('#')[0];
-        return event;
-    }
-};
-
-init(pageEvents);
-</script>
-
-
 <script>
 // switch theme
 const sunIcon = document.querySelector('.sun');
@@ -1674,7 +1653,7 @@ window.addEventListener("load", function () {
                     <li> Jos operaattorin palvelimet ovat vaarantuneet. Tarkista turvakoodi Signalissa ja joissakin muissa sovelluksissa suojautuaksesi hyökkäykseltä</li>
                     <li> Ei suojaa käyttäjien metatietojen yksityisyyttä</li>
                     <li> Vaikka P2P-verkot ovat hajautettuja, ne eivät ole liitettäviä - ne toimivat yhtenä verkostona</li>
-                    <li> P2P-verkoilla on joko keskitetty auktoriteetti tai koko verkko voidaan vaarantaa — <a class="underline text-primary-light dark:text-primary-dark underline-offset-2" href="https://github.com/simplex-chat/simplex-chat/blob/stable/docs/SIMPLEX.md#comparison-with-p2p-messaging-protocols">katso täältä</a></li>
+                    <li> P2P-verkoilla on joko keskitetty auktoriteetti tai koko verkko voidaan vaarantaa — <a class="underline text-primary-light dark:text-primary-dark underline-offset-2" href="/docs/simplex.html#comparison-with-p2p-messaging-protocols">katso täältä</a></li>
                 </ol>
             </div>
         </div>
