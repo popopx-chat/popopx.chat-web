@@ -1,0 +1,19 @@
+[Unit]
+Description=POPOPX deploy webhook receiver
+After=network.target
+
+[Service]
+Type=simple
+User=webdeploy
+Group=nginx
+ExecStart=/usr/bin/python3 /opt/popopx/deploy/receiver.py
+Restart=always
+NoNewPrivileges=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/var/log/popopx-deploy.log
+StandardOutput=append:/var/log/popopx-deploy.log
+StandardError=append:/var/log/popopx-deploy.log
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,11 @@
+# Optional: pull every 15 min instead of relying on the webhook.
+[Unit]
+Description=POPOPX site sync timer
+
+[Timer]
+OnBootSec=2min
+OnUnitActiveSec=15min
+AccuracySec=1min
+
+[Install]
+WantedBy=timers.target

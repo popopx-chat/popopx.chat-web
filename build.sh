@@ -26,12 +26,12 @@ for file in langs/*.json; do
   echo "{\"lang\":\"$lang\"}" > "src/$lang/$lang.json"
 done
 
-# -traditional-cpp is clang (macOS); GNU cpp on Linux runners has no such flag.
+npm run build:js                          # copies qrcode.js + page.js in; the .jsc step needs them
 for f in src/js/*.jsc; do
   [ -f "$f" ] && { cpp -P -traditional-cpp "$f" "${f%.jsc}.js" 2>/dev/null || cpp -P -traditional "$f" "${f%.jsc}.js"; }
 done
-
-npm run build                             # build:js && eleventy && tailwind -> _site
+npm run build:eleventy
+npm run build:tailwind                    # writes _site/css/tailwind.css
 
 for file in langs/*.json; do
   rm -rf "src/$(basename "$file" .json)"

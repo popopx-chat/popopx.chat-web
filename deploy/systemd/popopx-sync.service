@@ -1,0 +1,15 @@
+# One-shot: republish the site from the gh-pages branch. Triggered by the
+# receiver below, or on a timer if you prefer polling to webhooks.
+[Unit]
+Description=POPOPX site sync
+After=network-online.target
+
+[Service]
+Type=oneshot
+User=webdeploy
+Group=webdeploy
+WorkingDirectory=/srv/popopx.chat-src
+ExecStart=/usr/bin/git fetch --quiet origin gh-pages
+ExecStart=/usr/bin/git reset --hard --quiet origin/gh-pages
+ExecStart=/usr/bin/rsync -a --delete --exclude=.well-known/acme-challenge /srv/popopx.chat-src/ /srv/popopx.chat/
+ExecStart=/usr/sbin/restorecon -RFq /srv/popopx.chat

@@ -199,3 +199,76 @@ A repository *webhook* (Settings -> Webhooks, or `gh api repos/popopx-chat/popop
 is the same idea without Actions: GitHub POSTs the push event straight to the host. Prefer
 the workflow, because it builds first and never publishes a red build; register a raw
 webhook only if the host should learn about a push before Actions finishes.
+
+## Deploying on CentOS (the popopx.chat host)
+
+The host answers `server: nginx/1.14.1` and `x-powered-by: PHP/7.2.24`, which is the
+EPEL/Remi combination of **CentOS 7 / RHEL 7**. That matters for one decision: **do not
+build the site on the server.** EL7 is past its maintenance window and has no Node 20
+package, while this build needs Node >= 20 (Eleventy 1.x + Tailwind 3.3). Build in GitHub
+Actions (or on a workstation) and ship only the static `_site`.
+
+One-time setup, as root:
+
+```sh
+yum install -y nginx rsync git policycoreutils-python python3        # EPEL already present
+useradd -r -s /sbin/nologin -G nginx webdeploy
+mkdir -p /opt/popopx /srv/popopx.chat /srv/popopx.chat-src /etc/popopx /var/log
+git clone --depth 1 -b gh-pages https://github.com/popopx-chat/popopx.chat-web.git /srv/popopx.chat-src
+install -m 0644 deploy/nginx/popopx.chat.conf /etc/nginx/conf.d/
+install -m 0755 deploy/receiver.py /opt/popopx/deploy/receiver.py   # mkdir -p /opt/popopx/deploy first
+install -m 0644 deploy/systemd/*.service deploy/systemd/*.timer /etc/systemd/system/
+umask 077; head -c 32 /dev/urandom | openssl base64 > /etc/popopx/deploy_secret
+chown root:webdeploy /etc/popopx/deploy_secret && chmod 640 /etc/popopx/deploy_secret
+echo 'webdeploy ALL=(root) NOPASSWD: /usr/bin/systemctl start popopx-sync.service' > /etc/sudoers.d/popopx-deploy
+visudo -cf /etc/sudoers.d/popopx-deploy
+printf '# deployed from %s\n' "$(cat /srv/popopx.chat-src/.git/HEAD)" >/dev/null   # sanity
+rsync -a --delete /srv/popopx.chat-src/ /srv/popopx.chat/
+```
+
+SELinux is what actually breaks a first deploy on CentOS: a document root outside
+`/var/www` is not readable by nginx until it is labelled, and the symptom is a `403`
+that looks like a permissions bug.
+
+```sh
+semanage fcontext -a -t httpd_sys_content_t "/srv/popopx\.chat(/.*)?"
+restorecon -RFv /srv/popopx.chat
+setsebool -P httpd_can_network_connect 1        # nginx -> 127.0.0.1:8099 proxy
+getenforce                                       # Enforcing
+```
+
+Then start everything and check the two files every mobile OS fetches:
+
+```sh
+systemctl enable --now nginx popopx-deploy popopx-sync.timer
+nginx -t && systemctl reload nginx
+firewall-cmd --permanent --add-service=https --add-service=http && firewall-cmd --reload
+curl -sSI https://popopx.chat/.well-known/assetlinks.json            | sed -n '1p;/content-type/Ip'
+curl -sSI https://popopx.chat/.well-known/apple-app-site-association | sed -n '1p;/content-type/Ip'
+```
+
+Both must be `200` with `Content-Type: application/json`. A `404` means the file is not
+in the document root; a `403` is SELinux; `application/octet-stream` on the AASA means
+the `default_type` block was not reloaded. The same two probes must also be made against
+**`www.popopx.chat`**, because `apps/ios/POPOPX (iOS).entitlements` claims
+`applinks:popopx.chat` *and* `applinks:www.popopx.chat` while Android's `autoVerify`
+claims only `popopx.chat` - so the AASA is needed on both hosts and `assetlinks.json`
+only on the bare one.
+
+### Updating after a push
+
+Nothing on the server watches GitHub unless you point it there. Two options, either is
+fine and they can both be on:
+
+- **Timer only (no inbound port, nothing to secure):** `popopx-sync.timer` pulls
+  `gh-pages` every 15 minutes. A push is live within 15 minutes with zero attack surface.
+- **Webhook receiver:** the `Notify the host` step in `.github/workflows/deploy.yml`
+  POSTs an HMAC-signed body to `http://127.0.0.1:8099` through nginx; expose it as
+  `location = /popopx-deploy { proxy_pass http://127.0.0.1:8099; access_log off; }` in the
+  443 server block, then `gh secret set DEPLOY_WEBHOOK_URL --repo popopx-chat/popopx.chat-web`
+  with that URL and `DEPLOY_WEBHOOK_SECRET` with the contents of `/etc/popopx/deploy_secret`.
+  The receiver verifies the signature before it is allowed to start the sync unit, and
+  does nothing else.
+
+To change what is deployed, edit this repository and push to `main`; never edit
+`gh-pages` by hand - the workflow force-publishes it, so manual commits there are lost.
