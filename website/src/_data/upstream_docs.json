@@ -1,5 +1,5 @@
 {
   "prefix": "/docs/",
   "slugs": ["/about", "/jobs", "/donate", "/security", "/faq", "/reproduce", "/transparency", "/privacy/operators"],
-  "ours": ["/docs/trademark-popopx"]
+  "ours": ["/docs/trademark-popopx", "/docs/upstream-disclaimer"]
 }
