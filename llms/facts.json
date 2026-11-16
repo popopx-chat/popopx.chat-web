@@ -11,7 +11,7 @@
           "sources": [
             {
               "title": "How SimpleX works",
-              "url": "https://popopx.chat/docs/simplex.md"
+              "url": "https://github.com/simplex-chat/simplex-chat/blob/stable/docs/SIMPLEX.md"
             }
           ]
         },
@@ -60,7 +60,7 @@
           "sources": [
             {
               "title": "Blog",
-              "url": "https://popopx.chat/blog/20241210-simplex-network-v6-2-servers-by-flux-business-chats.md"
+              "url": "https://simplex.chat/blog/20241210-simplex-network-v6-2-servers-by-flux-business-chats.html"
             }
           ]
         },
@@ -98,7 +98,7 @@
           "sources": [
             {
               "title": "Blog",
-              "url": "https://popopx.chat/blog/20240426-simplex-legally-binding-transparency-v5-7-better-user-experience.md"
+              "url": "https://simplex.chat/blog/20240426-simplex-legally-binding-transparency-v5-7-better-user-experience.html"
             }
           ]
         },
@@ -109,7 +109,7 @@
           "sources": [
             {
               "title": "Blog",
-              "url": "https://popopx.chat/blog/20240604-simplex-chat-v5.8-private-message-routing-chat-themes.md"
+              "url": "https://simplex.chat/blog/20240604-simplex-chat-v5.8-private-message-routing-chat-themes.html"
             }
           ]
         },
@@ -120,7 +120,7 @@
           "sources": [
             {
               "title": "Blog",
-              "url": "https://popopx.chat/blog/20221108-simplex-chat-v4.2-security-audit-new-website.md"
+              "url": "https://simplex.chat/blog/20221108-simplex-chat-v4.2-security-audit-new-website.html"
             },
             {
               "title": "Report",
@@ -135,7 +135,7 @@
           "sources": [
             {
               "title": "Blog",
-              "url": "https://popopx.chat/blog/20241014-simplex-network-v6-1-security-review-better-calls-user-experience.md"
+              "url": "https://simplex.chat/blog/20241014-simplex-network-v6-1-security-review-better-calls-user-experience.html"
             },
             {
               "title": "Report",
@@ -177,7 +177,7 @@
           "sources": [
             {
               "title": "Blog",
-              "url": "https://popopx.chat/blog/20240814-simplex-chat-vision-funding-v6-private-routing-new-user-experience.md"
+              "url": "https://simplex.chat/blog/20240814-simplex-chat-vision-funding-v6-private-routing-new-user-experience.html"
             }
           ]
         },
@@ -199,7 +199,7 @@
           "sources": [
             {
               "title": "Blog",
-              "url": "https://popopx.chat/blog/20260430-simplex-channels-v6-5-consortium-crowdfunding-freedom-of-speech.md"
+              "url": "https://simplex.chat/blog/20260430-simplex-channels-v6-5-consortium-crowdfunding-freedom-of-speech.html"
             }
           ]
         },
@@ -230,7 +230,7 @@
           "sources": [
             {
               "title": "Blog",
-              "url": "https://popopx.chat/blog/20260722-simplex-public-names.md"
+              "url": "https://simplex.chat/blog/20260722-simplex-public-names.html"
             }
           ]
         },
@@ -252,7 +252,7 @@
           "sources": [
             {
               "title": "Whitepaper",
-              "url": "https://popopx.chat/docs/protocol/names-overview.md"
+              "url": "https://github.com/simplex-chat/simplex-chat/blob/stable/docs/protocol/names-overview.md"
             }
           ]
         }

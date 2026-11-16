@@ -6,7 +6,7 @@ Facts about SimpleX network and SimpleX Chat, each with the date it was stated a
 
 | Fact | Value | As of | Source |
 |---|---|---|---|
-| User identifiers on the network | None – no phone numbers, usernames, account IDs or random user IDs | 2026 | [How SimpleX works](https://popopx.chat/docs/simplex.md) |
+| User identifiers on the network | None – no phone numbers, usernames, account IDs or random user IDs | 2026 | [How SimpleX works](https://github.com/simplex-chat/simplex-chat/blob/stable/docs/SIMPLEX.md) |
 | Monthly active users | 600,000+ | October 2026 | [Home page](https://popopx.chat/index.md) |
 | App downloads | 3 million+ | October 2026 | [Home page](https://popopx.chat/index.md) |
 | Independent publications about SimpleX | 200+ reviews, posts and videos in 20+ languages | October 2026 | [Links](https://popopx.chat/links.md) |
@@ -15,7 +15,7 @@ Facts about SimpleX network and SimpleX Chat, each with the date it was stated a
 
 | Fact | Value | As of | Source |
 |---|---|---|---|
-| Preset server operators | SimpleX Chat and Flux | since December 2024 | [Blog](https://popopx.chat/blog/20241210-simplex-network-v6-2-servers-by-flux-business-chats.md) |
+| Preset server operators | SimpleX Chat and Flux | since December 2024 | [Blog](https://simplex.chat/blog/20241210-simplex-network-v6-2-servers-by-flux-business-chats.html) |
 | Curated directory | 500+ public groups and channels, 30% active daily | October 2026 | [Directory](https://popopx.chat/directory.md) |
 | GitHub | 19,000+ stars, 1,400+ forks | October 2026 | [GitHub](https://github.com/simplex-chat/simplex-chat) |
 
@@ -23,10 +23,10 @@ Facts about SimpleX network and SimpleX Chat, each with the date it was stated a
 
 | Fact | Value | As of | Source |
 |---|---|---|---|
-| End-to-end encryption | double ratchet with post-quantum key exchange (sntrup761) on every ratchet step, on by default in direct conversations | since v5.7, April 2024 | [Blog](https://popopx.chat/blog/20240426-simplex-legally-binding-transparency-v5-7-better-user-experience.md) |
-| IP address protection | private message routing: 2-hop routing where the sender chooses the forwarding relay and the recipient chooses the destination relay, so neither side observes the other's IP address | since v5.8, June 2024 | [Blog](https://popopx.chat/blog/20240604-simplex-chat-v5.8-private-message-routing-chat-themes.md) |
-| Implementation security assessment | Trail of Bits | October 2022 | [Blog](https://popopx.chat/blog/20221108-simplex-chat-v4.2-security-audit-new-website.md), [Report](https://github.com/simplex-chat/simplex-chat/blob/stable/docs/SimpleX_Chat_Final_Report_11_03_2022.pdf) |
-| Cryptographic design review | Trail of Bits | July 2024 | [Blog](https://popopx.chat/blog/20241014-simplex-network-v6-1-security-review-better-calls-user-experience.md), [Report](https://github.com/simplex-chat/simplex-chat/blob/stable/docs/SimpleX_Design_Review_2024_Summary_Report_12_08_2024.pdf) |
+| End-to-end encryption | double ratchet with post-quantum key exchange (sntrup761) on every ratchet step, on by default in direct conversations | since v5.7, April 2024 | [Blog](https://simplex.chat/blog/20240426-simplex-legally-binding-transparency-v5-7-better-user-experience.html) |
+| IP address protection | private message routing: 2-hop routing where the sender chooses the forwarding relay and the recipient chooses the destination relay, so neither side observes the other's IP address | since v5.8, June 2024 | [Blog](https://simplex.chat/blog/20240604-simplex-chat-v5.8-private-message-routing-chat-themes.html) |
+| Implementation security assessment | Trail of Bits | October 2022 | [Blog](https://simplex.chat/blog/20221108-simplex-chat-v4.2-security-audit-new-website.html), [Report](https://github.com/simplex-chat/simplex-chat/blob/stable/docs/SimpleX_Chat_Final_Report_11_03_2022.pdf) |
+| Cryptographic design review | Trail of Bits | July 2024 | [Blog](https://simplex.chat/blog/20241014-simplex-network-v6-1-security-review-better-calls-user-experience.html), [Report](https://github.com/simplex-chat/simplex-chat/blob/stable/docs/SimpleX_Design_Review_2024_Summary_Report_12_08_2024.pdf) |
 | Licence | AGPL-3.0 | 2026 | [LICENSE](https://github.com/simplex-chat/simplex-chat/blob/stable/LICENSE) |
 
 ## Company and funding
@@ -34,17 +34,17 @@ Facts about SimpleX network and SimpleX Chat, each with the date it was stated a
 | Fact | Value | As of | Source |
 |---|---|---|---|
 | Founder | Evgeny Poberezkin, creator of the Ajv JSON Schema validator | 2026 | [Ajv](https://github.com/ajv-validator/ajv) |
-| Prior investors | Village Global and angel investors (pre-seed, closed in July 2022); Jack Dorsey and Asymmetric Capital Partners (closed in July 2023) | announced April 2023 and August 2024 | [Blog](https://popopx.chat/blog/20240814-simplex-chat-vision-funding-v6-private-routing-new-user-experience.md) |
+| Prior investors | Village Global and angel investors (pre-seed, closed in July 2022); Jack Dorsey and Asymmetric Capital Partners (closed in July 2023) | announced April 2023 and August 2024 | [Blog](https://simplex.chat/blog/20240814-simplex-chat-vision-funding-v6-private-routing-new-user-experience.html) |
 | Fundraising | none: no crowdfunding campaign, no investment offer, no token sale | November 2026 | [Community Credits](https://popopx.chat/credits.md) |
-| Governance | SimpleX Network Consortium: an agreement between the non-profit SimpleX Network Foundation and SimpleX Chat | 2026 | [Blog](https://popopx.chat/blog/20260430-simplex-channels-v6-5-consortium-crowdfunding-freedom-of-speech.md) |
+| Governance | SimpleX Network Consortium: an agreement between the non-profit SimpleX Network Foundation and SimpleX Chat | 2026 | [Blog](https://simplex.chat/blog/20260430-simplex-channels-v6-5-consortium-crowdfunding-freedom-of-speech.html) |
 | Business model | free private messaging; channels and businesses pay for public names, business messaging and servers for big channels | October 2026 | [Community Credits](https://popopx.chat/credits.md), [Answers](https://popopx.chat/llms/answers.md) |
 
 ## Public names
 
 | Fact | Value | As of | Source |
 |---|---|---|---|
-| Test names (.testing) | available since v7-beta | July 2026 | [Blog](https://popopx.chat/blog/20260722-simplex-public-names.md) |
+| Test names (.testing) | available since v7-beta | July 2026 | [Blog](https://simplex.chat/blog/20260722-simplex-public-names.html) |
 | .simplex names sale | starts 12 December 2026, 18:00 UTC | October 2026 | [simplex.domains](https://simplex.domains/) |
-| Registry | SimpleX Name Service, a fork of ENS on Ethereum, without off-chain indexer or metadata services | July 2026 | [Whitepaper](https://popopx.chat/docs/protocol/names-overview.md) |
+| Registry | SimpleX Name Service, a fork of ENS on Ethereum, without off-chain indexer or metadata services | July 2026 | [Whitepaper](https://github.com/simplex-chat/simplex-chat/blob/stable/docs/protocol/names-overview.md) |
 
 

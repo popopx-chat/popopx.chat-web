@@ -13,7 +13,7 @@ You own your contacts, groups and channels.
 
 [Download Desktop App](https://popopx.chat/downloads) [App Store](https://apps.apple.com/us/app/popopx-chat/id6799146157) [Google Play](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) [SimpleX uygulaması F-Droid'de](https://popopx.chat/tr/fdroid) [TestFlight](https://testflight.apple.com/join/DWuT2LQu)
 
-[Güvenlik Denetimleri](https://www.trailofbits.com/about) [2022](https://popopx.chat/blog/20221108-simplex-chat-v4.2-security-audit-new-website.html) [2024](https://popopx.chat/blog/20241014-simplex-network-v6-1-security-review-better-calls-user-experience.html)
+[Güvenlik Denetimleri](https://www.trailofbits.com/about) [2022](https://simplex.chat/blog/20221108-simplex-chat-v4.2-security-audit-new-website.html) [2024](https://simplex.chat/blog/20241014-simplex-network-v6-1-security-review-better-calls-user-experience.html)
 
 Security
 Audits

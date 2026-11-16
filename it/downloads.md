@@ -26,7 +26,7 @@ Beta: [TestFlight](https://testflight.apple.com/join/DWuT2LQu)
 
 **600K** Utenti mensili
 
-[Analisi della sicurezza](https://www.trailofbits.com/about) [2022](https://popopx.chat/blog/20221108-simplex-chat-v4.2-security-audit-new-website.html) [2024](https://popopx.chat/blog/20241014-simplex-network-v6-1-security-review-better-calls-user-experience.html)
+[Analisi della sicurezza](https://www.trailofbits.com/about) [2022](https://simplex.chat/blog/20221108-simplex-chat-v4.2-security-audit-new-website.html) [2024](https://simplex.chat/blog/20241014-simplex-network-v6-1-security-review-better-calls-user-experience.html)
 
 Analisi della
 sicurezza
@@ -51,7 +51,7 @@ Puoi collegare il telefono all'app desktop per usare lo stesso profilo, quando e
 - Ubuntu 22.04: [x86_64](https://github.com/popopx-chat/popopx-chat/releases/latest/download/popopx-chat-ubuntu-22_04-x86_64) · [aarch64](https://github.com/popopx-chat/popopx-chat/releases/latest/download/popopx-chat-ubuntu-22_04-aarch64)
 - Ubuntu 24.04: [x86_64](https://github.com/popopx-chat/popopx-chat/releases/latest/download/popopx-chat-ubuntu-24_04-x86_64) · [aarch64](https://github.com/popopx-chat/popopx-chat/releases/latest/download/popopx-chat-ubuntu-24_04-aarch64)
 
-App da riga di comando per server, bot e sviluppatori. [Utilizzo dell'app terminale](https://popopx.chat/docs/cli.html)
+App da riga di comando per server, bot e sviluppatori. [Utilizzo dell'app terminale](https://github.com/simplex-chat/simplex-chat/blob/stable/docs/CLI.md)
 
 ### Telefono
 

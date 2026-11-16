@@ -26,7 +26,7 @@ Béta: [TestFlight](https://testflight.apple.com/join/DWuT2LQu)
 
 **600K** Havi felhasználók
 
-[Biztonsági auditok](https://www.trailofbits.com/about) [2022](https://popopx.chat/blog/20221108-simplex-chat-v4.2-security-audit-new-website.html) [2024](https://popopx.chat/blog/20241014-simplex-network-v6-1-security-review-better-calls-user-experience.html)
+[Biztonsági auditok](https://www.trailofbits.com/about) [2022](https://simplex.chat/blog/20221108-simplex-chat-v4.2-security-audit-new-website.html) [2024](https://simplex.chat/blog/20241014-simplex-network-v6-1-security-review-better-calls-user-experience.html)
 
 Biztonsági
 auditok
@@ -51,7 +51,7 @@ Társíthatja a telefonját a számítógépes alkalmazással, hogy ugyanazt a p
 - Ubuntu 22.04: [x86_64](https://github.com/popopx-chat/popopx-chat/releases/latest/download/popopx-chat-ubuntu-22_04-x86_64) · [aarch64](https://github.com/popopx-chat/popopx-chat/releases/latest/download/popopx-chat-ubuntu-22_04-aarch64)
 - Ubuntu 24.04: [x86_64](https://github.com/popopx-chat/popopx-chat/releases/latest/download/popopx-chat-ubuntu-24_04-x86_64) · [aarch64](https://github.com/popopx-chat/popopx-chat/releases/latest/download/popopx-chat-ubuntu-24_04-aarch64)
 
-Parancssori alkalmazás fejlesztőknek, kiszolgálókhoz és botokhoz. [Alkalmazás használata terminálban](https://popopx.chat/docs/cli.html)
+Parancssori alkalmazás fejlesztőknek, kiszolgálókhoz és botokhoz. [Alkalmazás használata terminálban](https://github.com/simplex-chat/simplex-chat/blob/stable/docs/CLI.md)
 
 ### Telefon
 

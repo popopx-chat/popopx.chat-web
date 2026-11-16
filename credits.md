@@ -1,5 +1,7 @@
 # SimpleX Community Credits: Strategy & Vision
 
+> This page reproduces upstream **SimpleX Chat's** proposal for funding network servers with Community Credits. It is not a POPOPX program: POPOPX does not issue, sell or redeem Credits. The wording below is upstream's.
+
 <a href="javascript:void(0);" data-show-overlay="mint-simplex-nft" class="open-overlay-btn"><img src="/img/design_3/simplex_nft_smpx.jpg" width="200" class="float-to-right" style="border-radius: 10px;"></a>
 
 SimpleX is a private and secure messaging network without user IDs where you own your identity, contacts, groups, and content — there are no ads, no tracking, and no central authority. It relies on open protocols and open-source code, enabling anyone to audit the code and to create alternative apps and servers. No single entity can control it.
