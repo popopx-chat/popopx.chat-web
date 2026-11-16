@@ -8,7 +8,7 @@ Et ole vielä ladannut POPOPX Chat -sovellusta?
 
 Käytä alla olevia linkkejä ladataksesi sovelluksen.
 
-[App Store](https://apps.apple.com/us/app/popopx-chat/id6799146157) [Google Play](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) [SimpleX F-Droid Repository](https://popopx.chat/fi/fdroid) [Android APK](https://play.google.com/store/apps/details?id=com.popopxchat.popopx)
+[SimpleX F-Droid Repository](https://popopx.chat/fi/fdroid)
 
 Skannaa QR-koodi mobiilisovelluksesta
 
@@ -18,7 +18,7 @@ Yhteyden muodostaminen:
 
 Asenna POPOPX-sovellus
 
-[App Store](https://apps.apple.com/us/app/popopx-chat/id6799146157) [Google Play](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) [SimpleX F-Droid Repository](https://popopx.chat/fi/fdroid)
+[SimpleX F-Droid Repository](https://popopx.chat/fi/fdroid)
 
 1
 
@@ -61,4 +61,4 @@ Kutsumme sinut mukaan keskusteluun
 
 Hanki POPOPX [desktop app](https://popopx.chat/downloads)
 
-[POPOPX Chat on Google Play](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) [SimpleX F-Droid Repository](https://popopx.chat/fi/fdroid)
+[SimpleX F-Droid Repository](https://popopx.chat/fi/fdroid)

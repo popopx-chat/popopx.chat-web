@@ -8,7 +8,7 @@ Belum unduh POPOPX Chat?
 
 Gunakan tautan di bawah untuk unduh aplikasi.
 
-[App Store](https://apps.apple.com/us/app/popopx-chat/id6799146157) [Google Play](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) [SimpleX F-Droid Repository](https://popopx.chat/id/fdroid) [Android APK](https://play.google.com/store/apps/details?id=com.popopxchat.popopx)
+[SimpleX F-Droid Repository](https://popopx.chat/id/fdroid)
 
 Pindai kode QR dari aplikasi seluler
 
@@ -18,7 +18,7 @@ Untuk membuat koneksi:
 
 Instal aplikasi POPOPX
 
-[App Store](https://apps.apple.com/us/app/popopx-chat/id6799146157) [Google Play](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) [SimpleX F-Droid Repository](https://popopx.chat/id/fdroid)
+[SimpleX F-Droid Repository](https://popopx.chat/id/fdroid)
 
 1
 
@@ -61,4 +61,4 @@ Kami mengundang Anda untuk gabung ke percakapan
 
 Dapatkan [aplikasi desktop](https://popopx.chat/downloads) POPOPX
 
-[POPOPX Chat on Google Play](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) [SimpleX F-Droid Repository](https://popopx.chat/id/fdroid)
+[SimpleX F-Droid Repository](https://popopx.chat/id/fdroid)

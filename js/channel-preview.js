@@ -1418,12 +1418,12 @@ function renderInfoContent(container, data, channelLink, subscriberCount, showAp
   }
 }
 
-var BADGE_APPLE = '<a href="https://apps.apple.com/us/app/popopx-chat/id6799146157" target="_blank" rel="noopener"><img src="https://popopx.chat/img/new/apple_store.svg" alt="App Store"></a>';
-var BADGE_GOOGLE = '<a href="https://play.google.com/store/apps/details?id=com.popopxchat.popopx" target="_blank" rel="noopener"><img src="https://popopx.chat/img/new/google_play.svg" alt="Google Play"></a>';
 var BADGE_FDROID = '<a href="https://popopx.chat/fdroid" target="_blank" rel="noopener"><img src="https://popopx.chat/img/new/f_droid.svg" alt="F-Droid"></a>';
-var BADGE_APK = '<a href="https://play.google.com/store/apps/details?id=com.popopxchat.popopx" target="_blank" rel="noopener"><img src="https://popopx.chat/img/design_3/android-dark.png" alt="APK Download"></a>';
 
 function renderAppBadges(container) {
+  // Only F-Droid, until the App Store and Google Play records resolve (#129).
+  if (!isMobile.Android()) return;
+
   const title = document.createElement('p');
   title.className = 'simplex-preview-step-title';
   title.textContent = 'Install SimpleX Chat app';
@@ -1431,13 +1431,7 @@ function renderAppBadges(container) {
 
   const badges = document.createElement('div');
   badges.className = 'simplex-preview-badges';
-  if (isMobile.Android()) {
-    badges.innerHTML = BADGE_GOOGLE + BADGE_FDROID + BADGE_APK;
-  } else if (isMobile.iOS()) {
-    badges.innerHTML = BADGE_APPLE;
-  } else {
-    badges.innerHTML = BADGE_APPLE + BADGE_GOOGLE;
-  }
+  badges.innerHTML = BADGE_FDROID;
   container.appendChild(badges);
 }
 

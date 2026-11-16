@@ -8,7 +8,7 @@
 
 使用下面的链接下载应用程序。
 
-[App Store](https://apps.apple.com/us/app/popopx-chat/id6799146157) [Google Play](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) [SimpleX F-Droid Repository](https://popopx.chat/zh_Hans/fdroid) [Android APK](https://play.google.com/store/apps/details?id=com.popopxchat.popopx)
+[SimpleX F-Droid Repository](https://popopx.chat/zh_Hans/fdroid)
 
 从移动应用程序扫描二维码
 
@@ -18,7 +18,7 @@
 
 安装 POPOPX 应用程序
 
-[App Store](https://apps.apple.com/us/app/popopx-chat/id6799146157) [Google Play](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) [SimpleX F-Droid Repository](https://popopx.chat/zh_Hans/fdroid)
+[SimpleX F-Droid Repository](https://popopx.chat/zh_Hans/fdroid)
 
 1
 
@@ -60,4 +60,4 @@ curl -o- https://raw.githubusercontent.com/simplex-chat/simplex-chat/master/inst
 
 获取 POPOPX [desktop app](https://popopx.chat/downloads)
 
-[POPOPX Chat on Google Play](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) [SimpleX F-Droid Repository](https://popopx.chat/zh_Hans/fdroid)
+[SimpleX F-Droid Repository](https://popopx.chat/zh_Hans/fdroid)

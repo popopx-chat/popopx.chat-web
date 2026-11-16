@@ -8,7 +8,7 @@ POPOPX Chat'i henüz indirmediniz mi?
 
 Uygulamayı indirmek için aşağıdaki bağlantıları kullanın.
 
-[App Store](https://apps.apple.com/us/app/popopx-chat/id6799146157) [Google Play](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) [SimpleX F-Droid Repository](https://popopx.chat/tr/fdroid) [Android APK](https://play.google.com/store/apps/details?id=com.popopxchat.popopx)
+[SimpleX F-Droid Repository](https://popopx.chat/tr/fdroid)
 
 Mobil uygulamadan QR kodunu tarayın
 
@@ -18,7 +18,7 @@ Bağlantı başlatmak için:
 
 POPOPX uygulamasını yükleyin
 
-[App Store](https://apps.apple.com/us/app/popopx-chat/id6799146157) [Google Play](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) [SimpleX F-Droid Repository](https://popopx.chat/tr/fdroid)
+[SimpleX F-Droid Repository](https://popopx.chat/tr/fdroid)
 
 1
 
@@ -61,4 +61,4 @@ Sizi sohbete katılmaya davet ediyoruz
 
 POPOPX' [masaüstü uygulamasını](https://popopx.chat/downloads) indirin
 
-[POPOPX Chat on Google Play](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) [SimpleX F-Droid Repository](https://popopx.chat/tr/fdroid)
+[SimpleX F-Droid Repository](https://popopx.chat/tr/fdroid)

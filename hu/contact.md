@@ -8,7 +8,7 @@ Még nem töltötte le a POPOPX Chat alkalmazást?
 
 Az alkalmazás letöltéséhez használja az alábbi hivatkozások egyikét.
 
-[App Store](https://apps.apple.com/us/app/popopx-chat/id6799146157) [Google Play](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) [SimpleX F-Droid Repository](https://popopx.chat/hu/fdroid) [Android APK](https://play.google.com/store/apps/details?id=com.popopxchat.popopx)
+[SimpleX F-Droid Repository](https://popopx.chat/hu/fdroid)
 
 QR-kód beolvasása mobilalkalmazásból
 
@@ -18,7 +18,7 @@ A kapcsolat létrehozásához:
 
 Telepítse a POPOPX alkalmazást
 
-[App Store](https://apps.apple.com/us/app/popopx-chat/id6799146157) [Google Play](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) [SimpleX F-Droid Repository](https://popopx.chat/hu/fdroid)
+[SimpleX F-Droid Repository](https://popopx.chat/hu/fdroid)
 
 1
 
@@ -61,4 +61,4 @@ Csatlakozzon a beszélgetéseinkhez
 
 A POPOPX számítógépes alkalmazásának [letöltése](https://popopx.chat/downloads)
 
-[POPOPX Chat on Google Play](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) [SimpleX F-Droid Repository](https://popopx.chat/hu/fdroid)
+[SimpleX F-Droid Repository](https://popopx.chat/hu/fdroid)

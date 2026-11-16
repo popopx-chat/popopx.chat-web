@@ -8,7 +8,7 @@ Heb je de POPOPX Chat nog niet gedownload?
 
 Gebruik onderstaande links om de app te downloaden.
 
-[App Store](https://apps.apple.com/us/app/popopx-chat/id6799146157) [Google Play](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) [SimpleX F-Droid Repository](https://popopx.chat/nl/fdroid) [Android APK](https://play.google.com/store/apps/details?id=com.popopxchat.popopx)
+[SimpleX F-Droid Repository](https://popopx.chat/nl/fdroid)
 
 Scan de QR-code van de mobiele app
 
@@ -18,7 +18,7 @@ Om een verbinding te maken:
 
 Installeer de POPOPX app
 
-[App Store](https://apps.apple.com/us/app/popopx-chat/id6799146157) [Google Play](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) [SimpleX F-Droid Repository](https://popopx.chat/nl/fdroid)
+[SimpleX F-Droid Repository](https://popopx.chat/nl/fdroid)
 
 1
 
@@ -61,4 +61,4 @@ Wij nodigen u uit om deel te nemen aan de conversatie
 
 Verkrijg POPOPX [desktop app](https://popopx.chat/downloads)
 
-[POPOPX Chat on Google Play](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) [SimpleX F-Droid Repository](https://popopx.chat/nl/fdroid)
+[SimpleX F-Droid Repository](https://popopx.chat/nl/fdroid)

@@ -8,7 +8,7 @@
 
 از لینک‌های زیر برای دانلود برنامه استفاده کنید.
 
-[App Store](https://apps.apple.com/us/app/popopx-chat/id6799146157) [Google Play](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) [SimpleX F-Droid Repository](https://popopx.chat/fa/fdroid) [Android APK](https://play.google.com/store/apps/details?id=com.popopxchat.popopx)
+[SimpleX F-Droid Repository](https://popopx.chat/fa/fdroid)
 
 کد QR را از برنامه موبایل اسکن کنید
 
@@ -18,7 +18,7 @@
 
 برنامه POPOPX را نصب کنید
 
-[App Store](https://apps.apple.com/us/app/popopx-chat/id6799146157) [Google Play](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) [SimpleX F-Droid Repository](https://popopx.chat/fa/fdroid)
+[SimpleX F-Droid Repository](https://popopx.chat/fa/fdroid)
 
 1
 
@@ -61,4 +61,4 @@ curl -o- https://raw.githubusercontent.com/simplex-chat/simplex-chat/master/inst
 
 برنامه [دسکتاپ POPOPX](https://popopx.chat/downloads) را دریافت کنید
 
-[POPOPX Chat on Google Play](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) [SimpleX F-Droid Repository](https://popopx.chat/fa/fdroid)
+[SimpleX F-Droid Repository](https://popopx.chat/fa/fdroid)

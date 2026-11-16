@@ -8,7 +8,7 @@
 
 استخدم الروابط في الاسفل لتنزيل التطبيق.
 
-[App Store](https://apps.apple.com/us/app/popopx-chat/id6799146157) [Google Play](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) [SimpleX F-Droid Repository](https://popopx.chat/ar/fdroid) [Android APK](https://play.google.com/store/apps/details?id=com.popopxchat.popopx)
+[SimpleX F-Droid Repository](https://popopx.chat/ar/fdroid)
 
 امسح رمز QR من تطبيق الجوال
 
@@ -18,7 +18,7 @@
 
 قم بتثبيت تطبيق POPOPX
 
-[App Store](https://apps.apple.com/us/app/popopx-chat/id6799146157) [Google Play](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) [SimpleX F-Droid Repository](https://popopx.chat/ar/fdroid)
+[SimpleX F-Droid Repository](https://popopx.chat/ar/fdroid)
 
 1
 
@@ -61,4 +61,4 @@ curl -o- https://raw.githubusercontent.com/simplex-chat/simplex-chat/master/inst
 
 احصل على [تطبيق سطح المكتب](https://popopx.chat/downloads) POPOPX
 
-[POPOPX Chat on Google Play](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) [SimpleX F-Droid Repository](https://popopx.chat/ar/fdroid)
+[SimpleX F-Droid Repository](https://popopx.chat/ar/fdroid)

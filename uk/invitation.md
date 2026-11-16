@@ -8,7 +8,7 @@
 
 Скористайтеся посиланнями нижче, щоб завантажити додаток.
 
-[App Store](https://apps.apple.com/us/app/popopx-chat/id6799146157) [Google Play](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) [SimpleX F-Droid Repository](https://popopx.chat/uk/fdroid) [Android APK](https://play.google.com/store/apps/details?id=com.popopxchat.popopx)
+[SimpleX F-Droid Repository](https://popopx.chat/uk/fdroid)
 
 Сканувати QR-код з мобільного додатка
 
@@ -18,7 +18,7 @@
 
 Встановити додаток POPOPX
 
-[App Store](https://apps.apple.com/us/app/popopx-chat/id6799146157) [Google Play](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) [SimpleX F-Droid Repository](https://popopx.chat/uk/fdroid)
+[SimpleX F-Droid Repository](https://popopx.chat/uk/fdroid)
 
 1
 
@@ -61,4 +61,4 @@ curl -o- https://raw.githubusercontent.com/simplex-chat/simplex-chat/master/inst
 
 Отримати POPOPX [додаток для настільних комп'ютерів](https://popopx.chat/downloads)
 
-[POPOPX Chat on Google Play](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) [SimpleX F-Droid Repository](https://popopx.chat/uk/fdroid)
+[SimpleX F-Droid Repository](https://popopx.chat/uk/fdroid)

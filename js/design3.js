@@ -12,24 +12,16 @@ if (document.readyState === 'loading') {
 }
 
 function initializePage() {
-    const googlePlayBtn = document.querySelector('.google-play-btn');
-    const appleStoreBtn = document.querySelector('.apple-store-btn');
     const fDroidBtn = document.querySelector('.f-droid-btn');
     const desktopAppBtn = document.querySelector('.desktop-app-btn');
 
-    if (!googlePlayBtn || !appleStoreBtn || !fDroidBtn || !desktopAppBtn) return;
-
+    // No App Store or Google Play badge is rendered until each store record resolves (#129).
+    if (!fDroidBtn || !desktopAppBtn) return;
 
     if (isMobile.Android()) {
-        googlePlayBtn.classList.remove('hidden');
         fDroidBtn.classList.remove('hidden');
     }
-    else if (isMobile.iOS()) {
-        appleStoreBtn.classList.remove('hidden');
-    }
     else {
-        appleStoreBtn.classList.remove('hidden');
-        googlePlayBtn.classList.remove('hidden');
         desktopAppBtn.classList.remove('hidden');
         // fDroidBtn.classList.remove('hidden');
     }

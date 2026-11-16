@@ -11,7 +11,7 @@
 
 **600K**月間ユーザー
 
-[Download Desktop App](https://popopx.chat/downloads) [App Store](https://apps.apple.com/us/app/popopx-chat/id6799146157) [Google Play](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) [F-Droid経由のSimpleXアプリ](https://popopx.chat/ja/fdroid)
+[Download Desktop App](https://popopx.chat/downloads) [F-Droid経由のSimpleXアプリ](https://popopx.chat/ja/fdroid)
 
 [セキュリティ監査](https://www.trailofbits.com/about) [2022](https://simplex.chat/blog/20221108-simplex-chat-v4.2-security-audit-new-website.html) [2024](https://simplex.chat/blog/20241014-simplex-network-v6-1-security-review-better-calls-user-experience.html)
 

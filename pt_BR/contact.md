@@ -8,7 +8,7 @@ Ainda não baixou o POPOPX Chat?
 
 Use os links abaixo para baixar o aplicativo.
 
-[App Store](https://apps.apple.com/us/app/popopx-chat/id6799146157) [Google Play](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) [SimpleX F-Droid Repository](https://popopx.chat/pt_BR/fdroid) [Android APK](https://play.google.com/store/apps/details?id=com.popopxchat.popopx)
+[SimpleX F-Droid Repository](https://popopx.chat/pt_BR/fdroid)
 
 Escanear o QR code do aplicativo
 
@@ -18,7 +18,7 @@ Para estabelecer uma conexão:
 
 Instale o aplicativo POPOPX
 
-[App Store](https://apps.apple.com/us/app/popopx-chat/id6799146157) [Google Play](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) [SimpleX F-Droid Repository](https://popopx.chat/pt_BR/fdroid)
+[SimpleX F-Droid Repository](https://popopx.chat/pt_BR/fdroid)
 
 1
 
@@ -61,4 +61,4 @@ Convidamos você a participar da conversa
 
 Obtenha o POPOPX [aplicativo desktop](https://popopx.chat/downloads)
 
-[POPOPX Chat on Google Play](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) [SimpleX F-Droid Repository](https://popopx.chat/pt_BR/fdroid)
+[SimpleX F-Droid Repository](https://popopx.chat/pt_BR/fdroid)

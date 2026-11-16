@@ -12,13 +12,11 @@ x86_64 · [Ещё](https://popopx.chat/ru/downloads/#dl-all)
 
 AppImage x86_64 · [Flatpak](https://flathub.org/apps/chat.simplex.simplex) · [Ещё](https://popopx.chat/ru/downloads/#dl-all)
 
-[Download on the App Store](https://apps.apple.com/us/app/popopx-chat/id6799146157)
-
-[Get it on Google Play](https://play.google.com/store/apps/details?id=com.popopxchat.popopx)
-
-[F-Droid](https://popopx.chat/ru/fdroid) · APK [aarch64](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) · [armv7](https://play.google.com/store/apps/details?id=com.popopxchat.popopx)
+[F-Droid](https://popopx.chat/ru/fdroid)
 
 [Другие устройства](https://popopx.chat/ru/downloads/#dl-all)
+
+The iOS and Android apps are not published yet.
 
 **3M** Загрузок
 
@@ -53,9 +51,8 @@ AppImage x86_64 · [Flatpak](https://flathub.org/apps/chat.simplex.simplex) · [
 
 ### Телефон
 
-- iOS: [App Store](https://apps.apple.com/us/app/popopx-chat/id6799146157)
-- Android: [Google Play](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) · [F-Droid](https://popopx.chat/ru/fdroid)
-- Android APK: [aarch64](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) · [armv7](https://play.google.com/store/apps/details?id=com.popopxchat.popopx)
+- The iOS and Android apps are not published yet.
+- [Репозиторий F-Droid](https://popopx.chat/ru/fdroid)
 
 ## Для опытных пользователей
 

@@ -8,7 +8,7 @@ Ještě jste si nestáhli POPOPX Chat?
 
 Ke stažení aplikace použijte níže uvedené odkazy.
 
-[App Store](https://apps.apple.com/us/app/popopx-chat/id6799146157) [Google Play](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) [SimpleX F-Droid Repository](https://popopx.chat/cs/fdroid) [Android APK](https://play.google.com/store/apps/details?id=com.popopxchat.popopx)
+[SimpleX F-Droid Repository](https://popopx.chat/cs/fdroid)
 
 Naskenujte QR kód z mobilní aplikace
 
@@ -18,7 +18,7 @@ K vytvoření připojení:
 
 Instalace aplikace POPOPX
 
-[App Store](https://apps.apple.com/us/app/popopx-chat/id6799146157) [Google Play](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) [SimpleX F-Droid Repository](https://popopx.chat/cs/fdroid)
+[SimpleX F-Droid Repository](https://popopx.chat/cs/fdroid)
 
 1
 
@@ -60,4 +60,4 @@ Zveme vás k účasti na konverzaci
 
 Získat POPOPX [desktop app](https://popopx.chat/downloads)
 
-[POPOPX Chat on Google Play](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) [SimpleX F-Droid Repository](https://popopx.chat/cs/fdroid)
+[SimpleX F-Droid Repository](https://popopx.chat/cs/fdroid)

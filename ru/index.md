@@ -11,7 +11,7 @@
 
 **600K**Пользователей в месяц
 
-[Download Desktop App](https://popopx.chat/ru/downloads) [App Store](https://apps.apple.com/us/app/popopx-chat/id6799146157) [Google Play](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) [Загрузить через F-Droid](https://popopx.chat/ru/fdroid)
+[Download Desktop App](https://popopx.chat/downloads) [Загрузить через F-Droid](https://popopx.chat/ru/fdroid)
 
 [Аудиты безопасности](https://www.trailofbits.com/about) [2022](https://simplex.chat/blog/20221108-simplex-chat-v4.2-security-audit-new-website.html) [2024](https://simplex.chat/blog/20241014-simplex-network-v6-1-security-review-better-calls-user-experience.html)
 

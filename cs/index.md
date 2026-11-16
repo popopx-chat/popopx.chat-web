@@ -11,7 +11,7 @@ Vaše kontakty, skupiny a kanály patří vám.
 
 **600K**Uživatelů měsíčně
 
-[Download Desktop App](https://popopx.chat/downloads) [App Store](https://apps.apple.com/us/app/popopx-chat/id6799146157) [Google Play](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) [Stáhnout aplikaci SimpleX přes F-Droid](https://popopx.chat/cs/fdroid)
+[Download Desktop App](https://popopx.chat/downloads) [Stáhnout aplikaci SimpleX přes F-Droid](https://popopx.chat/cs/fdroid)
 
 [Bezpečnostní audity](https://www.trailofbits.com/about) [2022](https://simplex.chat/blog/20221108-simplex-chat-v4.2-security-audit-new-website.html) [2024](https://simplex.chat/blog/20241014-simplex-network-v6-1-security-review-better-calls-user-experience.html)
 

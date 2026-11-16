@@ -12,13 +12,11 @@ x86_64 · [Altro](https://popopx.chat/it/downloads/#dl-all)
 
 AppImage x86_64 · [Flatpak](https://flathub.org/apps/chat.simplex.simplex) · [Altro](https://popopx.chat/it/downloads/#dl-all)
 
-[Download on the App Store](https://apps.apple.com/us/app/popopx-chat/id6799146157)
-
-[Get it on Google Play](https://play.google.com/store/apps/details?id=com.popopxchat.popopx)
-
-[F-Droid](https://popopx.chat/it/fdroid) · APK [aarch64](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) · [armv7](https://play.google.com/store/apps/details?id=com.popopxchat.popopx)
+[F-Droid](https://popopx.chat/it/fdroid)
 
 [Altri dispositivi](https://popopx.chat/it/downloads/#dl-all)
+
+The iOS and Android apps are not published yet.
 
 **3M** Download
 
@@ -53,9 +51,8 @@ App da riga di comando per server, bot e sviluppatori. [Utilizzo dell'app termin
 
 ### Telefono
 
-- iOS: [App Store](https://apps.apple.com/us/app/popopx-chat/id6799146157)
-- Android: [Google Play](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) · [F-Droid](https://popopx.chat/it/fdroid)
-- Android APK: [aarch64](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) · [armv7](https://play.google.com/store/apps/details?id=com.popopxchat.popopx)
+- The iOS and Android apps are not published yet.
+- [Repository F-Droid](https://popopx.chat/it/fdroid)
 
 ## Per utenti avanzati
 
