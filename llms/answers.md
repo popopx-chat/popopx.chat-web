@@ -54,7 +54,7 @@ Yes. The apps are free, and the code is open source under AGPL-3.0: [github.com/
 
 ## How will SimpleX Chat make money?
 
-Private messaging stays free. Channels and businesses will pay for public names, business messaging and servers for big channels. Users have already donated over $650,000. Details: [Wefunder memo](https://popopx.chat/wefunder.md).
+Private messaging stays free. Channels and businesses will pay for public names, business messaging and servers for big channels. There is no token sale and no crowdfunding campaign. Details: [Community Credits](https://popopx.chat/credits.md).
 
 ## What are SimpleX public names?
 
@@ -63,10 +63,6 @@ Optional, human-readable names for channels and businesses, such as `#example` o
 ## How can AI agents and developers use SimpleX?
 
 An agent connects to the network like a person: it holds its own keys and addresses, and no platform account is needed. See [SimpleX for AI agents and developers](https://popopx.chat/llms/agents.md).
-
-## How can I invest in SimpleX Chat?
-
-SimpleX Chat runs an equity crowdfunding offering on Wefunder: [wefunder.com/simplex.chat](https://wefunder.com/simplex.chat). The memo is reproduced at [simplex.chat/wefunder.md](https://popopx.chat/wefunder.md). Investing involves a high degree of risk, including the possible loss of your investment.
 
 ## How do I contact the SimpleX team?
 

@@ -7,8 +7,6 @@
 A única rede de mensagens sem nenhum identificador de usuário.
 Seus contatos, grupos e canais pertencem a você.
 
-Seja dono de uma parte dela. [Invista no SimpleX Chat.](https://wefunder.com/simplex.chat?utm_source=home)
-
 **3M**Downloads
 
 **600K**Usuários mensais
@@ -39,10 +37,6 @@ Nenhuma entidade controla a rede – qualquer pessoa pode operar servidores.
 ## Financiado Pelos Seus Usuários
 
 Para manter a independência, grandes canais e comunidades pagarão pelos seus servidores.
-
-E os usuários agora podem investir no SimpleX Chat — o crowdfunding está ativo!
-
-[Investir no SimpleX Chat](https://wefunder.com/simplex.chat?utm_source=home)
 
 ## Roteiro do SimpleX para uma Internet Livre
 

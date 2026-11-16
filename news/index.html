@@ -64,7 +64,6 @@
 <link rel="alternate" type="text/markdown" href="/news.md"/>
 <link rel="describedby" href="/llms.txt"/>
 <link rel="simplex" href="https://smp18.simplex.im/c#grcfG3ulVI4Sh6ow33qBsmSk7uEy3gRSl2KkJ5ER6tA" title="SimpleX Network News"/>
-<link rel="simplex" href="https://smp10.simplex.im/c#q09nMBmWFGz1m2TvgfZFaEOG5D2a7Ma9mSkl6pHXEsg" title="SimpleX Crowdfunding News"/>
 <link rel="simplex" href="https://smp4.simplex.im/g#hr4lvFeBmndWMKTwqiodPz3VBo_6UmdGWocXd1SupsM" title="SimpleX users group"/>
 <link rel="simplex" href="https://smp6.simplex.im/a#lrdvu2d8A1GumSmoKb2krQmtKhWXq-tyGpHuM7aMwsw" title="Ask SimpleX Team"/>
 
@@ -295,11 +294,6 @@
     </nav>
 
     <div class="right-links">
-        
-            <a class="box-btn token md:hidden" href="https://wefunder.com/simplex.chat?utm_source=website" target="_blank" rel="noopener">
-                Invest
-            </a>
-        
         <button href="#" class="theme-switch-btn">
             <svg class="sun" width="469" height="469" viewBox="0 0 469 469" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M225.768 1.44594C220.301 3.84594 214.701 10.6459 213.768 15.9793C213.234 18.3793 213.101 31.7126 213.368 45.7126L213.768 71.1793L217.634 76.1126C226.701 88.1126 242.968 87.5793 252.301 75.0459C254.968 71.5793 255.101 69.5793 255.101 42.2459C255.101 14.9126 254.968 12.9126 252.301 9.44594C250.834 7.44594 248.034 4.51261 246.168 3.17928C241.768 -0.154057 231.101 -1.08739 225.768 1.44594Z"/>
@@ -376,23 +370,9 @@
         });
     }
 
-    function withUtm(href) {
-        var url = new URL(href, location.href);
-        KEYS.forEach(function (name) {
-            if (utm[name]) url.searchParams.set(name, utm[name]);
-        });
-        return url.toString();
-    }
-
     function apply() {
         fill('SOURCE', utm.utm_source);
         fill('CAMPAIGN', utm.utm_campaign);
-
-        if (/^\/blog(\/|$)/.test(location.pathname)) return;
-
-        document.querySelectorAll('a[href^="https://wefunder.com/"]').forEach(function (link) {
-            link.href = withUtm(link.getAttribute('href'));
-        });
     }
 
     if (document.readyState === 'loading') {
@@ -543,12 +523,6 @@ window.addEventListener('click',(e)=>{
 
                 <div class="flex flex-col items-center lg:items-start lg:flex-row gap-[150px] lg:gap-[350px]">
                     <div class="flex flex-col items-center lg:items-start">
-                        <a href="https://wefunder.com/simplex.chat?utm_source=website"
-                            target="_blank" rel="noopener"
-                            class="text-grey-black dark:text-white text-[14px] font-medium leading-[28px] tracking-[0.01em] mb-3 flex items-center gap-1">
-                            Invest in SimpleX Chat
-                            <svg class="float-right" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg>
-                        </a>
                         <a href="/about/"
                             class="text-grey-black dark:text-white text-[14px] font-medium leading-[28px] tracking-[0.01em] mb-3 flex items-center gap-1">
                             About & Contact us

@@ -1,4 +1,4 @@
-# SimpleX Crowdfunding to Build Community Credits: Strategy & Vision
+# SimpleX Community Credits: Strategy & Vision
 
 <a href="javascript:void(0);" data-show-overlay="mint-simplex-nft" class="open-overlay-btn"><img src="/img/design_3/simplex_nft_smpx.jpg" width="200" class="float-to-right" style="border-radius: 10px;"></a>
 
@@ -10,9 +10,9 @@ Take money from advertisers and you become a surveillance company. Take money fr
 
 These credits are not tradable tokens or speculative assets — there will be no pre-sale or emission. It's a method to pay directly for the network infrastructure while maintaining privacy.
 
-## Crowdfunding to Build Community Credits
+## Not an investment
 
-Building Community Credits requires more capital than we have. So we will raise capital in the same way we designed the network: decentralized, community-funded, with no single point of capture. If you use SimpleX, you can own part of what you already help build. The crowdfunding is now live — you can [invest in SimpleX Chat](https://popopx.chat/crowdfunding/), and join [SimpleX Crowdfunding News](https://popopx.chat/crowdfunding-news/) for updates.
+Community Credits are not a way to invest. There is no crowdfunding campaign, no investor tier and no pitch deck: buying Credits pays for the server capacity of the groups and channels you choose, and gives you no stake in any company. The network stays independent by being paid for, not by being owned.
 
 ## Why Community Credits?
 

@@ -7,8 +7,6 @@
 Jediná síť pro zasílání zpráv bez jakýchkoli uživatelských identifikátorů.
 Vaše kontakty, skupiny a kanály patří vám.
 
-Vlastněte její část. [Investujte do SimpleX Chat.](https://wefunder.com/simplex.chat?utm_source=home)
-
 **3M**Stažení
 
 **600K**Uživatelů měsíčně
@@ -39,10 +37,6 @@ Síť nekontroluje žádný subjekt – servery může provozovat kdokoli.
 ## Financováno uživateli
 
 Pro zachování nezávislosti budou velké kanály a komunity platit za své servery.
-
-A uživatelé nyní mohou investovat do SimpleX Chat — crowdfunding je spuštěn!
-
-[Investovat do SimpleX Chat](https://wefunder.com/simplex.chat?utm_source=home)
 
 ## Plán SimpleX ke svobodnému internetu
 

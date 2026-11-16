@@ -7,8 +7,6 @@
 Jedyna sieć komunikacyjna bez żadnych identyfikatorów użytkowników.
 Twoje kontakty, grupy i kanały należą do Ciebie.
 
-Miej w niej udział. [Zainwestuj w SimpleX Chat.](https://wefunder.com/simplex.chat?utm_source=home)
-
 **3M**Pobrań
 
 **600K**Użytkowników miesięcznie
@@ -39,10 +37,6 @@ Każdy kontakt i grupa znajduje się na Twoim urządzeniu, a nie w bazie danych 
 ## Finansowane Przez Użytkowników
 
 Aby zachować niezależność, duże kanały i społeczności będą opłacać swoje serwery.
-
-A użytkownicy mogą teraz inwestować w SimpleX Chat — crowdfunding wystartował!
-
-[Zainwestuj w SimpleX Chat](https://wefunder.com/simplex.chat?utm_source=home)
 
 ## Plan Działania SimpleX dla Wolnego Internetu
 

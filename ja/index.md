@@ -7,8 +7,6 @@
 ユーザー識別子を一切持たない唯一のメッセージングネットワーク。
 連絡先、グループ、チャンネルはあなたのものです。
 
-その一部を所有しよう。 [SimpleX Chatに投資しよう。](https://wefunder.com/simplex.chat?utm_source=home)
-
 **3M**ダウンロード
 
 **600K**月間ユーザー
@@ -39,10 +37,6 @@
 ## ユーザーの資金で運営
 
 独立性を維持するため、大規模なチャンネルやコミュニティはサーバー費用を負担します。
-
-ユーザーはSimpleX Chatに投資できるようになりました — クラウドファンディングが始まりました！
-
-[SimpleX Chatに投資する](https://wefunder.com/simplex.chat?utm_source=home)
 
 ## 自由なインターネットを目指す SimpleX ロードマップ
 

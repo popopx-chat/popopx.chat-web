@@ -7,8 +7,6 @@
 The only messaging network without any user identifiers.
 You own your contacts, groups and channels.
 
-Own a part of it. [Invest in SimpleX Chat.](https://wefunder.com/simplex.chat?utm_source=home)
-
 **3M**Downloads
 
 **600K**Monthly users
@@ -39,10 +37,6 @@ No single entity controls the network – anyone can run servers.
 ## 由用戶資助
 
 為保持獨立性，大型頻道和社群將為其伺服器付費。
-
-用戶現在可以投資 SimpleX Chat — 眾籌已上線！
-
-[投資 SimpleX Chat](https://wefunder.com/simplex.chat?utm_source=home)
 
 ## SimpleX Roadmap to Free Internet
 

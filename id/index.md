@@ -7,8 +7,6 @@
 Satu-satunya jaringan pesan tanpa pengenal pengguna apa pun.
 Anda pemilik kontak, grup, dan kanal Anda.
 
-Miliki sebagian darinya. [Berinvestasilah di SimpleX Chat.](https://wefunder.com/simplex.chat?utm_source=home)
-
 **3M**Unduhan
 
 **600K**Pengguna bulanan
@@ -39,10 +37,6 @@ Tidak ada satu entitas pun yang mengendalikan jaringan – siapa saja bisa menja
 ## Didanai oleh Penggunanya
 
 Untuk tetap independen, kanal dan komunitas besar akan membayar server mereka.
-
-Dan pengguna sekarang bisa berinvestasi di SimpleX Chat — crowdfunding kini aktif!
-
-[Investasi di SimpleX Chat](https://wefunder.com/simplex.chat?utm_source=home)
 
 ## SimpleX Roadmap Menuju Internet Bebas
 

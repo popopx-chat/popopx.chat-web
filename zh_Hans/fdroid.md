@@ -1,27 +1,21 @@
-# SimpleX Chat - Get the app via F-Droid
+# POPOPX is not on F-Droid
 
-## 通过 F-Droid 下载 SimpleX
+## No F-Droid repository, no APK from us
 
-### SimpleX 存储库
+POPOPX Chat is not available on F-Droid.
 
-开发人员构建的稳定版和测试版
+We publish no F-Droid repository of our own and we publish no Android APK. There is no repository URL and no signing fingerprint for POPOPX to add, so any F-Droid entry, repository address or APK that claims to be POPOPX is not ours.
 
-要将其添加到您的 F-Droid 客户端，请扫描二维码或使用以下 URL：
+## The F-Droid repository at app.simplex.chat belongs to SimpleX Chat
 
-[`https://app.simplex.chat/fdroid/repo`](https://app.simplex.chat/fdroid/repo?fingerprint=9F358FF284D1F71656A2BFAF0E005DEAE6AA14143720E089F11FF2DDCFEB01BA)
+The address app.simplex.chat/fdroid/repo is the F-Droid repository of [SimpleX Chat](https://simplex.chat/), the upstream project POPOPX is derived from. That repository, its APK builds and its signing key are operated by SimpleX Chat, not by POPOPX.
 
-签名密钥指纹 (SHA-256):
+Adding it to F-Droid installs SimpleX Chat. It will not install POPOPX Chat, and the two apps are separate applications that are not interchangeable.
 
-> 9F 35 8F F2 84 D1 F7 16 56 A2 BF AF 0E 00 5D EA E6 AA 14 14 37 20 E0 89 F1 1F F2 DD CF EB 01 BA
+## How to get POPOPX
 
-Or download the APK directly: [aarch64](https://play.google.com/store/apps/details?id=com.popopxchat.popopx), [armv7](https://play.google.com/store/apps/details?id=com.popopxchat.popopx)
+Install POPOPX Chat from the [downloads page](https://popopx.chat/downloads) — it lists only the builds we actually publish and support.
 
-### F-Droid.org 存储库
+If POPOPX is missing from the platform you use, [tell us](https://popopx.chat/contact); we would rather say so than point you at a build we do not control.
 
-[SimpleX F-Droid Repository](https://f-droid.org/en/packages/com.popopxchat.popopx/)
-
-由 F-Droid.org 构建的稳定版本
-
-此存储库的版本将延迟数天发布.
-
-POPOPX Chat 和 F-Droid.org 存储库使用不同的密钥对构建进行签名。 如需切换，请[导出](https://popopx.chat/docs/guide/chat-profiles.html#move-your-chat-profiles-to-another-device)聊天数据库并重新安装应用。
+More about F-Droid itself, the free and open source Android app store, at [f-droid.org](https://f-droid.org/).

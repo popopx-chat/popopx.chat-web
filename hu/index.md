@@ -7,8 +7,6 @@
 Az egyetlen üzenetváltó hálózat felhasználói azonosítók nélkül.
 A saját partnerei, csoportjai és csatornái felett csak Ön rendelkezik.
 
-Legyen résztulajdonos. [Fektessen be a SimpleX Chatbe.](https://wefunder.com/simplex.chat?utm_source=home)
-
 **3M**Letöltések
 
 **600K**Havi felhasználók
@@ -39,10 +37,6 @@ Egyetlen szervezet sem irányítja a hálózatot – bárki üzemeltethet kiszol
 ## A felhasználók finanszírozzák
 
 A függetlenség megőrzéséhez a nagy csatornák és közösségek fizetni fognak a kiszolgálóikért.
-
-És a felhasználók mostantól befektethetnek a SimpleX Chatbe — a közösségi finanszírozás elindult!
-
-[Fektessen be a SimpleX Chatbe](https://wefunder.com/simplex.chat?utm_source=home)
 
 ## A SimpleX ütemterve a szabad internethez
 

@@ -20,7 +20,6 @@ Key milestones, with links to the announcements. All posts: [SimpleX blog](https
 | January 2025 | [Large groups and privacy-preserving content moderation](https://popopx.chat/blog/20250114-simplex-network-large-groups-privacy-preserving-content-moderation.md) |
 | April 2026 | [SimpleX Channels and SimpleX Network Consortium](https://popopx.chat/blog/20260430-simplex-channels-v6-5-consortium-crowdfunding-freedom-of-speech.md) |
 | July 2026 | [SimpleX public names in test](https://popopx.chat/blog/20260722-simplex-public-names.md) |
-| August 2026 | [Equity crowdfunding launched on Wefunder](https://popopx.chat/blog/20260819-simplex-chat-crowdfunding.md) |
 | September 2026 | [Supporter badges](https://popopx.chat/blog/20260919-simplex-supporter-badges.md) |
 | 12 December 2026 | `.simplex` names sale starts ([simplex.domains](https://simplex.domains/)) |
 | June 2027 | Planned: Community Credits for sustainable communities and servers ([roadmap](https://popopx.chat/index.md)) |
