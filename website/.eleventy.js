@@ -66,7 +66,9 @@ function replaceLink(link, _env) {
     linkFile = linkFile.replace('/website/src', '')
     if (fs.existsSync(linkFile)) {
       // this condition works if the link is a valid project file
-      const githubUrl = "https://github.com/simplex-chat/simplex-chat/blob/stable"
+      // Resolved against this repo, so the blob URL is ours - upstream's would
+      // publish our docs' file links under another project's name.
+      const githubUrl = "https://github.com/popopx-chat/popopx.chat-web/blob/main"
       const repoRoot = hostFile.slice(0, hostFile.indexOf('/website/src'))
       const repoPath = linkFile.slice(repoRoot.length)
       return `${githubUrl}${repoPath}`
@@ -350,6 +352,17 @@ module.exports = function (ty) {
     }
   })
 
+  // Canonical page URL without the extension Eleventy normalises away, so a
+  // permalink of /security/index.html and one of /docs/server.html compare alike.
+  // Translated docs (/docs/lang/cs/server.html) collapse onto their English page,
+  // because the notice is about the document, not about its language copy.
+  ty.addFilter("pageSlug", (url) =>
+    url.replace("/index.html", "/")
+      .replace(/^\/docs\/lang\/[a-z-]+(?=\/)/, "/docs")
+      .replace(/\.html$/, "")
+      .replace(/\/$/, "")
+      .toLowerCase())
+
   ty.addFilter("markdownUrl", (url) => markdownPages.markdownUrl(url, supportedLangs))
 
   ty.addFilter("markdownAlternate", (page) =>
@@ -462,6 +475,7 @@ module.exports = function (ty) {
   ty.addPassthroughCopy({ "src/link-images": "links/images" })
   ty.addPassthroughCopy("src/blog/images")
   ty.addPassthroughCopy("src/docs/*.png")
+  ty.addPassthroughCopy("src/docs/*.pdf")
   ty.addPassthroughCopy("src/docs/images")
   ty.addPassthroughCopy("src/docs/guide/images")
   ty.addPassthroughCopy("src/docs/guide/diagrams")

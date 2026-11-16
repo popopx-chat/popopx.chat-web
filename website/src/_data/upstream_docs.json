@@ -1,0 +1,5 @@
+{
+  "prefix": "/docs/",
+  "slugs": ["/about", "/jobs", "/donate", "/security", "/faq", "/reproduce", "/transparency"],
+  "ours": ["/docs/trademark-popopx"]
+}

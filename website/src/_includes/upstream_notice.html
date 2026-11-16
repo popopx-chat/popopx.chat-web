@@ -1,0 +1,15 @@
+{% set upstreamSlug = page.url | pageSlug %}
+{% set upstreamPage = upstream_docs.prefix in upstreamSlug or upstreamSlug in upstream_docs.slugs %}
+{% if upstreamPage and not (upstreamSlug in upstream_docs.ours) %}
+<div class="px-4 lg:px-7 !py-2">
+    <div class="bg-[#FFF3D6] dark:bg-[#3A2E0B] px-4 lg:px-7 py-5 rounded-md text-[15px] leading-[24px]">
+        <strong>Upstream document.</strong>
+        This page is the text published by
+        <a class="!no-underline !text-primary-pressed-light" href="https://simplex.chat" target="_blank" rel="noopener">SimpleX Chat Ltd</a>,
+        the company that develops SimpleX Chat and operates the services this page describes.
+        POPOPX distributes a fork of that project: we did not write this page, and we do not operate what it describes.
+        POPOPX's own statements are at
+        <a class="!no-underline !text-primary-pressed-light" href="/privacy/">/privacy/</a>.
+    </div>
+</div>
+{% endif %}
