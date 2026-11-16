@@ -41,6 +41,7 @@ All documentation pages in Markdown. The same pages in HTML are at the same addr
 - [POPOPX Trademark Policy](https://popopx.chat/docs/trademark-popopx.md)
 - [SimpleX Chat Trademark Policy](https://popopx.chat/docs/trademark.md)
 - [Contributing SimpleX app translations](https://popopx.chat/docs/translations.md)
+- [Upstream documents - POPOPX Chat](https://popopx.chat/docs/upstream-disclaimer.md)
 - [Using custom WebRTC ICE servers](https://popopx.chat/docs/webrtc.md)
 - [Why we are building SimpleX Network](https://popopx.chat/docs/why.md)
 - [Hosting your own XFTP Server](https://popopx.chat/docs/xftp-server.md)
