@@ -81,12 +81,15 @@ Measured against upstream `simplex-chat@f8776692d` (local clone, 2026-11-10):
 
 ## Naming to apply while editing
 
-- The iOS product is named **POPOPX** (ruling 2026-11-16), store record
-  `https://apps.apple.com/us/app/popopx-chat/id6799146157` - that URL is the one already used by this fork.
-  The record's live title could not be read from this network: the request is redirected to
-  `https://apps.apple.com/cn/iphone/today`, which also means the app is not yet publicly reachable here.
-- Android applicationId `com.popopxchat.popopx`; we publish no APK and run no F-Droid repository, so a
-  link to either would be a link to upstream's build.
+- The iOS product is named **POPOPX** (ruling 2026-11-16). Its App Store record
+  `https://apps.apple.com/us/app/popopx-chat/id6799146157` does not resolve: `itunes.apple.com/lookup`
+  answers `resultCount: 0` for us/cn/jp and the web page 404s. **Ruling (i) of 2026-11-16: no App Store,
+  Google Play or APK badge or link is rendered by this site until each record resolves** - the number
+  stays here as the record, and must not go back into a template until `lookup` returns a row.
+- Android applicationId `com.popopxchat.popopx`; its Play listing 404s, we publish no APK and run no
+  F-Droid repository, so a link to any of the three would be a link to upstream's build. The one
+  store-shaped link still rendered is **F-Droid**, kept only because it opens our own `/fdroid/` page,
+  whose title is "POPOPX is not on F-Droid" - whether a badge may say that is an open question (#129).
 - The fork and app are POPOPX / POPOPX Chat; "SimpleX Messaging Protocol", "SMP" and the relay hosts
   SimpleX Chat Ltd operates keep their own names.
 - Connection links open the app through the `popopx:` scheme (`popopxchat:` and the inherited

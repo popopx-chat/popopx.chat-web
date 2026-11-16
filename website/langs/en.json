@@ -343,6 +343,7 @@
     "downloads-other-devices": "Other devices",
     "downloads-all-h2": "All downloads",
     "downloads-phone": "Phone",
+    "downloads-mobile-status": "The iOS and Android apps are not published yet.",
     "downloads-desktop": "Desktop",
     "downloads-terminal": "Terminal",
     "downloads-terminal-desc": "Command-line app for servers, bots and developers.",

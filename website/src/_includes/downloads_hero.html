@@ -22,7 +22,6 @@
             <div class="dl-shot dl-shot-phone">
                 <img src="/img/4_chat.png" alt="POPOPX Chat on iPhone" width="400" height="809">
             </div>
-            <a class="dl-badge" href="https://apps.apple.com/us/app/popopx-chat/id6799146157" target="_blank" rel="noopener"><img src="/img/new/apple_store.svg" alt="Download on the App Store"></a>
         </div>
 
         <div class="dl-device" data-device="android">
@@ -30,11 +29,11 @@
                 <img class="dark:hidden" src="/img/downloads/android-light.webp" alt="POPOPX Chat on Android" width="440" height="965">
                 <img class="hidden dark:block" src="/img/downloads/android-dark.webp" alt="POPOPX Chat on Android" width="440" height="965">
             </div>
-            <a class="dl-badge" href="https://play.google.com/store/apps/details?id=com.popopxchat.popopx" target="_blank" rel="noopener"><img src="/img/new/google_play.svg" alt="Get it on Google Play"></a>
-            <p class="dl-alt"><a href="{{ '' if lang == 'en' else '/' ~ lang }}/fdroid">F-Droid</a> · APK <a href="https://play.google.com/store/apps/details?id=com.popopxchat.popopx">aarch64</a> · <a href="https://play.google.com/store/apps/details?id=com.popopxchat.popopx">armv7</a></p>
+            <p class="dl-alt"><a href="{{ '' if lang == 'en' else '/' ~ lang }}/fdroid">F-Droid</a></p>
         </div>
     </div>
     <p class="dl-wrap dl-other"><a href="#dl-all">{{ "downloads-other-devices" | i18n({}, lang) }}</a></p>
+    <p class="dl-wrap dl-alt">{{ "downloads-mobile-status" | i18n({}, lang) }}</p>
 
     <div class="dl-wrap dl-proof">
         <div class="dl-stat"><b>3M</b> <span>{{ "index-hero-downloads" | i18n({}, lang) }}</span></div>
