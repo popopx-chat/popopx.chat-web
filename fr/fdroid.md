@@ -1,0 +1,27 @@
+# SimpleX Chat - Get the app via F-Droid
+
+## POPOPX Chat via F-Droid
+
+### Dépot POPOPX Chat
+
+Versions stables et bêta crées par les développeurs
+
+Pour l’ajouter à votre client F-Droid, scannez le code QR ou utilisez cette URL :
+
+[`https://app.simplex.chat/fdroid/repo`](https://app.simplex.chat/fdroid/repo?fingerprint=9F358FF284D1F71656A2BFAF0E005DEAE6AA14143720E089F11FF2DDCFEB01BA)
+
+Empreinte de signature numérique (SHA-256):
+
+> 9F 35 8F F2 84 D1 F7 16 56 A2 BF AF 0E 00 5D EA E6 AA 14 14 37 20 E0 89 F1 1F F2 DD CF EB 01 BA
+
+Or download the APK directly: [aarch64](https://play.google.com/store/apps/details?id=com.popopxchat.popopx), [armv7](https://play.google.com/store/apps/details?id=com.popopxchat.popopx)
+
+### Dépot F-Droid.org
+
+[SimpleX F-Droid Repository](https://f-droid.org/en/packages/com.popopxchat.popopx/)
+
+Versions stables créées par F-Droid.org
+
+Les mises à jour de ce dépôt sont faites quelques jours plus tard.
+
+Les dépôts POPOPX Chat et F-Droid.org signent les versions avec des clés différentes. Pour passer de l’un à l’autre, veuillez [exporter](https://popopx.chat/docs/guide/chat-profiles.html#move-your-chat-profiles-to-another-device) la base de données des chats et réinstaller l’application.

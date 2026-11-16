@@ -1,0 +1,75 @@
+[Lancement des domaines SimpleX](https://simplex.domains/)
+
+# Soyez Libre
+
+## Dans Votre Réseau
+
+Le seul réseau de messagerie sans aucun identifiant d'utilisateur.
+Vos contacts, groupes et canaux vous appartiennent.
+
+Possédez-en une part. [Investissez dans SimpleX Chat.](https://wefunder.com/simplex.chat?utm_source=home)
+
+**3M**Téléchargements
+
+**600K**Utilisateurs mensuels
+
+[Download Desktop App](https://popopx.chat/downloads) [App Store](https://apps.apple.com/us/app/popopx-chat/id6799146157) [Google Play](https://play.google.com/store/apps/details?id=com.popopxchat.popopx) [Application SimpleX via F-Droid](https://popopx.chat/fr/fdroid) [TestFlight](https://testflight.apple.com/join/DWuT2LQu)
+
+[Audits de sécurité](https://www.trailofbits.com/about) [2022](https://popopx.chat/blog/20221108-simplex-chat-v4.2-security-audit-new-website.html) [2024](https://popopx.chat/blog/20241014-simplex-network-v6-1-security-review-better-calls-user-experience.html)
+
+Audit de
+sécurité
+
+## Personne ne voit avec qui vous parlez
+
+Même pas les serveurs – tous les messages ressemblent à du bruit aléatoire.
+
+Des dizaines de millions de messages envoyés en privé chaque jour.
+
+[En savoir plus sur la messagerie SimpleX](https://popopx.chat/fr/messaging)
+
+## Le réseau vous appartient
+
+Chaque contact et chaque groupe reste sur votre appareil, et non sur un serveur.
+
+Aucune entité ne contrôle le réseau – n'importe qui peut héberger des serveurs.
+
+[Pourquoi nous le construisons](https://popopx.chat/fr/why)
+
+## Financé par ses utilisateurs
+
+Pour rester indépendants, les grands canaux et les communautés paieront leurs propres serveurs.
+
+Et les utilisateurs peuvent désormais investir dans SimpleX Chat — le financement participatif est lancé !
+
+[Investir dans SimpleX Chat](https://wefunder.com/simplex.chat?utm_source=home)
+
+## Feuille de route de SimpleX vers un Internet libre
+
+2026
+
+: Mise à l'échelle pour les grandes communautés
+
+Quitter les plateformes centralisées
+
+Juin 2027
+
+: Communautés et serveurs durables
+
+Lancement des Crédits Communautaires
+
+Déc 2027
+
+: Faites grandir vos communautés
+
+Outils pour promouvoir vos communautés
+
+[Groupe d'utilisateurs SimpleX](https://smp4.simplex.im/g#hr4lvFeBmndWMKTwqiodPz3VBo_6UmdGWocXd1SupsM)
+
+## Rejoindre les communautés SimpleX
+
+Plus de 3 millions de personnes ont téléchargé les applications SimpleX.
+
+Trouvez vos chaînes et communautés dans l'annuaire et créez-en les vôtres !
+
+[Afficher l’annuaire SimpleX](https://popopx.chat/directory)
