@@ -511,6 +511,19 @@ html:not(.dark) section.cover div.content p.invest a {
     font-weight: 600;
 }
 
+/* The homepage's only route to /fdroid/ since the store badge was removed (#129). Sized off the
+   hero's own fluid unit, one step below the lead paragraph, because `section.cover div.content p`
+   outranks any Tailwind utility here. */
+section.cover div.content p.cover-note {
+    font-size: calc(var(--sec-vwu) * 1.55);
+    margin-top: calc(var(--sec-vwu) * 0.7);
+}
+
+section.cover div.content p.cover-note a {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
 html:not(.dark) section.cover div.content .gradient-text {
     background: linear-gradient(90deg,
             #ffb55d 0%,
@@ -1167,6 +1180,12 @@ main .section-bg {
         font-weight: 400;
         font-size: calc(var(--sec-vwu) * 4.1);
         max-width: none;
+    }
+
+    /* Same 72% ratio as the desktop note; equal specificity, later source, so this one wins here. */
+    section.cover div.content p.cover-note {
+        font-size: calc(var(--sec-vwu) * 2.9);
+        margin-top: calc(var(--sec-vwu) * 1.2);
     }
 
     section.cover div.content p.invest {

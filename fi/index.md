@@ -7,6 +7,8 @@
 The only messaging network without any user identifiers.
 You own your contacts, groups and channels.
 
+[Not on F-Droid — why](https://popopx.chat/fi/fdroid)
+
 **3M**Downloads
 
 **600K**Monthly users

@@ -7,6 +7,8 @@
 La única red de mensajería sin ningún identificador de usuario.
 Tus contactos, grupos y canales te pertenecen.
 
+[Not on F-Droid — why](https://popopx.chat/es/fdroid)
+
 **3M**Descargas
 
 **600K**Usuarios mensuales

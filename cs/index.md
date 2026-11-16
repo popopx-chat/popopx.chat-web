@@ -7,6 +7,8 @@
 Jediná síť pro zasílání zpráv bez jakýchkoli uživatelských identifikátorů.
 Vaše kontakty, skupiny a kanály patří vám.
 
+[Not on F-Droid — why](https://popopx.chat/cs/fdroid)
+
 **3M**Stažení
 
 **600K**Uživatelů měsíčně

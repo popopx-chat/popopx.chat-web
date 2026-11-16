@@ -7,6 +7,8 @@
 Az egyetlen üzenetváltó hálózat felhasználói azonosítók nélkül.
 A saját partnerei, csoportjai és csatornái felett csak Ön rendelkezik.
 
+[Not on F-Droid — why](https://popopx.chat/hu/fdroid)
+
 **3M**Letöltések
 
 **600K**Havi felhasználók

@@ -7,6 +7,8 @@
 Jedyna sieć komunikacyjna bez żadnych identyfikatorów użytkowników.
 Twoje kontakty, grupy i kanały należą do Ciebie.
 
+[Not on F-Droid — why](https://popopx.chat/pl/fdroid)
+
 **3M**Pobrań
 
 **600K**Użytkowników miesięcznie

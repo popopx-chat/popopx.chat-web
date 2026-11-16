@@ -7,6 +7,8 @@
 唯一一个 没有任何用户标识符的网络。
 你拥有你的联系人、群和频道。
 
+[Not on F-Droid — why](https://popopx.chat/zh_Hans/fdroid)
+
 **3M**下载量
 
 **600K**月活跃用户

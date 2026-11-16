@@ -7,6 +7,8 @@
 Satu-satunya jaringan pesan tanpa pengenal pengguna apa pun.
 Anda pemilik kontak, grup, dan kanal Anda.
 
+[Not on F-Droid — why](https://popopx.chat/id/fdroid)
+
 **3M**Unduhan
 
 **600K**Pengguna bulanan
