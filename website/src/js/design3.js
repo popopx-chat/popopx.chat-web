@@ -15,10 +15,9 @@ function initializePage() {
     const googlePlayBtn = document.querySelector('.google-play-btn');
     const appleStoreBtn = document.querySelector('.apple-store-btn');
     const fDroidBtn = document.querySelector('.f-droid-btn');
-    const testflightBtn = document.querySelector('.testflight-btn');
     const desktopAppBtn = document.querySelector('.desktop-app-btn');
 
-    if (!googlePlayBtn || !appleStoreBtn || !fDroidBtn || !testflightBtn || !desktopAppBtn) return;
+    if (!googlePlayBtn || !appleStoreBtn || !fDroidBtn || !desktopAppBtn) return;
 
 
     if (isMobile.Android()) {
@@ -27,14 +26,12 @@ function initializePage() {
     }
     else if (isMobile.iOS()) {
         appleStoreBtn.classList.remove('hidden');
-        testflightBtn.classList.remove('hidden');
     }
     else {
         appleStoreBtn.classList.remove('hidden');
         googlePlayBtn.classList.remove('hidden');
         desktopAppBtn.classList.remove('hidden');
         // fDroidBtn.classList.remove('hidden');
-        // testflightBtn.classList.remove('hidden');
     }
 
     showPromotedGroups();

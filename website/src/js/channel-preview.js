@@ -1137,21 +1137,19 @@ function tailSvg() {
   return '<svg width="9" height="16" viewBox="0 0 9 16" xmlns="http://www.w3.org/2000/svg"><path d="M9 0 L9 16 L0 16 Q9 11 9 0 Z" fill="currentColor"/></svg>';
 }
 
-var _logoId = 0;
-var _svgParser = new DOMParser();
-
-function appendSimplexLogo(el) {
-  var n = _logoId++;
-  var darkSvg = '<svg class="simplex-logo-dark-bg" viewBox="0 0 34 35" fill="none" xmlns="http://www.w3.org/2000/svg">'
-    + '<path fill-rule="evenodd" clip-rule="evenodd" d="M3.03 8.61l5.592 5.592 5.748-5.747 2.797 2.796-5.749 5.747 5.593 5.593-2.874 2.874-5.593-5.593-5.748 5.748L0 22.823l5.748-5.748L.155 11.483l2.874-2.874z" fill="white"/>'
-    + '<path fill-rule="evenodd" clip-rule="evenodd" d="M14.092 25.516l2.852-2.852-.001-.001 5.704-5.702-5.595-5.594h.001l-2.798-2.797L8.66 2.975l2.852-2.851 5.594 5.594L22.81.016l2.797 2.797-5.704 5.703 5.596 5.594 5.704-5.703 2.797 2.797-5.704 5.703 5.596 5.595-2.852 2.851-5.595-5.594-5.704 5.703 5.596 5.594-2.852 2.852-5.595-5.595-5.703 5.703-2.798-2.797 5.704-5.703z" fill="url(#sp-lg-d' + n + ')"/>'
-    + '<defs><linearGradient id="sp-lg-d' + n + '" x1="12.838" y1="-0.678" x2="9.544" y2="31.449" gradientUnits="userSpaceOnUse"><stop stop-color="#01F1FF"/><stop offset="1" stop-color="#0197FF"/></linearGradient></defs></svg>';
-  var lightSvg = '<svg class="simplex-logo-light-bg" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">'
-    + '<path fill-rule="evenodd" clip-rule="evenodd" d="M3.03 8.594l5.592 5.592 5.748-5.748 2.797 2.797-5.749 5.747 5.593 5.593-2.874 2.874-5.593-5.593-5.748 5.748L0 22.807l5.748-5.748L.156 11.468l2.874-2.874z" fill="#023789"/>'
-    + '<path fill-rule="evenodd" clip-rule="evenodd" d="M14.092 25.5l2.851-2.851-.001-.001 5.704-5.702-5.595-5.594h.001l-2.798-2.797L8.66 2.96l2.851-2.852 5.595 5.595L22.81 0l2.797 2.797-5.704 5.703 5.596 5.594 5.704-5.703 2.797 2.797-5.704 5.703 5.596 5.595-2.852 2.851-5.595-5.594-5.704 5.703 5.596 5.595-2.852 2.851-5.595-5.594L5.386 34l-2.797-2.797 5.703-5.703z" fill="url(#sp-lg-l' + n + ')"/>'
-    + '<defs><linearGradient id="sp-lg-l' + n + '" x1="12.838" y1="-0.694" x2="9.543" y2="31.434" gradientUnits="userSpaceOnUse"><stop stop-color="#01F1FF"/><stop offset="1" stop-color="#0197FF"/></linearGradient></defs></svg>';
-  el.appendChild(document.importNode(_svgParser.parseFromString(darkSvg, 'image/svg+xml').documentElement, true));
-  el.appendChild(document.importNode(_svgParser.parseFromString(lightSvg, 'image/svg+xml').documentElement, true));
+// The mark used to be inlined here as path data, in upstream's geometry and its
+// #01F1FF->#0197FF gradient - ASSETS_LICENSE does not cover it, so it points at the
+// file the rest of the site already serves.
+function appendLogo(el) {
+  for (const variant of ['dark', 'light']) {
+    const img = document.createElement('img');
+    img.className = 'simplex-logo-' + variant + '-bg';
+    img.src = 'https://popopx.chat/img/new/logo-symbol-' + variant + '.svg';
+    img.width = 34;
+    img.height = 34;
+    img.alt = '';
+    el.appendChild(img);
+  }
 }
 
 const FILE_ICON_SVG = `<svg class="simplex-preview-file-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14,2 14,8 20,8"/></svg>`;
@@ -1337,7 +1335,7 @@ function renderHeader(channel, channelLink, subscriberCount) {
     const btn = document.createElement('a');
     btn.className = 'simplex-preview-join-btn';
     btn.textContent = 'Join';
-    appendSimplexLogo(btn);
+    appendLogo(btn);
     btn.href = channelLink;
     header.appendChild(btn);
   }
@@ -1381,8 +1379,8 @@ function renderInfoContent(container, data, channelLink, subscriberCount, showAp
       openBtn.style.display = 'flex';
       openBtn.style.width = 'fit-content';
       openBtn.style.margin = '32px auto 0';
-      openBtn.textContent = 'Join in SimpleX Chat';
-      appendSimplexLogo(openBtn);
+      openBtn.textContent = 'Join in POPOPX Chat';
+      appendLogo(openBtn);
       openBtn.href = channelLink;
       container.appendChild(openBtn);
     }
@@ -1417,7 +1415,6 @@ var BADGE_APPLE = '<a href="https://apps.apple.com/us/app/popopx-chat/id67991461
 var BADGE_GOOGLE = '<a href="https://play.google.com/store/apps/details?id=com.popopxchat.popopx" target="_blank" rel="noopener"><img src="https://popopx.chat/img/new/google_play.svg" alt="Google Play"></a>';
 var BADGE_FDROID = '<a href="https://popopx.chat/fdroid" target="_blank" rel="noopener"><img src="https://popopx.chat/img/new/f_droid.svg" alt="F-Droid"></a>';
 var BADGE_APK = '<a href="https://play.google.com/store/apps/details?id=com.popopxchat.popopx" target="_blank" rel="noopener"><img src="https://popopx.chat/img/design_3/android-dark.png" alt="APK Download"></a>';
-var BADGE_TESTFLIGHT = '<a href="https://testflight.apple.com/join/DWuT2LQu" target="_blank" rel="noopener"><img src="https://popopx.chat/img/design_3/testflight-dark.png" alt="TestFlight"></a>';
 
 function renderAppBadges(container) {
   const title = document.createElement('p');
@@ -1430,7 +1427,7 @@ function renderAppBadges(container) {
   if (isMobile.Android()) {
     badges.innerHTML = BADGE_GOOGLE + BADGE_FDROID + BADGE_APK;
   } else if (isMobile.iOS()) {
-    badges.innerHTML = BADGE_APPLE + BADGE_TESTFLIGHT;
+    badges.innerHTML = BADGE_APPLE;
   } else {
     badges.innerHTML = BADGE_APPLE + BADGE_GOOGLE;
   }
@@ -1536,8 +1533,8 @@ function renderMobileConversion(container, channelLink, showAppBadges) {
 
   const openBtn = document.createElement('a');
   openBtn.className = 'simplex-preview-open-btn';
-  openBtn.textContent = 'Join in SimpleX Chat';
-  appendSimplexLogo(openBtn);
+  openBtn.textContent = 'Join in POPOPX Chat';
+  appendLogo(openBtn);
   openBtn.href = channelLink;
   container.appendChild(openBtn);
 }
