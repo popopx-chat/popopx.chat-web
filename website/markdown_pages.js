@@ -14,7 +14,6 @@ const htmlPages = new Set([
   "invitation",
   "file",
   "crowdfunding",
-  "crowdfunding-news",
   "news",
   "blog",
   "links",

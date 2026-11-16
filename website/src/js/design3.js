@@ -124,7 +124,7 @@ Whitepaper: https://github.com/simplex-chat/simplexmq/blob/stable/protocol/overv
 Bots API: https://github.com/simplex-chat/simplex-chat/tree/stable/bots
 TypeScript library: https://github.com/simplex-chat/simplex-chat/tree/stable/packages/simplex-chat-client/typescript
 Terminal CLI: https://github.com/simplex-chat/simplex-chat/blob/stable/docs/CLI.md
-Hosting SMP servers: https://popopx.chat/docs/server.html
+Hosting SMP servers (SimpleX Chat docs, not POPOPX): https://simplex.chat/docs/server.html
 
 Downloads
 ---------
@@ -133,9 +133,8 @@ Servers: https://github.com/simplex-chat/simplexmq/releases
 
 Project
 -------
-About & Contact us: https://popopx.chat/about
-Privacy policy: https://popopx.chat/privacy
-Join team: https://popopx.chat/jobs
+About POPOPX: https://popopx.chat/why
+Contact us: https://popopx.chat/contact
 Donations: https://github.com/simplex-chat/simplex-chat#please-support-us-with-your-donations
 `
         );
