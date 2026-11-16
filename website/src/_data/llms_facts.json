@@ -8,7 +8,7 @@
           "fact": "User identifiers on the network",
           "value": "None – no phone numbers, usernames, account IDs or random user IDs",
           "asOf": "2026",
-          "sources": [{ "title": "How SimpleX works", "url": "https://popopx.chat/docs/simplex.md" }]
+          "sources": [{ "title": "How SimpleX works", "url": "https://github.com/simplex-chat/simplex-chat/blob/stable/docs/SIMPLEX.md" }]
         },
         {
           "fact": "Monthly active users",
@@ -37,7 +37,7 @@
           "fact": "Preset server operators",
           "value": "SimpleX Chat and Flux",
           "asOf": "since December 2024",
-          "sources": [{ "title": "Blog", "url": "https://popopx.chat/blog/20241210-simplex-network-v6-2-servers-by-flux-business-chats.md" }]
+          "sources": [{ "title": "Blog", "url": "https://simplex.chat/blog/20241210-simplex-network-v6-2-servers-by-flux-business-chats.html" }]
         },
         {
           "fact": "Curated directory",
@@ -64,20 +64,20 @@
           "fact": "End-to-end encryption",
           "value": "double ratchet with post-quantum key exchange (sntrup761) on every ratchet step, on by default in direct conversations",
           "asOf": "since v5.7, April 2024",
-          "sources": [{ "title": "Blog", "url": "https://popopx.chat/blog/20240426-simplex-legally-binding-transparency-v5-7-better-user-experience.md" }]
+          "sources": [{ "title": "Blog", "url": "https://simplex.chat/blog/20240426-simplex-legally-binding-transparency-v5-7-better-user-experience.html" }]
         },
         {
           "fact": "IP address protection",
           "value": "private message routing: 2-hop routing where the sender chooses the forwarding relay and the recipient chooses the destination relay, so neither side observes the other's IP address",
           "asOf": "since v5.8, June 2024",
-          "sources": [{ "title": "Blog", "url": "https://popopx.chat/blog/20240604-simplex-chat-v5.8-private-message-routing-chat-themes.md" }]
+          "sources": [{ "title": "Blog", "url": "https://simplex.chat/blog/20240604-simplex-chat-v5.8-private-message-routing-chat-themes.html" }]
         },
         {
           "fact": "Implementation security assessment",
           "value": "Trail of Bits",
           "asOf": "October 2022",
           "sources": [
-            { "title": "Blog", "url": "https://popopx.chat/blog/20221108-simplex-chat-v4.2-security-audit-new-website.md" },
+            { "title": "Blog", "url": "https://simplex.chat/blog/20221108-simplex-chat-v4.2-security-audit-new-website.html" },
             { "title": "Report", "url": "https://github.com/simplex-chat/simplex-chat/blob/stable/docs/SimpleX_Chat_Final_Report_11_03_2022.pdf" }
           ]
         },
@@ -86,7 +86,7 @@
           "value": "Trail of Bits",
           "asOf": "July 2024",
           "sources": [
-            { "title": "Blog", "url": "https://popopx.chat/blog/20241014-simplex-network-v6-1-security-review-better-calls-user-experience.md" },
+            { "title": "Blog", "url": "https://simplex.chat/blog/20241014-simplex-network-v6-1-security-review-better-calls-user-experience.html" },
             { "title": "Report", "url": "https://github.com/simplex-chat/simplex-chat/blob/stable/docs/SimpleX_Design_Review_2024_Summary_Report_12_08_2024.pdf" }
           ]
         },
@@ -111,7 +111,7 @@
           "fact": "Prior investors",
           "value": "Village Global and angel investors (pre-seed, closed in July 2022); Jack Dorsey and Asymmetric Capital Partners (closed in July 2023)",
           "asOf": "announced April 2023 and August 2024",
-          "sources": [{ "title": "Blog", "url": "https://popopx.chat/blog/20240814-simplex-chat-vision-funding-v6-private-routing-new-user-experience.md" }]
+          "sources": [{ "title": "Blog", "url": "https://simplex.chat/blog/20240814-simplex-chat-vision-funding-v6-private-routing-new-user-experience.html" }]
         },
         {
           "fact": "Fundraising",
@@ -123,7 +123,7 @@
           "fact": "Governance",
           "value": "SimpleX Network Consortium: an agreement between the non-profit SimpleX Network Foundation and SimpleX Chat",
           "asOf": "2026",
-          "sources": [{ "title": "Blog", "url": "https://popopx.chat/blog/20260430-simplex-channels-v6-5-consortium-crowdfunding-freedom-of-speech.md" }]
+          "sources": [{ "title": "Blog", "url": "https://simplex.chat/blog/20260430-simplex-channels-v6-5-consortium-crowdfunding-freedom-of-speech.html" }]
         },
         {
           "fact": "Business model",
@@ -143,7 +143,7 @@
           "fact": "Test names (.testing)",
           "value": "available since v7-beta",
           "asOf": "July 2026",
-          "sources": [{ "title": "Blog", "url": "https://popopx.chat/blog/20260722-simplex-public-names.md" }]
+          "sources": [{ "title": "Blog", "url": "https://simplex.chat/blog/20260722-simplex-public-names.html" }]
         },
         {
           "fact": ".simplex names sale",
@@ -155,7 +155,7 @@
           "fact": "Registry",
           "value": "SimpleX Name Service, a fork of ENS on Ethereum, without off-chain indexer or metadata services",
           "asOf": "July 2026",
-          "sources": [{ "title": "Whitepaper", "url": "https://popopx.chat/docs/protocol/names-overview.md" }]
+          "sources": [{ "title": "Whitepaper", "url": "https://github.com/simplex-chat/simplex-chat/blob/stable/docs/protocol/names-overview.md" }]
         }
       ]
     }

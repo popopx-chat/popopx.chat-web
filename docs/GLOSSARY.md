@@ -1,3 +1,7 @@
+---
+title: "Glossary - POPOPX Chat"
+---
+
 # Glossary
 
 Terms used across this site, as they apply to private messaging. A tooltip shows the first paragraph of the matching entry; "Read more" opens the rest of it.
