@@ -223,13 +223,19 @@ Two ways the built site reaches the host; they are not alternatives, use either 
    It must verify the HMAC before acting, then pull the commit and swap the document root:
 
    ```sh
-   # /usr/local/bin/popopx-deploy  (nginx document root -> /srv/popopx.chat)
-   git -C /srv/popopx.chat-web fetch --quiet origin gh-pages
-   git -C /srv/popopx.chat-web reset --hard --quiet origin/gh-pages
-   rsync -a --delete /srv/popopx.chat-web/ /srv/popopx.chat/
+   # /usr/local/bin/popopx-deploy  (nginx document root -> /var/www/popopx.chat-web)
+   git -C /var/www/popopx.chat-src fetch --quiet origin gh-pages
+   git -C /var/www/popopx.chat-src reset --hard --quiet origin/gh-pages
+   rsync -a --delete --exclude=.git/ --exclude=.well-known/acme-challenge/ \
+       /var/www/popopx.chat-src/ /var/www/popopx.chat-web/
    ```
 
-   Serve `/srv/popopx.chat` with the `.well-known` content-type rule in
+   `--delete` is not cosmetic: the docroot accumulated pages this build no longer emits
+   (`/crowdfunding/`, `/blog/`, `/news/`, `/livestream/`, `/wefunder/`), and without it
+   they stay published next to the new ones. Run the same command with `-n -i --delete`
+   first and read the deletion list before you drop `-n`.
+
+   Serve `/var/www/popopx.chat-web` with the `.well-known` content-type rule in
    `website/src/.well-known/README.md`; without `default_type application/json` for
    `apple-app-site-association`, iOS rejects the response and no link opens in the app.
 
@@ -240,19 +246,50 @@ webhook only if the host should learn about a push before Actions finishes.
 
 ## Deploying on CentOS (the popopx.chat host)
 
+Measured on the host (2026-11-16): the nginx document root is **`/var/www/popopx.chat-web`**
+and there is no `/srv` directory. The gh-pages checkout that the units below pull is a
+*separate* directory (`/var/www/popopx.chat-src`) so that the docroot never holds a `.git`.
+
 The host answers `server: nginx/1.14.1` and `x-powered-by: PHP/7.2.24`, which is the
 EPEL/Remi combination of **CentOS 7 / RHEL 7**. That matters for one decision: **do not
 build the site on the server.** EL7 is past its maintenance window and has no Node 20
 package, while this build needs Node >= 20 (Eleventy 1.x + Tailwind 3.3). Build in GitHub
 Actions (or on a workstation) and ship only the static `_site`.
 
+### Option A - push the build from a workstation (nothing on the server has to reach GitHub)
+
+This is the shortest path and the one to use for the first deploy: build locally, ship the
+static tree over ssh. `website/_site` is the whole site; nginx needs no restart for it.
+
+```sh
+bash build.sh
+rsync -an -i --delete --exclude=.well-known/acme-challenge/ website/_site/ root@<host>:/var/www/popopx.chat-web/
+#   ^ dry run: read the deletion list. It should name the upstream-era pages
+#     (crowdfunding/, blog/, news/, livestream/, wefunder/, old docs/*) and nothing else.
+rsync -a  --delete --exclude=.well-known/acme-challenge/ website/_site/ root@<host>:/var/www/popopx.chat-web/
+```
+
+Keep `--exclude=.well-known/acme-challenge/` in every variant: that is where Certbot puts
+its HTTP-01 tokens, and `--delete` without it revokes your ability to renew.
+
+Then verify from outside (a `200` for a page you deleted means the old tree is still being
+served - something else writes into that docroot):
+
+```sh
+for p in / /downloads/ /crowdfunding/ /blog/; do
+  printf '%-16s %s\n' "$p" "$(curl -sS -o /dev/null -w '%{http_code}' https://popopx.chat$p)"
+done
+```
+
+### Option B - the server pulls `gh-pages` (timer or webhook)
+
 One-time setup, as root:
 
 ```sh
 yum install -y nginx rsync git policycoreutils-python python3        # EPEL already present
 useradd -r -s /sbin/nologin -G nginx webdeploy
-mkdir -p /opt/popopx /srv/popopx.chat /srv/popopx.chat-src /etc/popopx /var/log
-git clone --depth 1 -b gh-pages https://github.com/popopx-chat/popopx.chat-web.git /srv/popopx.chat-src
+mkdir -p /opt/popopx /var/www/popopx.chat-web /var/www/popopx.chat-src /etc/popopx /var/log
+git clone --depth 1 -b gh-pages https://github.com/popopx-chat/popopx.chat-web.git /var/www/popopx.chat-src
 install -m 0644 deploy/nginx/popopx.chat.conf /etc/nginx/conf.d/
 install -m 0755 deploy/receiver.py /opt/popopx/deploy/receiver.py   # mkdir -p /opt/popopx/deploy first
 install -m 0644 deploy/systemd/*.service deploy/systemd/*.timer /etc/systemd/system/
@@ -260,17 +297,20 @@ umask 077; head -c 32 /dev/urandom | openssl base64 > /etc/popopx/deploy_secret
 chown root:webdeploy /etc/popopx/deploy_secret && chmod 640 /etc/popopx/deploy_secret
 echo 'webdeploy ALL=(root) NOPASSWD: /usr/bin/systemctl start popopx-sync.service' > /etc/sudoers.d/popopx-deploy
 visudo -cf /etc/sudoers.d/popopx-deploy
-printf '# deployed from %s\n' "$(cat /srv/popopx.chat-src/.git/HEAD)" >/dev/null   # sanity
-rsync -a --delete /srv/popopx.chat-src/ /srv/popopx.chat/
+printf '# deployed from %s\n' "$(cat /var/www/popopx.chat-src/.git/HEAD)" >/dev/null   # sanity
+rsync -an -i --delete --exclude=.git/ --exclude=.well-known/acme-challenge/ \
+    /var/www/popopx.chat-src/ /var/www/popopx.chat-web/              # READ the list, then:
+rsync -a  --delete --exclude=.git/ --exclude=.well-known/acme-challenge/ \
+    /var/www/popopx.chat-src/ /var/www/popopx.chat-web/
 ```
 
-SELinux is what actually breaks a first deploy on CentOS: a document root outside
-`/var/www` is not readable by nginx until it is labelled, and the symptom is a `403`
-that looks like a permissions bug.
+`/var/www` is the standard labelled location, so SELinux is unlikely to bite here; it bites
+when the docroot is moved somewhere else. The symptom is a `403` that looks like a
+permissions bug, and the fix is:
 
 ```sh
-semanage fcontext -a -t httpd_sys_content_t "/srv/popopx\.chat(/.*)?"
-restorecon -RFv /srv/popopx.chat
+semanage fcontext -a -t httpd_sys_content_t "/var/www/popopx\.chat-web(/.*)?"
+restorecon -RFv /var/www/popopx.chat-web
 setsebool -P httpd_can_network_connect 1        # nginx -> 127.0.0.1:8099 proxy
 getenforce                                       # Enforcing
 ```
@@ -292,6 +332,41 @@ the `default_type` block was not reloaded. The same two probes must also be made
 `applinks:popopx.chat` *and* `applinks:www.popopx.chat` while Android's `autoVerify`
 claims only `popopx.chat` - so the AASA is needed on both hosts and `assetlinks.json`
 only on the bare one.
+
+### Current live state (measured 2026-11-16, with the command that measures each)
+
+`bash build.sh` prints the tree it produced (currently `OK: 237 html pages, 834 files`),
+and the deploy workflow publishes exactly that, so the `gh-pages` branch tracks the build -
+re-measure it rather than trusting a stored number:
+
+```sh
+git ls-tree -r --name-only origin/gh-pages | wc -l
+git ls-tree -r --name-only origin/gh-pages | grep -cE '^(crowdfunding|blog|news|livestream|wefunder)/'
+```
+
+Measured 2026-11-16: 838 files at the last publish (the 4-file difference is the orphan CSS
+this build no longer emits) and **0** of `crowdfunding/ blog/ news/ livestream/ wefunder/`.
+So the branch is right.
+
+What `popopx.chat` serves is only partly that branch:
+
+| Probe (`curl -sSI`) | Live | Expected |
+|---|---|---|
+| `/.well-known/assetlinks.json` | 200, 399 B, `content-type: application/json`, contains `com.popopxchat.popopx` (and not `chat.simplex.app`) | ours - correct |
+| `/.well-known/apple-app-site-association` | 200, 778 B, `content-type: application/json` | ours - correct |
+| `/` | 200, 77346 B, `<title>POPOPX Chat: private and secure messenger…` | correct |
+| `/crowdfunding/` | **200**, 85010 B, `<title>Invest in SimpleX Chat` | **410** - gone from the build |
+| `/blog/`, `/news/`, `/livestream/`, `/wefunder/` | **200** | **410** |
+| `/docs/glossary.html` | 200, 55676 B, **empty** title | 200, 71447 B, `Glossary - POPOPX Chat` |
+| `/api/`, `/api/health`, `/.git/config`, `/receiver.py` | 404 | correct (no badge backend deployed) |
+
+The docroot therefore holds an **older published tree alongside** our files, and `--delete`
+is what removes it. Do it deliberately: run the sync with `-n -i --delete`, check that the
+listed removals are exactly those upstream-era paths, then run it for real. If something on
+the host republishes the old tree (a cron or an older service writing into
+`/var/www/popopx.chat-web`), find it before you delete, or the pages come back -
+`last-modified` on the live `/crowdfunding/` was *after* our 2026-11-16 deploys, which is
+how this was spotted.
 
 ### Updating after a push
 

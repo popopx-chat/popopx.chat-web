@@ -1,5 +1,8 @@
 # One-shot: republish the site from the gh-pages branch. Triggered by the
 # receiver below, or on a timer if you prefer polling to webhooks.
+# Paths are this host's layout (docroot /var/www/popopx.chat-web, no /srv); edit both
+# if yours differs. The docroot must never hold a .git, hence the separate checkout
+# and the --exclude=.git.
 [Unit]
 Description=POPOPX site sync
 After=network-online.target
@@ -8,8 +11,8 @@ After=network-online.target
 Type=oneshot
 User=webdeploy
 Group=webdeploy
-WorkingDirectory=/srv/popopx.chat-src
+WorkingDirectory=/var/www/popopx.chat-src
 ExecStart=/usr/bin/git fetch --quiet origin gh-pages
 ExecStart=/usr/bin/git reset --hard --quiet origin/gh-pages
-ExecStart=/usr/bin/rsync -a --delete --exclude=.well-known/acme-challenge /srv/popopx.chat-src/ /srv/popopx.chat/
-ExecStart=/usr/sbin/restorecon -RFq /srv/popopx.chat
+ExecStart=/usr/bin/rsync -a --delete --exclude=.git/ --exclude=.well-known/acme-challenge/ /var/www/popopx.chat-src/ /var/www/popopx.chat-web/
+ExecStart=/usr/sbin/restorecon -RFq /var/www/popopx.chat-web

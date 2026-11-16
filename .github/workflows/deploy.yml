@@ -107,4 +107,4 @@ jobs:
           URL: ${{ secrets.DEPLOY_WEBHOOK_URL }}
         if: env.URL == ''
         run: |
-          echo "::notice::DEPLOY_WEBHOOK_URL is not configured, so gh-pages was published but no host was told to pull it. On the server: cd <gh-pages checkout> && git pull && sudo systemctl start popopx-sync.service"
+          echo "::notice::DEPLOY_WEBHOOK_URL is not configured, so gh-pages was published but no host was told to pull it. On the server (docroot /var/www/popopx.chat-web): sudo systemctl start popopx-sync.service, or rsync -a --delete --exclude=.git/ --exclude=.well-known/acme-challenge/ /var/www/popopx.chat-src/ /var/www/popopx.chat-web/ after git -C /var/www/popopx.chat-src reset --hard origin/gh-pages"
