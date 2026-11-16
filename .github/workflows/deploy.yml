@@ -1,0 +1,83 @@
+name: deploy
+
+# Push to main builds the site and publishes it. Two outputs, independently useful:
+#   gh-pages  - the built _site, always (GitHub Pages, works with no configuration)
+#   the host  - a signed POST to DEPLOY_WEBHOOK_URL, only when that secret exists
+# Set DEPLOY_WEBHOOK_URL to a URL on the popopx.chat server that pulls gh-pages (or
+# accepts the artifact) and reloads; see README.md "Automated updates".
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write           # only consumed if Pages is enabled on the gh-pages branch
+  id-token: write
+
+concurrency:
+  group: deploy
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install
+        run: npm ci --prefix website
+
+      - name: Build
+        run: bash build.sh
+
+      - name: Guard - the build must produce pages
+        run: |
+          n=$(find website/_site -name '*.html' | wc -l)
+          echo "$n html pages"
+          test "$n" -gt 200 || { echo "build produced too few pages"; exit 1; }
+          # Link verification files must exist or mobile deep links silently stop working.
+          test -s website/_site/.well-known/assetlinks.json
+          test -s website/_site/.well-known/apple-app-site-association
+          grep -q '"package_name": "com.popopxchat.popopx"' website/_site/.well-known/assetlinks.json
+          grep -q 'PDBA6XRBQT.com.popopxchat.popopx' website/_site/.well-known/apple-app-site-association
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: site
+          path: website/_site
+          retention-days: 7
+
+      - name: Publish to gh-pages
+        env:
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+          SHA: ${{ github.sha }}
+        run: |
+          cd website/_site
+          git init -q
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -q -m "Deploy ${SHA}"
+          # Ephemeral, repo-scoped token; pushed only to the gh-pages branch.
+          git push -q "https://x-access-token:${TOKEN}@github.com/${REPO}.git" "HEAD:gh-pages"
+
+      - name: Notify the host
+        env:
+          URL: ${{ secrets.DEPLOY_WEBHOOK_URL }}
+          SECRET: ${{ secrets.DEPLOY_WEBHOOK_SECRET }}
+          SHA: ${{ github.sha }}
+          RUN_ID: ${{ github.run_id }}
+        if: env.URL != ''
+        run: |
+          body="{\"ref\":\"main\",\"sha\":\"${SHA}\",\"run\":\"${RUN_ID}\"}"
+          sig=$(printf '%s' "$body" | openssl dgst -sha256 -hmac "$SECRET" -hex | awk '{print $2}')
+          curl -sfS -X POST "$URL" -H "content-type: application/json" \
+               -H "x-popopx-signature: sha256=${sig}" --data "$body"

@@ -159,3 +159,43 @@ commit shows them as one unit.
    `src/docs/{WHY,SIMPLEX,FAQ,protocol/*}.md`, trees that no longer exist in the fork.
 5. `build.sh` added; `.gitignore` added for the generated trees.
  (Seed the popopx.chat site from this fork's rebranded website tree)
+
+# Automated updates
+
+`.github/workflows/deploy.yml` runs on every push to `main`: `npm ci` -> `build.sh` ->
+a guard that the build produced >200 pages **and** that both link-verification files are
+present with our `package_name` / `appID` -> uploads a `site` artifact -> force-publishes
+`_site` to the `gh-pages` branch -> and POSTs to the deploy hook when one is configured.
+
+Two ways the built site reaches the host; they are not alternatives, use either or both.
+
+1. **Nothing to configure.** Enable Pages on the repo (Settings -> Pages -> Source:
+   `gh-pages` branch) and `https://popopx-chat.github.io/popopx.chat-web/` updates itself
+   on every push. This is a preview only: the mobile apps verify links against
+   `popopx.chat`, so deep links stay inert until the same content is served there.
+2. **The real host.** Set two repository secrets and the last step fires automatically:
+
+   ```sh
+   gh secret set DEPLOY_WEBHOOK_URL      --repo popopx-chat/popopx.chat-web   # https://<host>/popopx-deploy
+   gh secret set DEPLOY_WEBHOOK_SECRET   --repo popopx-chat/popopx.chat-web   # a shared random string
+   ```
+
+   The receiver on the server gets `{"ref":"main","sha":…,"run":…}` with header
+   `x-popopx-signature: sha256=<hmac-sha256 of the raw body, keyed by DEPLOY_WEBHOOK_SECRET>`.
+   It must verify the HMAC before acting, then pull the commit and swap the document root:
+
+   ```sh
+   # /usr/local/bin/popopx-deploy  (nginx document root -> /srv/popopx.chat)
+   git -C /srv/popopx.chat-web fetch --quiet origin gh-pages
+   git -C /srv/popopx.chat-web reset --hard --quiet origin/gh-pages
+   rsync -a --delete /srv/popopx.chat-web/ /srv/popopx.chat/
+   ```
+
+   Serve `/srv/popopx.chat` with the `.well-known` content-type rule in
+   `website/src/.well-known/README.md`; without `default_type application/json` for
+   `apple-app-site-association`, iOS rejects the response and no link opens in the app.
+
+A repository *webhook* (Settings -> Webhooks, or `gh api repos/popopx-chat/popopx.chat-web/hooks -f url=… -f content_type=json -f 'events[]=push' -f secret=…`)
+is the same idea without Actions: GitHub POSTs the push event straight to the host. Prefer
+the workflow, because it builds first and never publishes a red build; register a raw
+webhook only if the host should learn about a push before Actions finishes.
