@@ -149,6 +149,7 @@ active_home: true
                     <h1>{{ "index-hero-h1" | i18n({}, lang) | replace("<br>", " <br>") | safe }}</h1>
                     <h2 class="gradient-text">{{ "index-hero-h2" | i18n({}, lang) | safe }}</h2>
                     <p>{{ "index-hero-p1" | i18n({}, lang) | safe }}</p>
+                    <p class="cover-note"><a href="{{ '' if lang == 'en' else '/' ~ lang }}/fdroid">{{ "downloads-not-on-fdroid" | i18n({}, lang) }}</a></p>
                     <div class="cover-stats">
                         <div class="cover-stat"><b>3M</b><span>{{ "index-hero-downloads" | i18n({}, lang) }}</span></div>
                         <div class="cover-stat"><b>600K</b><span>{{ "index-hero-monthly-users" | i18n({}, lang) }}</span></div>

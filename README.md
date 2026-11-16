@@ -51,25 +51,38 @@ Measured against upstream `simplex-chat@f8776692d` (local clone, 2026-11-10):
    python3 - <<'PY'
    import os, re
    root, href = "website/_site", re.compile(r'''href\s*=\s*["']([^"'#?]*)''')
-   skip = ("http:", "https:", "mailto:", "tel:", "data:", "javascript:", "//", "")
+   weblike, scheme = re.compile(r'^(https?:)?//'), re.compile(r'^([a-zA-Z][a-zA-Z0-9+.-]*):')
    def built(p):
-       return os.path.exists(os.path.join(root, p)) or os.path.exists(os.path.join(root, p, "index.html"))
+       p = p.strip("/")
+       return any(os.path.exists(os.path.join(root, c)) for c in (p, p + ".html", os.path.join(p, "index.html")))
    dead = {}
    for d, _, fs in os.walk(root):
        for f in fs:
            if not f.endswith(".html"): continue
            for m in href.finditer(open(os.path.join(d, f), encoding="utf-8", errors="replace").read()):
                u = m.group(1).strip()
-               if u.lower().startswith(skip): continue
-               p = u.lstrip("/") if u.startswith("/") else os.path.normpath(os.path.join(os.path.relpath(d, root), u))
-               if p and not built(p): dead[p] = dead.get(p, 0) + 1
+               if not u or u.startswith("#") or weblike.match(u): continue
+               sm = scheme.match(u)
+               if sm and sm.group(1).lower() != "http": continue   # mailto:, tel:, ethereum:, data:, ...
+               p = u if u.startswith("/") else os.path.normpath(os.path.join(os.path.relpath(d, root), u))
+               if not built(p): dead[p] = dead.get(p, 0) + 1
    print(f"{len(dead)} dead internal href targets, {sum(dead.values())} occurrences")
    for t, n in sorted(dead.items(), key=lambda kv: -kv[1]): print(f"  {n:5d}  /{t}")
    PY
    ```
 
-   It prints `0 dead internal href targets, 0 occurrences`. There is no broken-link check in the build
-   itself - nothing in `website/` prints a `Broken link:` line - so this scan is the only measurement.
+   It prints `0 dead internal href targets, 0 occurrences`, and that number is meaningful only because the
+   controls say so: `/fdroid`, `/downloads`, `/docs/glossary.html` and `/de/fdroid` each resolve, a made-up
+   `/no-such-page-xyz` does not. There is no broken-link check in the build itself - nothing in `website/`
+   prints a `Broken link:` line - so this scan is the only measurement.
+
+   **The snippet as first written here was inert.** It skipped a target with `u.lower().startswith(skip)`
+   over a tuple that ended in `""`, and `startswith("")` is true for every string, so every href was skipped,
+   nothing was ever tested, and the scan could only ever report 0 - which is exactly what it reported while
+   real dead links existed. The guard above names the schemes instead (`mailto:`, `tel:`, `data:`,
+   `javascript:`, and the cryptocurrency URIs the donation pages use are not internal targets) and keeps the
+   host-relative ones (`//…`) out. Run the controls whenever you change it: a green 0 with no positive
+   control passing is a broken scanner, not a clean site.
 
 3. **Upstream-operated destinations still linked:** `github.com/simplex-chat` 101 occurrences in 35 files,
    donation links 58 in 30, TestFlight 8 in 8, F-Droid wording 337 in 39. The app-link page the relay
@@ -114,6 +127,22 @@ Measured against upstream `simplex-chat@f8776692d` (local clone, 2026-11-10):
   grep), and the files are kept because `ARTWORK.md:80` and `branding/MANIFEST.tsv:63/213/214` are their
   other readers, so their orphan status is #124's to settle, not this ruling's. The 250 "F-Droid
   repository" strings are `/fdroid/`'s own denial prose across its 25 pages and their `.md` mirrors, held.
+  **Follow-up the same day: `/fdroid/` got a homepage route back.** Deleting the badge left the denial page
+  reachable only from `/downloads/`, so the hero now carries a text link rather than artwork - a
+  `<p class="cover-note">` in `src/index.html` after the lead paragraph, labelled by the existing
+  `downloads-not-on-fdroid` key (the i18n filter falls back per key, so the single English value renders in
+  all 24 locale dirs; no translations were invented). Three things about that placement are load-bearing:
+  it is a *sibling* of `.cover-stats`, never a child of `.socials`/`.cover-stats`/`.security-btns`, because
+  a ResizeObserver in `index.html` writes those overlays' `offsetWidth` into `--cover-socials-w` /
+  `--cover-stats-w` and the sale-banner transform consumes the first, so markup inside them moves the hero;
+  its size is set in `css/design3.css` (`--sec-vwu` × 1.55 desktop, × 2.9 mobile - the same ~72% of the lead
+  paragraph in both) and not with `text-sm`, because `section.cover div.content p` (0,2,3) and its
+  `html:not(.dark)` twin (0,3,4) outrank any Tailwind utility (0,1,0); and the underline is explicit because
+  preflight makes links inherit their colour. Measured on the rebuilt tree: 25 files carry
+  `class="cover-note"` (24 locale dirs + root), the href is `/fdroid` for root and `/<lang>/fdroid` for the
+  locales, the badge residue above is still 0, the corrected link scan is still
+  `0 dead internal href targets, 0 occurrences`, and desktop light/dark plus mobile light renders show the
+  line below the lead with nothing colliding.
 - The fork and app are POPOPX / POPOPX Chat; "SimpleX Messaging Protocol", "SMP" and the relay hosts
   SimpleX Chat Ltd operates keep their own names.
 - Connection links open the app through the `popopx:` scheme (`popopxchat:` and the inherited
