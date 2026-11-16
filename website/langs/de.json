@@ -231,7 +231,6 @@
     "index-hero-countdown-done": "SimpleX-Domain sichern",
     "index-hero-download-desktop-btn-title": "Download der POPOPX Desktop-App",
     "index-testflight-title": "Öffentlicher iOS-Preview auf TestFlight",
-    "index-f-droid-title": "SimpleX-App über das F-Droid-Repository",
     "index-security-assessment-title": "Security-Gutachten",
     "index-security-review-2022-title": "Security-Überprüfung 2022",
     "index-security-review-2024-title": "Security-Überprüfung 2024",
@@ -351,6 +350,5 @@
     "downloads-advanced-h2": "Für fortgeschrittene Nutzer",
     "downloads-github": "Alle Releases auf GitHub",
     "downloads-mirror": "Spiegel: git.simplex.chat",
-    "downloads-fdroid-repo": "F-Droid-Repository",
     "why-film": "Sehen Sie sich den 2-minütigen Film auf YouTube an"
 }

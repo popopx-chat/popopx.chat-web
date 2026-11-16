@@ -230,7 +230,6 @@
     "index-hero-countdown-done": "Ottieni un dominio SimpleX",
     "index-hero-download-desktop-btn-title": "Scarica l'app desktop di POPOPX",
     "index-testflight-title": "Anteprima pubblica per iOS su TestFlight",
-    "index-f-droid-title": "SimpleX via F-Droid",
     "index-security-assessment-title": "Analisi della sicurezza",
     "index-security-review-2022-title": "Analisi della sicurezza 2022",
     "index-security-review-2024-title": "Analisi della sicurezza 2024",
@@ -351,6 +350,5 @@
     "downloads-link-desktop": "Puoi collegare il telefono all'app desktop per usare lo stesso profilo, quando entrambi sono sulla stessa rete locale.",
     "downloads-advanced-h2": "Per utenti avanzati",
     "downloads-github": "Tutte le versioni su GitHub",
-    "downloads-mirror": "Mirror: git.simplex.chat",
-    "downloads-fdroid-repo": "Repository F-Droid"
+    "downloads-mirror": "Mirror: git.simplex.chat"
 }

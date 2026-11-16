@@ -29,7 +29,7 @@
                 <img class="dark:hidden" src="/img/downloads/android-light.webp" alt="POPOPX Chat on Android" width="440" height="965">
                 <img class="hidden dark:block" src="/img/downloads/android-dark.webp" alt="POPOPX Chat on Android" width="440" height="965">
             </div>
-            <p class="dl-alt"><a href="{{ '' if lang == 'en' else '/' ~ lang }}/fdroid">F-Droid</a></p>
+            <p class="dl-alt"><a href="{{ '' if lang == 'en' else '/' ~ lang }}/fdroid">{{ "downloads-not-on-fdroid" | i18n({}, lang) }}</a></p>
         </div>
     </div>
     <p class="dl-wrap dl-other"><a href="#dl-all">{{ "downloads-other-devices" | i18n({}, lang) }}</a></p>

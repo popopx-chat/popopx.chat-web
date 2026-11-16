@@ -235,7 +235,6 @@
     "index-security-audits-label": "Biztonsági<br>auditok",
     "index-hero-h2": "A saját hálózatában",
     "index-testflight-title": "Nyilvános betekintés az iOS alkalmazás fejlesztésébe a TestFlighton",
-    "index-f-droid-title": "SimpleX alkalmazás az F-Droidon keresztül",
     "worlds-most-secure-messaging": "Senki sem láthatja, kivel beszélget",
     "index-messaging-p1": "Még a kiszolgálók sem – az összes üzenet véletlenszerű zajnak tűnik.",
     "index-messaging-p2": "Naponta több tízmillió üzenet kerül kézbesítésre privát módon.",
@@ -351,6 +350,5 @@
     "downloads-link-desktop": "Társíthatja a telefonját a számítógépes alkalmazással, hogy ugyanazt a profilt használja, ha mindkettő ugyanazon a helyi hálózaton van.",
     "downloads-advanced-h2": "Tapasztalt felhasználóknak",
     "downloads-github": "Minden kiadás megtalálható a GitHubon",
-    "downloads-mirror": "Tükör: git.simplex.chat",
-    "downloads-fdroid-repo": "F-Droid-tároló"
+    "downloads-mirror": "Tükör: git.simplex.chat"
 }

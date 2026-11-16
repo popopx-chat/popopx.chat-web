@@ -41,7 +41,7 @@ noGlossary: true
             <h3>{{ "downloads-phone" | i18n({}, lang) }}</h3>
             <ul>
                 <li>{{ "downloads-mobile-status" | i18n({}, lang) }}</li>
-                <li><a href="{{ '' if lang == 'en' else '/' ~ lang }}/fdroid">{{ "downloads-fdroid-repo" | i18n({}, lang) }}</a></li>
+                <li><a href="{{ '' if lang == 'en' else '/' ~ lang }}/fdroid">{{ "downloads-not-on-fdroid" | i18n({}, lang) }}</a></li>
             </ul>
         </article>
     </div>
@@ -54,7 +54,7 @@ noGlossary: true
         <a href="https://git.simplex.chat/simplex-chat/simplex-chat/releases" target="_blank" rel="noopener">{{ "downloads-mirror" | i18n({}, lang) }}</a>
         <!-- "Verify & reproduce builds" (/reproduce/) was the next link here; this build
              publishes no reproduce page, so it 404ed on every downloads page (one per language). -->
-        <a href="{{ '' if lang == 'en' else '/' ~ lang }}/fdroid">{{ "downloads-fdroid-repo" | i18n({}, lang) }}</a>
+        <a href="{{ '' if lang == 'en' else '/' ~ lang }}/fdroid">{{ "downloads-not-on-fdroid" | i18n({}, lang) }}</a>
     </p>
 </section>
 </div>

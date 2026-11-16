@@ -229,7 +229,7 @@ active_file: true
       {{ "file-cta-subheading" | i18n({}, lang) | safe }}
     </p>
     <div class="flex items-center justify-center gap-4 flex-wrap">
-      <a href="{{ '' if lang == 'en' else '/' ~ lang }}/fdroid"><img class="h-[40px] w-auto" src="/img/new/f_droid.svg" /></a>
+      <p class="text-lg text-grey-black dark:text-white">{{ "get-simplex" | i18n({}, lang) | safe }}</p>
     </div>
   </div>
 </section>

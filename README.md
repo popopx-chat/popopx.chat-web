@@ -87,9 +87,33 @@ Measured against upstream `simplex-chat@f8776692d` (local clone, 2026-11-10):
   Google Play or APK badge or link is rendered by this site until each record resolves** - the number
   stays here as the record, and must not go back into a template until `lookup` returns a row.
 - Android applicationId `com.popopxchat.popopx`; its Play listing 404s, we publish no APK and run no
-  F-Droid repository, so a link to any of the three would be a link to upstream's build. The one
-  store-shaped link still rendered is **F-Droid**, kept only because it opens our own `/fdroid/` page,
-  whose title is "POPOPX is not on F-Droid" - whether a badge may say that is an open question (#129).
+  F-Droid repository, so a link to any of the three would be a link to upstream's build.
+  **Ruling of 2026-11-16 (#129): the F-Droid badge is gone, our `/fdroid/` page stays.** The artwork carries
+  the literal text "GET IT ON F-Droid" while the page it opened is titled "POPOPX is not on F-Droid", so the
+  two contradicted each other and the badge was the false half. Deleted as one unit: the badge rows in
+  `_includes/hero.html`, `_includes/sections/join_simplex.html`, `contact_page.html` (2 rows) and
+  `file.html`, the `.f-droid-btn` anchor and its `f_droid_icon.svg` preload in `index.html`, the
+  store-badge block in `js/script.js`, the >=1016px `display:flex !important` rules in `css/design3.css`,
+  the `index-f-droid-title` key in all 24 locale files and `downloads-fdroid-repo` in its 6 holders. The
+  link text is now the new `downloads-not-on-fdroid` ("Not on F-Droid — why") pointing at `/fdroid/` from
+  `downloads.html` and `_includes/downloads_hero.html`; where the badge sat inside a sentence the sentence
+  stays and the anchor goes, so `contact_page.html` (2 rows) and `file.html` now render only `get-simplex`
+  as plain text, and `channel-preview.jsc`'s `renderAppBadges`
+  emits a single `https://popopx.chat/downloads` anchor inside the unchanged `simplex-preview-badges`
+  container, because the CSS keys on that class name.
+  Two couplings had to move with the markup. `js/design3.js`'s `initializePage()` queried the button that
+  was being removed, and its early return would have switched off the communities strip
+  (`showPromotedGroups()`) on every homepage without any error; `js/script.js`'s load-time block was
+  already inert (it un-hid classes no template emitted) but would have re-displayed store badges had any
+  anchor survived, so it is deleted rather than left as a live hazard.
+  Measured on the rebuilt tree (308 pages): `f-droid-btn`, `apple-store-btn`, `google-play-btn`,
+  `f_droid_icon.svg`, `BADGE_FDROID`, `index-f-droid-title` and `downloads-fdroid-repo` all 0 occurrences;
+  all 25 homepages still carry `.desktop-app-btn`, so the guard passes and the strip still runs; the only
+  two surviving `f_droid.svg` strings are the `sodipodi:docname` metadata inside the asset files
+  themselves - 0 references from any page or script (control: `desktop-app-btn` = 26 files by the same
+  grep), and the files are kept because `ARTWORK.md:80` and `branding/MANIFEST.tsv:63/213/214` are their
+  other readers, so their orphan status is #124's to settle, not this ruling's. The 250 "F-Droid
+  repository" strings are `/fdroid/`'s own denial prose across its 25 pages and their `.md` mirrors, held.
 - The fork and app are POPOPX / POPOPX Chat; "SimpleX Messaging Protocol", "SMP" and the relay hosts
   SimpleX Chat Ltd operates keep their own names.
 - Connection links open the app through the `popopx:` scheme (`popopxchat:` and the inherited

@@ -231,7 +231,6 @@
     "index-hero-countdown-done": "Get SimpleX domain",
     "index-hero-download-desktop-btn-title": "Download POPOPX Desktop App",
     "index-testflight-title": "SimpleX iOS beta-release on TestFlight",
-    "index-f-droid-title": "SimpleX app via F-Droid",
     "index-security-assessment-title": "Security Audits",
     "index-security-review-2022-title": "Security Audit 2022",
     "index-security-review-2024-title": "Security Audit 2024",
@@ -344,6 +343,7 @@
     "downloads-all-h2": "All downloads",
     "downloads-phone": "Phone",
     "downloads-mobile-status": "The iOS and Android apps are not published yet.",
+    "downloads-not-on-fdroid": "Not on F-Droid — why",
     "downloads-desktop": "Desktop",
     "downloads-terminal": "Terminal",
     "downloads-terminal-desc": "Command-line app for servers, bots and developers.",
@@ -351,6 +351,5 @@
     "downloads-link-desktop": "You can link your phone to the desktop app to use the same profile, when both are on the same local network.",
     "downloads-advanced-h2": "For advanced users",
     "downloads-github": "All releases on GitHub",
-    "downloads-mirror": "Mirror: git.simplex.chat",
-    "downloads-fdroid-repo": "F-Droid repository"
+    "downloads-mirror": "Mirror: git.simplex.chat"
 }

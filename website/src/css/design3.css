@@ -603,9 +603,7 @@ html:not(.dark) section.cover div.content .gradient-text {
 }
 
 @media (min-width: 1016px) {
-    .socials .desktop-app-btn,
-    .socials .apple-store-btn,
-    .socials .google-play-btn {
+    .socials .desktop-app-btn {
         display: flex !important;
     }
 }
