@@ -1,6 +1,7 @@
-# SimpleX documentation
+# POPOPX documentation
 
-All documentation pages in Markdown. The same pages in HTML are at the same addresses with `.html` instead of `.md`.
+All documentation pages in Markdown. The same pages in HTML are at the same addresses with `.html` instead of
+`.md`, grouped by what they are, at https://popopx.chat/docs/.
 
 - [About us](https://popopx.chat/about.md)
 - [Accessing files in Android app](https://popopx.chat/docs/android.md)
