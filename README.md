@@ -1,8 +1,6 @@
 # popopx.chat-web
 popopx.chat 网站
 
-popopx.chat 网站
-=======
 # popopx.chat website content
 
 Local store of the files that are to become the popopx.chat website. Nothing here is served yet: the
