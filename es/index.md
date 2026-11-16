@@ -11,7 +11,7 @@ Tus contactos, grupos y canales te pertenecen.
 
 **600K**Usuarios mensuales
 
-[Download Desktop App](https://popopx.chat/downloads) [SimpleX app vía F-Droid](https://popopx.chat/es/fdroid)
+[Download Desktop App](https://popopx.chat/downloads)
 
 [Auditorías de seguridad](https://www.trailofbits.com/about) [2022](https://simplex.chat/blog/20221108-simplex-chat-v4.2-security-audit-new-website.html) [2024](https://simplex.chat/blog/20241014-simplex-network-v6-1-security-review-better-calls-user-experience.html)
 

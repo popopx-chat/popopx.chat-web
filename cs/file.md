@@ -14,6 +14,8 @@ Odeslání souborů bezpečně s šifrováním end-to-end — žádné účty, �
 
 Přenos souborů, který jste právě použili, používá stejný protokol pro přenos dat jako POPOPX Chat. Aplikace má end-to-end šifrované zprávy, hlasové a video volání, skupiny a odesílání souborů. Žádný účet. Žádný telefon. Žádný e-mail. Žádné ID uživatelského profilu.
 
+Získat POPOPX [desktop app](https://popopx.chat/downloads)
+
 # XFTP protokol: nejbezpečnější přenos souborů
 
 ### Není nutný žádný účet

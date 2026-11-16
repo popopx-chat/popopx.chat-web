@@ -12,7 +12,7 @@ x86_64 · [More](https://popopx.chat/id/downloads/#dl-all)
 
 AppImage x86_64 · [Flatpak](https://flathub.org/apps/chat.simplex.simplex) · [More](https://popopx.chat/id/downloads/#dl-all)
 
-[F-Droid](https://popopx.chat/id/fdroid)
+[Not on F-Droid — why](https://popopx.chat/id/fdroid)
 
 [Other devices](https://popopx.chat/id/downloads/#dl-all)
 
@@ -52,8 +52,8 @@ Command-line app for servers, bots and developers. [Using the terminal app](http
 ### Phone
 
 - The iOS and Android apps are not published yet.
-- [F-Droid repository](https://popopx.chat/id/fdroid)
+- [Not on F-Droid — why](https://popopx.chat/id/fdroid)
 
 ## For advanced users
 
-[All releases on GitHub](https://github.com/simplex-chat/simplex-chat/releases) [Mirror: git.simplex.chat](https://git.simplex.chat/simplex-chat/simplex-chat/releases)  [F-Droid repository](https://popopx.chat/id/fdroid)
+[All releases on GitHub](https://github.com/simplex-chat/simplex-chat/releases) [Mirror: git.simplex.chat](https://git.simplex.chat/simplex-chat/simplex-chat/releases)  [Not on F-Droid — why](https://popopx.chat/id/fdroid)

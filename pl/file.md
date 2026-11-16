@@ -14,6 +14,8 @@ Wysyłaj pliki bezpiecznie dzięki szyfrowaniu typu end-to-end — bez kont, bez
 
 Przesyłanie plików, z którego właśnie skorzystałeś, wykorzystuje ten sam protokół routingu danych, co POPOPX Chat. Aplikacja oferuje szyfrowane wiadomości, połączenia głosowe i wideo, grupy oraz wysyłanie plików. Bez konta. Bez telefonu. Bez adresu e-mail. Bez identyfikatorów profilu użytkownika.
 
+Pobierz POPOPX [desktop app](https://popopx.chat/downloads)
+
 # Protokół XFTP: najbezpieczniejszy transfer plików
 
 ### Nie jest wymagane konto

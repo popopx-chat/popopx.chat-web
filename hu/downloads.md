@@ -12,7 +12,7 @@ x86_64 · [Továbbiak](https://popopx.chat/hu/downloads/#dl-all)
 
 AppImage x86_64 · [Flatpak](https://flathub.org/apps/chat.simplex.simplex) · [Továbbiak](https://popopx.chat/hu/downloads/#dl-all)
 
-[F-Droid](https://popopx.chat/hu/fdroid)
+[Not on F-Droid — why](https://popopx.chat/hu/fdroid)
 
 [Egyéb eszközök](https://popopx.chat/hu/downloads/#dl-all)
 
@@ -52,8 +52,8 @@ Parancssori alkalmazás fejlesztőknek, kiszolgálókhoz és botokhoz. [Alkalmaz
 ### Telefon
 
 - The iOS and Android apps are not published yet.
-- [F-Droid-tároló](https://popopx.chat/hu/fdroid)
+- [Not on F-Droid — why](https://popopx.chat/hu/fdroid)
 
 ## Tapasztalt felhasználóknak
 
-[Minden kiadás megtalálható a GitHubon](https://github.com/simplex-chat/simplex-chat/releases) [Tükör: git.simplex.chat](https://git.simplex.chat/simplex-chat/simplex-chat/releases)  [F-Droid-tároló](https://popopx.chat/hu/fdroid)
+[Minden kiadás megtalálható a GitHubon](https://github.com/simplex-chat/simplex-chat/releases) [Tükör: git.simplex.chat](https://git.simplex.chat/simplex-chat/simplex-chat/releases)  [Not on F-Droid — why](https://popopx.chat/hu/fdroid)

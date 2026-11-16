@@ -12,19 +12,12 @@ if (document.readyState === 'loading') {
 }
 
 function initializePage() {
-    const fDroidBtn = document.querySelector('.f-droid-btn');
     const desktopAppBtn = document.querySelector('.desktop-app-btn');
 
-    // No App Store or Google Play badge is rendered until each store record resolves (#129).
-    if (!fDroidBtn || !desktopAppBtn) return;
+    // POPOPX publishes no store listing and no APK, so the hero offers only /downloads (#129).
+    if (!desktopAppBtn) return;
 
-    if (isMobile.Android()) {
-        fDroidBtn.classList.remove('hidden');
-    }
-    else {
-        desktopAppBtn.classList.remove('hidden');
-        // fDroidBtn.classList.remove('hidden');
-    }
+    desktopAppBtn.classList.remove('hidden');
 
     showPromotedGroups();
 }

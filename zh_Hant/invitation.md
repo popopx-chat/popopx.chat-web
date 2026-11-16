@@ -8,7 +8,7 @@
 
 使用以下連結下載應用程式。
 
-[SimpleX F-Droid Repository](https://popopx.chat/zh_Hant/fdroid)
+下載POPOPX [桌面版應用程式](https://popopx.chat/downloads)
 
 用手機應用程式掃描二維碼
 
@@ -18,7 +18,7 @@
 
 安裝 POPOPX 應用程式
 
-[SimpleX F-Droid Repository](https://popopx.chat/zh_Hant/fdroid)
+下載POPOPX [桌面版應用程式](https://popopx.chat/downloads)
 
 1
 
@@ -59,5 +59,3 @@ We invite you to join the conversation
 ---
 
 下載POPOPX [桌面版應用程式](https://popopx.chat/downloads)
-
-[SimpleX F-Droid Repository](https://popopx.chat/zh_Hant/fdroid)

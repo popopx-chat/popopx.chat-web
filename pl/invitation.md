@@ -8,7 +8,7 @@ Nie pobrałeś jeszcze POPOPX Chat?
 
 Skorzystaj z poniższych linków, aby pobrać aplikację.
 
-[SimpleX F-Droid Repository](https://popopx.chat/pl/fdroid)
+Pobierz POPOPX [desktop app](https://popopx.chat/downloads)
 
 Zeskanuj kod QR z aplikacji mobilnej
 
@@ -18,7 +18,7 @@ Aby nawiązać połączenie:
 
 Zainstaluj aplikację POPOPX
 
-[SimpleX F-Droid Repository](https://popopx.chat/pl/fdroid)
+Pobierz POPOPX [desktop app](https://popopx.chat/downloads)
 
 1
 
@@ -60,5 +60,3 @@ Zapraszamy do udziału w rozmowie
 ---
 
 Pobierz POPOPX [desktop app](https://popopx.chat/downloads)
-
-[SimpleX F-Droid Repository](https://popopx.chat/pl/fdroid)

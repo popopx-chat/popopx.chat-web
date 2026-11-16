@@ -14,6 +14,8 @@ Max 100 MB - [POPOPX Chat app](https://popopx.chat/downloads) supports files up 
 
 The file transfer you just used uses the same data routing protocol as POPOPX Chat. The app has end-to-end encrypted messaging, voice and video calls, groups, and sending files. No account. No phone. No email. No user profile IDs.
 
+Скачать POPOPX [для компьютера](https://popopx.chat/downloads/#desktop-app)
+
 # XFTP protocol: the most secure file transfer
 
 ### No account required

@@ -8,7 +8,7 @@ Las claves públicas y la dirección de la cola de mensajes de este enlace NO se
 
 Usa los siguientes enlaces para descargar la aplicación.
 
-[SimpleX F-Droid Repository](https://popopx.chat/es/fdroid)
+Obtén POPOPX [para desktop](https://popopx.chat/downloads)
 
 Escanear el código QR desde la aplicación móvil
 
@@ -18,7 +18,7 @@ Para establecer una conexión:
 
 Instalar POPOPX Chat
 
-[SimpleX F-Droid Repository](https://popopx.chat/es/fdroid)
+Obtén POPOPX [para desktop](https://popopx.chat/downloads)
 
 1
 
@@ -60,5 +60,3 @@ Te invitamos a unirte a la conversación
 ---
 
 Obtén POPOPX [para desktop](https://popopx.chat/downloads)
-
-[SimpleX F-Droid Repository](https://popopx.chat/es/fdroid)

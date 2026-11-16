@@ -8,7 +8,7 @@ POPOPX Chat'i henüz indirmediniz mi?
 
 Uygulamayı indirmek için aşağıdaki bağlantıları kullanın.
 
-[SimpleX F-Droid Repository](https://popopx.chat/tr/fdroid)
+POPOPX' [masaüstü uygulamasını](https://popopx.chat/downloads) indirin
 
 Mobil uygulamadan QR kodunu tarayın
 
@@ -18,7 +18,7 @@ Bağlantı başlatmak için:
 
 POPOPX uygulamasını yükleyin
 
-[SimpleX F-Droid Repository](https://popopx.chat/tr/fdroid)
+POPOPX' [masaüstü uygulamasını](https://popopx.chat/downloads) indirin
 
 1
 
@@ -60,5 +60,3 @@ Sizi sohbete katılmaya davet ediyoruz
 ---
 
 POPOPX' [masaüstü uygulamasını](https://popopx.chat/downloads) indirin
-
-[SimpleX F-Droid Repository](https://popopx.chat/tr/fdroid)

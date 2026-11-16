@@ -1418,20 +1418,18 @@ function renderInfoContent(container, data, channelLink, subscriberCount, showAp
   }
 }
 
-var BADGE_FDROID = '<a href="https://popopx.chat/fdroid" target="_blank" rel="noopener"><img src="https://popopx.chat/img/new/f_droid.svg" alt="F-Droid"></a>';
+var DOWNLOAD_LINK = '<a href="https://popopx.chat/downloads" target="_blank" rel="noopener">Download POPOPX Chat</a>';
 
 function renderAppBadges(container) {
-  // Only F-Droid, until the App Store and Google Play records resolve (#129).
-  if (!isMobile.Android()) return;
-
+  // No store badges: POPOPX publishes no store listing and no APK, so this links /downloads (#129).
   const title = document.createElement('p');
   title.className = 'simplex-preview-step-title';
-  title.textContent = 'Install SimpleX Chat app';
+  title.textContent = 'Get POPOPX Chat';
   container.appendChild(title);
 
   const badges = document.createElement('div');
   badges.className = 'simplex-preview-badges';
-  badges.innerHTML = BADGE_FDROID;
+  badges.innerHTML = DOWNLOAD_LINK;
   container.appendChild(badges);
 }
 

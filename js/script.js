@@ -156,27 +156,6 @@ function clickHandler(e) {
     }
 }
 
-window.addEventListener('load', () => {
-    const googlePlayBtn = document.querySelector('.google-play-btn');
-    const appleStoreBtn = document.querySelector('.apple-store-btn');
-    const fDroidBtn = document.querySelector('.f-droid-btn');
-    if (!googlePlayBtn || !appleStoreBtn || !fDroidBtn) return;
-
-
-    if (isMobile.Android()) {
-        googlePlayBtn.classList.remove('hidden');
-        fDroidBtn.classList.remove('hidden');
-    }
-    else if (isMobile.iOS()) {
-        appleStoreBtn.classList.remove('hidden');
-    }
-    else {
-        appleStoreBtn.classList.remove('hidden');
-        googlePlayBtn.classList.remove('hidden');
-        fDroidBtn.classList.remove('hidden');
-    }
-})
-
 function openOverlay() {
     let hash = window.location.hash
     if (hash) {

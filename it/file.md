@@ -14,6 +14,8 @@ Invia file in modo sicuro con crittografia end-to-end: nessun account, nessun mo
 
 Il trasferimento di file appena avviato usa lo stesso protocollo di instradamento dati di POPOPX Chat. L'app offre messaggi crittografati end-to-end, chiamate vocali e video, gruppi e invio di file. Nessun account. Nessun telefono. Nessuna email. Nessun ID utente.
 
+Ottieni [l'app desktop](https://popopx.chat/downloads) di POPOPX
+
 # Protocollo XFTP: il trasferimento di file più sicuro
 
 ### Nessun account richiesto

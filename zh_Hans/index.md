@@ -11,7 +11,7 @@
 
 **600K**月活跃用户
 
-[Download Desktop App](https://popopx.chat/downloads) [SimpleX 安卓应用（通过 F-Droid）](https://popopx.chat/zh_Hans/fdroid)
+[Download Desktop App](https://popopx.chat/downloads)
 
 [安全审计](https://www.trailofbits.com/about) [2022](https://simplex.chat/blog/20221108-simplex-chat-v4.2-security-audit-new-website.html) [2024](https://simplex.chat/blog/20241014-simplex-network-v6-1-security-review-better-calls-user-experience.html)
 

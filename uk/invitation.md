@@ -8,7 +8,7 @@
 
 Скористайтеся посиланнями нижче, щоб завантажити додаток.
 
-[SimpleX F-Droid Repository](https://popopx.chat/uk/fdroid)
+Отримати POPOPX [додаток для настільних комп'ютерів](https://popopx.chat/downloads)
 
 Сканувати QR-код з мобільного додатка
 
@@ -18,7 +18,7 @@
 
 Встановити додаток POPOPX
 
-[SimpleX F-Droid Repository](https://popopx.chat/uk/fdroid)
+Отримати POPOPX [додаток для настільних комп'ютерів](https://popopx.chat/downloads)
 
 1
 
@@ -60,5 +60,3 @@ curl -o- https://raw.githubusercontent.com/simplex-chat/simplex-chat/master/inst
 ---
 
 Отримати POPOPX [додаток для настільних комп'ютерів](https://popopx.chat/downloads)
-
-[SimpleX F-Droid Repository](https://popopx.chat/uk/fdroid)

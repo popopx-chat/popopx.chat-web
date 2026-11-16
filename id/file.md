@@ -14,6 +14,8 @@ Kirim file dengan aman menggunakan enkripsi end-to-end — tanpa akun, tanpa pel
 
 Transfer file yang baru saja Anda gunakan memakai protokol perutean data yang sama dengan POPOPX Chat. Aplikasi ini memiliki pesan terenkripsi end-to-end, panggilan suara dan video, grup, serta pengiriman file. Tanpa akun. Tanpa telepon. Tanpa email. Tanpa ID profil pengguna.
 
+Dapatkan [aplikasi desktop](https://popopx.chat/downloads) POPOPX
+
 # Protokol XFTP: transfer file paling aman
 
 ### Tidak memerlukan akun

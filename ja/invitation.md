@@ -8,7 +8,7 @@ POPOPX Chat をまだダウンロードしていませんか?
 
 以下のリンクを使用してアプリをダウンロードしてください。
 
-[SimpleX F-Droid Repository](https://popopx.chat/ja/fdroid)
+POPOPXを入手する [desktop app](https://popopx.chat/downloads)
 
 モバイルアプリからQRコードをスキャン
 
@@ -18,7 +18,7 @@ POPOPX Chat をまだダウンロードしていませんか?
 
 POPOPX アプリをインストールする
 
-[SimpleX F-Droid Repository](https://popopx.chat/ja/fdroid)
+POPOPXを入手する [desktop app](https://popopx.chat/downloads)
 
 1
 
@@ -60,5 +60,3 @@ SimpleX チャットを見る GitHub リポジトリ ソースコードからダ
 ---
 
 POPOPXを入手する [desktop app](https://popopx.chat/downloads)
-
-[SimpleX F-Droid Repository](https://popopx.chat/ja/fdroid)

@@ -14,6 +14,8 @@ Send files securely with end-to-end encryption — no accounts, no tracking.
 
 The file transfer you just used uses the same data routing protocol as POPOPX Chat. The app has end-to-end encrypted messaging, voice and video calls, groups, and sending files. No account. No phone. No email. No user profile IDs.
 
+برنامه [دسکتاپ POPOPX](https://popopx.chat/downloads) را دریافت کنید
+
 # XFTP protocol: the most secure file transfer
 
 ### No account required

@@ -14,6 +14,8 @@ Envía archivos cifrados de extremo a extremo de forma segura - sin cuentas, sin
 
 La transferencia de archivos que acabas de usar emplea el mismo protocolo de enrutamiento de datos que POPOPX Chat. La aplicación ofrece mensajería, llamadas de voz y video, grupos y envío de archivos con cifrado de extremo a extremo. Sin cuentas. Sin teléfono. Sin correo electrónico. Sin identificadores de usuario.
 
+Obtén POPOPX [para desktop](https://popopx.chat/downloads)
+
 # Protocolo XFTP, la transferencia de archivos más segura
 
 ### No se necesita cuenta

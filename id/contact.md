@@ -8,7 +8,7 @@ Belum unduh POPOPX Chat?
 
 Gunakan tautan di bawah untuk unduh aplikasi.
 
-[SimpleX F-Droid Repository](https://popopx.chat/id/fdroid)
+Dapatkan [aplikasi desktop](https://popopx.chat/downloads) POPOPX
 
 Pindai kode QR dari aplikasi seluler
 
@@ -18,7 +18,7 @@ Untuk membuat koneksi:
 
 Instal aplikasi POPOPX
 
-[SimpleX F-Droid Repository](https://popopx.chat/id/fdroid)
+Dapatkan [aplikasi desktop](https://popopx.chat/downloads) POPOPX
 
 1
 
@@ -60,5 +60,3 @@ Kami mengundang Anda untuk gabung ke percakapan
 ---
 
 Dapatkan [aplikasi desktop](https://popopx.chat/downloads) POPOPX
-
-[SimpleX F-Droid Repository](https://popopx.chat/id/fdroid)

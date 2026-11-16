@@ -8,7 +8,7 @@
 
 השתמשו בקישורים למטה כדי להוריד את האפליקציה.
 
-[SimpleX F-Droid Repository](https://popopx.chat/he/fdroid)
+הורידו את [אפליקציית שולחן העבודה](https://popopx.chat/downloads) POPOPX
 
 סרקו קוד QR באפליקציה לנייד
 
@@ -18,7 +18,7 @@
 
 התקינו את אפליקציית POPOPX
 
-[SimpleX F-Droid Repository](https://popopx.chat/he/fdroid)
+הורידו את [אפליקציית שולחן העבודה](https://popopx.chat/downloads) POPOPX
 
 1
 
@@ -60,5 +60,3 @@ curl -o- https://raw.githubusercontent.com/simplex-chat/simplex-chat/master/inst
 ---
 
 הורידו את [אפליקציית שולחן העבודה](https://popopx.chat/downloads) POPOPX
-
-[SimpleX F-Droid Repository](https://popopx.chat/he/fdroid)

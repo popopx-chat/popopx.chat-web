@@ -8,7 +8,7 @@ Et ole vielä ladannut POPOPX Chat -sovellusta?
 
 Käytä alla olevia linkkejä ladataksesi sovelluksen.
 
-[SimpleX F-Droid Repository](https://popopx.chat/fi/fdroid)
+Hanki POPOPX [desktop app](https://popopx.chat/downloads)
 
 Skannaa QR-koodi mobiilisovelluksesta
 
@@ -18,7 +18,7 @@ Yhteyden muodostaminen:
 
 Asenna POPOPX-sovellus
 
-[SimpleX F-Droid Repository](https://popopx.chat/fi/fdroid)
+Hanki POPOPX [desktop app](https://popopx.chat/downloads)
 
 1
 
@@ -60,5 +60,3 @@ Kutsumme sinut mukaan keskusteluun
 ---
 
 Hanki POPOPX [desktop app](https://popopx.chat/downloads)
-
-[SimpleX F-Droid Repository](https://popopx.chat/fi/fdroid)

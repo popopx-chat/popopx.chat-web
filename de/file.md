@@ -14,6 +14,8 @@ Versenden Sie Dateien via Ende-zu-Ende-Verschlüsselung — ohne Benutzerkonten 
 
 Die Dateiübertragung, die Sie gerade verwendet haben, nutzt dasselbe Datenweiterleitungsprotokoll wie POPOPX Chat. Die App bietet Ende‑zu‑Ende‑verschlüsselte Nachrichten, Sprach‑ und Videoanrufe, Gruppen sowie das Senden von Dateien. Kein Benutzerkonto. Keine Telefonnummer. Keine E‑Mail. Keine Benutzerprofil‑IDs.
 
+Laden Sie sich POPOPX herunter [desktop app](https://popopx.chat/downloads)
+
 # XFTP-Protokoll: Der sicherste Dateitransfer
 
 ### Es wird kein Benutzerkonto benötigt

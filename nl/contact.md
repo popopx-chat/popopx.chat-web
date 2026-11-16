@@ -8,7 +8,7 @@ Heb je de POPOPX Chat nog niet gedownload?
 
 Gebruik onderstaande links om de app te downloaden.
 
-[SimpleX F-Droid Repository](https://popopx.chat/nl/fdroid)
+Verkrijg POPOPX [desktop app](https://popopx.chat/downloads)
 
 Scan de QR-code van de mobiele app
 
@@ -18,7 +18,7 @@ Om een verbinding te maken:
 
 Installeer de POPOPX app
 
-[SimpleX F-Droid Repository](https://popopx.chat/nl/fdroid)
+Verkrijg POPOPX [desktop app](https://popopx.chat/downloads)
 
 1
 
@@ -60,5 +60,3 @@ Wij nodigen u uit om deel te nemen aan de conversatie
 ---
 
 Verkrijg POPOPX [desktop app](https://popopx.chat/downloads)
-
-[SimpleX F-Droid Repository](https://popopx.chat/nl/fdroid)

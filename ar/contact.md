@@ -8,7 +8,7 @@
 
 استخدم الروابط في الاسفل لتنزيل التطبيق.
 
-[SimpleX F-Droid Repository](https://popopx.chat/ar/fdroid)
+احصل على [تطبيق سطح المكتب](https://popopx.chat/downloads) POPOPX
 
 امسح رمز QR من تطبيق الجوال
 
@@ -18,7 +18,7 @@
 
 قم بتثبيت تطبيق POPOPX
 
-[SimpleX F-Droid Repository](https://popopx.chat/ar/fdroid)
+احصل على [تطبيق سطح المكتب](https://popopx.chat/downloads) POPOPX
 
 1
 
@@ -60,5 +60,3 @@ curl -o- https://raw.githubusercontent.com/simplex-chat/simplex-chat/master/inst
 ---
 
 احصل على [تطبيق سطح المكتب](https://popopx.chat/downloads) POPOPX
-
-[SimpleX F-Droid Repository](https://popopx.chat/ar/fdroid)

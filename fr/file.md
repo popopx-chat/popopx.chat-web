@@ -14,6 +14,8 @@ Envoyez des fichiers en toute sécurité avec un chiffrement de bout en bout —
 
 Le transfert de fichiers que vous venez d’utiliser repose sur le même protocole de routage des données que POPOPX Chat. L’application propose une messagerie chiffrée de bout en bout, des appels audio et vidéo, des groupes et l’envoi de fichiers. Aucun compte. Aucun numéro de téléphone. Aucun e-mail. Aucun identifiant de profil utilisateur.
 
+Obtenir POPOPX [desktop app](https://popopx.chat/downloads)
+
 # Protocole XFTP : le transfert de fichiers le plus sécurisé
 
 ### Aucun compte requis

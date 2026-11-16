@@ -14,6 +14,8 @@ Fájlok biztonságos küldése végpontok közötti titkosítással – felhaszn
 
 Az imént használt fájlátvitel ugyanazt az útválasztó protokollt használja, mint a POPOPX Chat alkalmazás. Az alkalmazás végpontok közötti titkosított üzenetküldést, hang- és videohívásokat, csoportos csevegéseket és fájlok küldését teszi lehetővé. Nem szükséges hozzá felhasználói fiók, telefonszám, e-mail-cím és nem használ felhasználói profilazonosítókat sem.
 
+A POPOPX számítógépes alkalmazásának [letöltése](https://popopx.chat/downloads)
+
 # XFTP-protokoll: a legbiztonságosabb fájlátvitel
 
 ### Nincs szükség felhasználói fiókra

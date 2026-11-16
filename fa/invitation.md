@@ -8,7 +8,7 @@
 
 از لینک‌های زیر برای دانلود برنامه استفاده کنید.
 
-[SimpleX F-Droid Repository](https://popopx.chat/fa/fdroid)
+برنامه [دسکتاپ POPOPX](https://popopx.chat/downloads) را دریافت کنید
 
 کد QR را از برنامه موبایل اسکن کنید
 
@@ -18,7 +18,7 @@
 
 برنامه POPOPX را نصب کنید
 
-[SimpleX F-Droid Repository](https://popopx.chat/fa/fdroid)
+برنامه [دسکتاپ POPOPX](https://popopx.chat/downloads) را دریافت کنید
 
 1
 
@@ -60,5 +60,3 @@ curl -o- https://raw.githubusercontent.com/simplex-chat/simplex-chat/master/inst
 ---
 
 برنامه [دسکتاپ POPOPX](https://popopx.chat/downloads) را دریافت کنید
-
-[SimpleX F-Droid Repository](https://popopx.chat/fa/fdroid)
