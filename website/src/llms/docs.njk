@@ -2,9 +2,10 @@
 permalink: /docs.md
 eleventyExcludeFromCollections: true
 ---
-# SimpleX documentation
+# POPOPX documentation
 
-All documentation pages in Markdown. The same pages in HTML are at the same addresses with `.html` instead of `.md`.
+All documentation pages in Markdown. The same pages in HTML are at the same addresses with `.html` instead of
+`.md`, grouped by what they are, at https://popopx.chat/docs/.
 
 {% for doc in collections.markdownDocs -%}
 - [{{ ((doc.inputPath | markdownTitle) or doc.url) | safe }}](https://popopx.chat{{ doc.url | markdownUrl }})

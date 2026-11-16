@@ -1,5 +1,5 @@
 {
-    "_note": "Only entries this build actually produces are listed here. The dropped ones pointed at /docs/*.html (upstream's docs corpus, which this fork does not republish) and at /faq/ /security/ /transparency/ /reproduce/, none of which have a source in this repo. README.md 'What still blocks publishing it' item 2 carries the command that measures it.",
+    "_note": "Only entries this build actually produces are listed here. The docs corpus DOES publish now: /docs/ indexes 61 built pages, and /faq/ /security/ /transparency/ /reproduce/ build from website/src/docs. Which subset of that corpus belongs in a top-nav dropdown is an open decision, not a leftover from when the pages did not exist. README.md 'What still blocks publishing it' item 2 carries the command that measures it.",
     "items": [
         {
             "title": "docs-dropdown-9",

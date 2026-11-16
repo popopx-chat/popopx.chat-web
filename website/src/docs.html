@@ -1,0 +1,77 @@
+---
+layout: layouts/doc.html
+title: POPOPX documentation
+description: "The documentation corpus that ships with the POPOPX Chat fork: user guide, protocol specifications, server and development references, security audits."
+permalink: /docs/index.html
+supportedLangsForDoc:
+  - en
+version: new
+templateEngineOverride: njk
+---
+
+<h1>Documentation</h1>
+
+<p>This is the documentation corpus that ships with the POPOPX Chat fork. Almost all of it was written for
+SimpleX Chat by <a href="https://simplex.chat">SimpleX Chat Ltd</a>, the company whose project we forked. We
+publish their text unmodified, under the AGPL-3.0 grant that comes with it, and every one of those pages
+carries a notice above its contents saying who wrote it.</p>
+
+<p>Two things follow from that, and they are why the notice exists rather than a rebrand:</p>
+
+<ul>
+  <li>The services these pages describe - relay servers, file transfer, the directory server, the business
+    directory, notifications - are <strong>operated by SimpleX Chat Ltd</strong>. POPOPX does not run them,
+    and our builds connect to the ones they operate.</li>
+  <li>Any address, store link, badge or contact inside those pages is upstream's, not ours.</li>
+</ul>
+
+<p>POPOPX writes two pages of its own in this corpus: this index and the
+<a href="/docs/trademark-popopx.html">POPOPX trademark policy</a>. Its statements about privacy are at
+<a href="/privacy/">/privacy/</a>; SimpleX Chat Ltd's operator policy and conditions of use are published
+unmodified, under their own names, at <a href="/privacy/operators/">/privacy/operators/</a>. Where any of
+those disagree with a document listed below about who operates something, POPOPX's own text governs.</p>
+
+<p>The lists below are generated from the pages this build produces, so they cannot drift from the corpus.
+Seven reference documents publish outside <code>/docs/</code> - they are listed here at their real
+addresses.</p>
+
+<h2>User guide</h2>
+
+<ul>
+{% for doc in collections.markdownDocs %}{% set u = doc.url %}{% set t = doc.data.title %}{% if u.indexOf("/docs/guide/") == 0 -%}
+  <li><a href="{{ u | url }}">{{ t or u }}</a></li>
+{% endif %}{% endfor %}
+</ul>
+
+<h2>Protocol</h2>
+
+<ul>
+{% for doc in collections.markdownDocs %}{% set u = doc.url %}{% set t = doc.data.title %}{% if u.indexOf("/docs/protocol/") == 0 -%}
+  <li><a href="{{ u | url }}">{{ t or u }}</a></li>
+{% endif %}{% endfor %}
+</ul>
+
+<h2>Reference</h2>
+
+<ul>
+{% for doc in collections.markdownDocs %}{% set u = doc.url %}{% set t = doc.data.title %}{% if u.indexOf("/docs/guide/") != 0 and u.indexOf("/docs/protocol/") != 0 -%}
+  <li><a href="{{ u | url }}">{{ t or u }}</a></li>
+{% endif %}{% endfor %}
+</ul>
+
+<h2>Security audits</h2>
+
+<ul>
+  <li><a href="/docs/SimpleX_Chat_Final_Report_11_03_2022.pdf">Trail of Bits implementation assessment, 2022</a></li>
+  <li><a href="/docs/SimpleX_Design_Review_2024_Summary_Report_12_08_2024.pdf">Trail of Bits cryptographic design review, 2024</a></li>
+</ul>
+
+<h2>Translations</h2>
+
+<p>Seven reference documents - the platform overview, the server, CLI, Android, contributing, translations and
+WebRTC guides - also exist in Czech, French and Polish, at <code>/docs/lang/cs/</code>,
+<code>/docs/lang/fr/</code> and <code>/docs/lang/pl/</code> with the same file names as their English pages.
+Everything else in the corpus is English only.</p>
+
+<p>The same corpus in Markdown, one <code>.md</code> per page, is at
+<a href="/docs.md">docs.md</a>.</p>
