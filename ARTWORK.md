@@ -9,7 +9,7 @@ product must not keep the pictures.
 
 `git log --oneline -- website/src/img | head` shows the commits that installed them;
 this file is the method, the gate and the holds. The per-file truth is
-[`MANIFEST.tsv`](MANIFEST.tsv) (315 rows: path, original pixel size, class,
+[`MANIFEST.tsv`](MANIFEST.tsv) (307 rows: path, original pixel size, class,
 status, master, bytes — regenerate it with `tools/manifest_img.py`).
 
 ## Reference commit
@@ -25,7 +25,7 @@ from REF*, never "looks different".
    relative to `website/src/img` with `/` escaped as `__`. Raster targets get a
    `<escaped>.src.svg` master; SVG targets get the escaped path as-is. So
    `hero/light/2fps/frame_0001.png` ← `hero__light__2fps__frame_0001.png.src.svg`
-   and `icons/popupx.svg` ← `icons__popupx.svg`.
+   and `new/xftp-protocol.svg` ← `new__xftp-protocol.svg`.
 2. **`tools/map_masters.py`** derives the mapping by unescaping, and reports
    `unresolved` / `ambiguous` rather than guessing. It writes `/tmp/imgmap.json`,
    which the installer and the manifest both read — regenerate it after adding
@@ -65,11 +65,11 @@ python3 tools/manifest_img.py
 - no installed SVG still contains the string `simplex`;
 - the `upstream remaining` list is exactly the held set below, by directory.
 
-Current state: `targets=315 ours=255 upstream=60 deleted=0`, with 0 integrity
-failures, and the 60 decompose as: flags 18, `(root)` 15, `design_3` 12, `new` 6,
-messengers 5, icons 4. (`MANIFEST.tsv` was regenerated after the campaign tier
-came down, which removed the 18-file `img/crowdfunding/` tree and an orphaned
-F-Droid QR from the 334 this tier started at.)
+Current state: `targets=307 ours=251 upstream=56 deleted=0`, with 0 integrity
+failures, and the 56 decompose as: flags 18, `(root)` 15, `design_3` 12, `new` 6,
+messengers 5. (`MANIFEST.tsv` was regenerated after the campaign tier came down,
+which removed the 18-file `img/crowdfunding/` tree and an orphaned F-Droid QR from
+the 334 this tier started at, and again after `img/icons/` was deleted.)
 
 ## Holds — why something is still upstream's
 
@@ -78,22 +78,23 @@ F-Droid QR from the 334 this tier started at.)
 | `img/flags/` | 18 | Country flag geometry. Not brand artwork and not ours to redesign; the drawing is the fact being depicted. |
 | press / publication marks — `heise`, `kuketz-blog`, `optout`, `privacy-guides`, `trail-of-bits`, `whonix` light+dark in `(root)`, plus `design_3/publications/` | 17 | Third-party logos used as citations of coverage of the upstream project. Redrawing them would misrepresent who published what. |
 | store badges — `apple_store.svg`, `f_droid.svg`, `testflight.png` in `(root)`, `new/{apple_store,f_droid,f_droid_icon,google_play,testflight}`, `design_3/testflight-dark.png` | 9 | Each is a distribution program's own badge with its own usage rules. Drawing a private imitation would be a false claim that we are listed there. |
-| service / OS marks — `design_3/socials/{apple,linux,windows}.png`, `new/gitHub.svg`, `icons/{github,linkedin,reddit,twitter}.svg` | 8 | Same rule: they identify the platform, not us. |
+| service / OS marks — `design_3/socials/{apple,linux,windows}.png`, `new/gitHub.svg` | 4 | Same rule: they identify the platform, not us. |
 | other-messenger marks — `messengers/{briar,cwtch,element,session,signal}` | 5 | Those are Signal's, Briar's, Element's artwork. A comparison page names them nominatively; a POPOPX-styled version of their logo is worse than theirs. |
 | `design_3/cover.webp`, `design_3/cover-light.webp` | 2 | App-design covers: they show the product's own screens (their `.jpg` twins were replaced). An honest replacement means rendering our app, not illustrating a guess, so they wait for real screenshots. |
-| `topbar.svg` | 1 | Master-less: the file is a generic three-dot ornament whose `viewBox` is `0 0 0 0`. No brand content to move. |
+| `topbar.svg` | 1 | A generic three-dot ornament: three black `<circle>`s at `height="10" width="40"`, no text and no `viewBox`. Nothing in it identifies anyone, so there is nothing to move; it is listed only so the count closes. |
 
-Total 60. If one of these groups becomes actionable — e.g. we are actually
+Total 56. If one of these groups becomes actionable — e.g. we are actually
 listed on a store — the correct change is to use that program's **official**
 badge asset, not to invent artwork. (The deleted `new/fdroid-qrcode.png` was
 this kind of thing too: a QR encoding a link to someone else's listing, with
 nothing in the site pointing at it.)
 
-`website/src/img/icons/` is a special case: nothing in `website/src` references
-`img/icons/` at all (and the only `content-copy.svg` hit is inside an HTML
-comment pointing at `/img/new/`), so the whole 8-file directory is orphan bytes
-in a published site — 4 upstream third-party marks among them. Deleting it is
-the fix; the census above is measured with the directory still present.
+`website/src/img/icons/` is gone, and it is worth recording why: nothing in
+`website/src` referenced `img/icons/` at all (the only `content-copy.svg` hit was
+inside an HTML comment pointing at `/img/new/`), so those 8 files were orphan
+bytes in a published site — 4 of them upstream third-party marks the hold table
+would otherwise carry forever. Deleting them dropped the census from 315 to 307
+and the held set from 60 to 56 without replacing a single image.
 
 ## Re-rendering the hero frames
 
