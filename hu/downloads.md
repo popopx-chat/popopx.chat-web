@@ -61,4 +61,4 @@ Parancssori alkalmazás fejlesztőknek, kiszolgálókhoz és botokhoz. [Alkalmaz
 
 ## Tapasztalt felhasználóknak
 
-[Minden kiadás megtalálható a GitHubon](https://github.com/simplex-chat/simplex-chat/releases) [Tükör: git.simplex.chat](https://git.simplex.chat/simplex-chat/simplex-chat/releases) [Összeállítások ellenőrzése és reprodukálása](https://popopx.chat/reproduce/) [F-Droid-tároló](https://popopx.chat/hu/fdroid)
+[Minden kiadás megtalálható a GitHubon](https://github.com/simplex-chat/simplex-chat/releases) [Tükör: git.simplex.chat](https://git.simplex.chat/simplex-chat/simplex-chat/releases)  [F-Droid-tároló](https://popopx.chat/hu/fdroid)

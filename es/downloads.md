@@ -61,4 +61,4 @@ Aplicación de línea de comandos para servidores, bots y desarrolladores. [Cóm
 
 ## Para usuarios avanzados
 
-[Todas las versiones en GitHub](https://github.com/simplex-chat/simplex-chat/releases) [Espejo: git.simplex.chat](https://git.simplex.chat/simplex-chat/simplex-chat/releases) [Verificar y reproducir compilaciones](https://popopx.chat/reproduce/) [Repositorio de F-Droid](https://popopx.chat/es/fdroid)
+[Todas las versiones en GitHub](https://github.com/simplex-chat/simplex-chat/releases) [Espejo: git.simplex.chat](https://git.simplex.chat/simplex-chat/simplex-chat/releases)  [Repositorio de F-Droid](https://popopx.chat/es/fdroid)

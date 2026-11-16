@@ -61,4 +61,4 @@ Kommandozeilen-App für Server, Bots und Entwickler. [Die Terminal-App verwenden
 
 ## Für fortgeschrittene Nutzer
 
-[Alle Releases auf GitHub](https://github.com/simplex-chat/simplex-chat/releases) [Spiegel: git.simplex.chat](https://git.simplex.chat/simplex-chat/simplex-chat/releases) [Builds überprüfen und reproduzieren](https://popopx.chat/reproduce/) [F-Droid-Repository](https://popopx.chat/de/fdroid)
+[Alle Releases auf GitHub](https://github.com/simplex-chat/simplex-chat/releases) [Spiegel: git.simplex.chat](https://git.simplex.chat/simplex-chat/simplex-chat/releases)  [F-Droid-Repository](https://popopx.chat/de/fdroid)

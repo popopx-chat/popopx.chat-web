@@ -61,4 +61,4 @@ App da riga di comando per server, bot e sviluppatori. [Utilizzo dell'app termin
 
 ## Per utenti avanzati
 
-[Tutte le versioni su GitHub](https://github.com/simplex-chat/simplex-chat/releases) [Mirror: git.simplex.chat](https://git.simplex.chat/simplex-chat/simplex-chat/releases) [Verifica e riproduci le build](https://popopx.chat/reproduce/) [Repository F-Droid](https://popopx.chat/it/fdroid)
+[Tutte le versioni su GitHub](https://github.com/simplex-chat/simplex-chat/releases) [Mirror: git.simplex.chat](https://git.simplex.chat/simplex-chat/simplex-chat/releases)  [Repository F-Droid](https://popopx.chat/it/fdroid)

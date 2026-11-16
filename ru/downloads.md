@@ -61,4 +61,4 @@ AppImage x86_64 · [Flatpak](https://flathub.org/apps/chat.simplex.simplex) · [
 
 ## Для опытных пользователей
 
-[Все релизы на GitHub](https://github.com/simplex-chat/simplex-chat/releases) [Зеркало: git.simplex.chat](https://git.simplex.chat/simplex-chat/simplex-chat/releases) [Проверка и воспроизведение сборок](https://popopx.chat/reproduce/) [Репозиторий F-Droid](https://popopx.chat/ru/fdroid)
+[Все релизы на GitHub](https://github.com/simplex-chat/simplex-chat/releases) [Зеркало: git.simplex.chat](https://git.simplex.chat/simplex-chat/simplex-chat/releases)  [Репозиторий F-Droid](https://popopx.chat/ru/fdroid)

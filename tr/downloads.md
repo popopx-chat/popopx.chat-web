@@ -61,4 +61,4 @@ Command-line app for servers, bots and developers. [Using the terminal app](http
 
 ## For advanced users
 
-[All releases on GitHub](https://github.com/simplex-chat/simplex-chat/releases) [Mirror: git.simplex.chat](https://git.simplex.chat/simplex-chat/simplex-chat/releases) [Verify & reproduce builds](https://popopx.chat/reproduce/) [F-Droid repository](https://popopx.chat/tr/fdroid)
+[All releases on GitHub](https://github.com/simplex-chat/simplex-chat/releases) [Mirror: git.simplex.chat](https://git.simplex.chat/simplex-chat/simplex-chat/releases)  [F-Droid repository](https://popopx.chat/tr/fdroid)
