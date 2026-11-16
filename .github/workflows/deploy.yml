@@ -61,14 +61,31 @@ jobs:
           REPO: ${{ github.repository }}
           SHA: ${{ github.sha }}
         run: |
-          cd website/_site
-          git init -q
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A
-          git commit -q -m "Deploy ${SHA}"
-          # Ephemeral, repo-scoped token; pushed only to the gh-pages branch.
-          git push -q "https://x-access-token:${TOKEN}@github.com/${REPO}.git" "HEAD:gh-pages"
+          set -euo pipefail
+          url="https://x-access-token:${TOKEN}@github.com/${REPO}.git"
+          # gh-pages is the branch the host pulls, so every push here must be a
+          # fast-forward. Building a fresh root commit made the SECOND deploy fail
+          # ("! [rejected] gh-pages (fetch first)") and left the published site on
+          # the first one, silently. A force would publish, but would also break the
+          # host's `git pull`. So: clone what is there, replace its contents, commit.
+          dest=$(mktemp -d)
+          if git ls-remote --exit-code --heads "$url" gh-pages >/dev/null 2>&1; then
+            git clone -q --single-branch --branch gh-pages "$url" "$dest"
+          else
+            git init -q "$dest"
+            git -C "$dest" remote add origin "$url"
+          fi
+          git -C "$dest" config user.name "github-actions[bot]"
+          git -C "$dest" config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          find "$dest" -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf {} +
+          cp -a website/_site/. "$dest/"
+          git -C "$dest" add -A
+          if git -C "$dest" diff --cached --quiet; then
+            echo "gh-pages already matches this build - nothing to publish"
+            exit 0
+          fi
+          git -C "$dest" commit -q -m "Deploy ${SHA}"
+          git -C "$dest" push -q origin HEAD:gh-pages
 
       - name: Notify the host
         env:
@@ -82,3 +99,12 @@ jobs:
           sig=$(printf '%s' "$body" | openssl dgst -sha256 -hmac "$SECRET" -hex | awk '{print $2}')
           curl -sfS -X POST "$URL" -H "content-type: application/json" \
                -H "x-popopx-signature: sha256=${sig}" --data "$body"
+
+      # A guard that is skipped is not a guard that passed: without this line a run
+      # where the host was never told looks identical to one where it was.
+      - name: Note an un-notified host
+        env:
+          URL: ${{ secrets.DEPLOY_WEBHOOK_URL }}
+        if: env.URL == ''
+        run: |
+          echo "::notice::DEPLOY_WEBHOOK_URL is not configured, so gh-pages was published but no host was told to pull it. On the server: cd <gh-pages checkout> && git pull && sudo systemctl start popopx-sync.service"
